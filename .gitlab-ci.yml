@@ -11,6 +11,7 @@ pages:
   - echo "Printing folders" && ls
   - cp -a /builds/ilmhub/akiss/output/* ./public
   - sed -i 's/<base href="\/" \/>/<base href="\/akiss\/" \/>/g' ./public/wwwroot/index.html
+  - cat ./public/wwwroot/index.html
   artifacts:
     paths:
     - public
