@@ -1,5 +1,6 @@
-﻿@page "/"
+@page "/"
+@inject IStringLocalizer<Resource> localizer
 
 <PageTitle>Index</PageTitle>
 
-<h1>Hello, world!</h1>
+<h1>@localizer["hw"]</h1>
