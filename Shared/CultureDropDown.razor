@@ -5,16 +5,14 @@
 <strong>Culture</strong>
 <select class="form-control" @bind="Culture" style="width:300px; margin-left: 10px">
     @foreach (var item in cultures)
-   {
-       <option value="@item">@item.DisplayName</option>
-   }
+    {
+        <option value="@item">@item.DisplayName</option>
+    }
 </select>
-
-<h3>CultureDropDown</h3>
 
 @code {
     CultureInfo[] cultures = new[]
-        {
+    {
         new CultureInfo("en-US"),
         new CultureInfo("uz-UZ"),
         new CultureInfo("ru-RU")
@@ -25,7 +23,7 @@
         get => CultureInfo.CurrentCulture;
         set
         {
-            if(CultureInfo.CurrentCulture != value)
+            if (CultureInfo.CurrentCulture != value)
             {
                 localStorage.SetItemAsync<string>("culture", value.Name);
                 NavManager.NavigateTo(NavManager.Uri, forceLoad: true);
