@@ -9,7 +9,7 @@ pages:
   - mkdir public
   - dotnet publish -c Release -o public
   - cp -a /builds/ilmhub/akiss/public/wwwroot/* ./public
-  - sed -i 's/<base href="\/" \/>/<base href="\/akiss\/" \/>/g' ./public/wwwroot/index.html
+  - sed -i 's/<base href="\/" \/>/<base href="\/akiss\/" \/>/g' ./public/index.html
   # - cat ./public/wwwroot/index.html
   artifacts:
     paths:
