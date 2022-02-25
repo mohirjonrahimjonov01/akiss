@@ -1,0 +1,17 @@
+image: mcr.microsoft.com/dotnet/sdk:6.0
+
+before_script:
+  - dotnet restore
+  
+pages:
+  stage: deploy
+  script:
+  - mkdir public
+  - dotnet publish -c Release -o output
+  - cp -a ./akiss/output/akiss/dist/* ./public
+  - sed -i 's/<base href="\/" \/>/<base href="\/akiss\/" \/>/g' output/wwwroot/index.html
+  artifacts:
+    paths:
+    - public
+  only:
+  - main
