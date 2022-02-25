@@ -7,12 +7,12 @@ pages:
   stage: deploy
   script:
   - mkdir public
-  - dotnet publish -c Release -o output
-  - cp -a /builds/ilmhub/akiss/output/* ./public
+  - dotnet publish -c Release -o public
+  # - cp -a /public/* ./public
   - sed -i 's/<base href="\/" \/>/<base href="\/akiss\/" \/>/g' ./public/wwwroot/index.html
   # - cat ./public/wwwroot/index.html
   artifacts:
     paths:
-    - ./public
+    - public
   only:
   - main
