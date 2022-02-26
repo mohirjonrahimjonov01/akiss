@@ -123,4 +123,42 @@
   <data name="wlc" xml:space="preserve">
     <value>Xush Kelibsiz AKISS ga!</value>
   </data>
+  <data name="contact" xml:space="preserve">
+    <value>Kontakt</value>
+  </data>
+  <data name="location" xml:space="preserve">
+    <value>
+    Mahtumquli ko'chasi,
+    Yashnabod mintaqasi,
+    Tashkent
+    </value>
+  </data>
+  <data name="email" xml:space="preserve">
+    <value>Elektron pochta</value>
+  </data>
+  <data name="phone" xml:space="preserve">
+    <value>Telefon raqam</value>
+  </data>
+  <data name="home" xml:space="preserve">
+    <value>Uy</value>
+  </data>
+  <data name="aboutus" xml:space="preserve">
+    <value>Biz haqimizda</value>
+  </data>
+  <data name="services" xml:space="preserve">
+    <value>Xizmatlar</value>
+  </data>
+  <data name="termsofservice" xml:space="preserve">
+    <value>Xizmat ko'rsatish shartlari</value>
+  </data>
+  <data name="policy" xml:space="preserve">
+    <value>Maxvilik siyosati</value>
+  </data>
+  <data name="SML" xml:space="preserve">
+    <value>Ijtimoiy tarmoqlar linklari</value>
+  </data>
+  <data name="DesignedBy" xml:space="preserve">
+    <value>Ilmhub jamoasi tomonidan ❤️ bilan ishlab chiqilgan</value>
+  </data>
+
 </root>

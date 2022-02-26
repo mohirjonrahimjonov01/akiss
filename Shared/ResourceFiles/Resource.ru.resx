@@ -123,4 +123,41 @@
   <data name="wlc" xml:space="preserve">
     <value>Добро пожаловать в АКИСС</value>
   </data>
+  <data name="contact" xml:space="preserve">
+    <value>Контакт</value>
+  </data>
+  <data name="location" xml:space="preserve">
+    <value>
+    Улица Махтумкули,
+    Область Яшнабад,
+    Ташкент
+    </value>
+  </data>
+  <data name="email" xml:space="preserve">
+    <value>Эл. адрес</value>
+  </data>
+  <data name="phone" xml:space="preserve">
+    <value>Телефон</value>
+  </data>
+  <data name="home" xml:space="preserve">
+    <value>Домой</value>
+  </data>
+  <data name="aboutus" xml:space="preserve">
+    <value>О нас</value>
+  </data>
+  <data name="services" xml:space="preserve">
+    <value>Услуги</value>
+  </data>
+  <data name="termsofservice" xml:space="preserve">
+    <value>Условия использования</value>
+  </data>
+  <data name="policy" xml:space="preserve">
+    <value>Политика конфиденциальности</value>
+  </data>
+  <data name="SML" xml:space="preserve">
+    <value>Ссылки на социальные сети</value>
+  </data>
+  <data name="DesignedBy" xml:space="preserve">
+    <value>Разработано с ❤️ командой Ilmhub Team</value>
+  </data>
 </root>

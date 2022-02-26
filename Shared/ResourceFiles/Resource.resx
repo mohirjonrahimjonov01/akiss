@@ -123,4 +123,41 @@
   <data name="wlc" xml:space="preserve">
     <value>Welcome to AKISS</value>
   </data>
+  <data name="contact" xml:space="preserve">
+    <value>Contact</value>
+  </data>
+  <data name="location" xml:space="preserve">
+    <value>
+    Mahtumquli street,
+    Yashnabod region,
+    Tashkent
+    </value>
+  </data>
+  <data name="email" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="phone" xml:space="preserve">
+    <value>Phone</value>
+  </data>
+  <data name="home" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="aboutus" xml:space="preserve">
+    <value>About Us</value>
+  </data>
+  <data name="services" xml:space="preserve">
+    <value>Services</value>
+  </data>
+  <data name="termsofservice" xml:space="preserve">
+    <value>Terms of Service</value>
+  </data>
+  <data name="policy" xml:space="preserve">
+    <value>Privacy policy</value>
+  </data>
+  <data name="SML" xml:space="preserve">
+    <value>Social Media Links</value>
+  </data>
+  <data name="DesignedBy" xml:space="preserve">
+    <value>Designed with ❤️ by Ilmhub Team</value>
+  </data>
 </root>

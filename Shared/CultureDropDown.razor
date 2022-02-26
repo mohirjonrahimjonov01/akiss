@@ -2,8 +2,7 @@
 @inject NavigationManager NavManager
 @inject ILocalStorageService localStorage
 
-<strong>Culture</strong>
-<select class="form-control" @bind="Culture" style="width:300px; margin-left: 10px">
+<select class="form-control" @bind="Culture" style="width:80px; height:50px; position:absolute; right:0;">
     @foreach (var item in cultures)
     {
         <option value="@item">@item.DisplayName</option>
@@ -12,11 +11,11 @@
 
 @code {
     CultureInfo[] cultures = new[]
-    {
-        new CultureInfo("en-US"),
-        new CultureInfo("uz-UZ"),
-        new CultureInfo("ru-RU")
-    };
+        {
+new CultureInfo("en-US"),
+new CultureInfo("uz-UZ"),
+new CultureInfo("ru-RU")
+};
 
     CultureInfo Culture
     {
