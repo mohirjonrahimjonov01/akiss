@@ -1,0 +1,34 @@
+﻿@using System.Globalization
+@using akiss.Extensions
+@inject NavigationManager NavManager
+@inject ILocalStorageService localStorage
+@inject IStringLocalizer<Resource> localizer
+
+<select class="form-control bg-light border-0 shadow-sm w-50" @bind="Culture">
+    @foreach (var item in cultures)
+    {
+        <option value="@item">@localizer[item.TwoLetterISOLanguageName]</option>
+    }
+</select>
+
+@code {
+    CultureInfo[] cultures = new[]
+    {
+        new CultureInfo("en-US"),
+        new CultureInfo("uz-UZ"),
+        new CultureInfo("ru-RU")
+    };
+
+    public CultureInfo Culture
+     { 
+         get => CultureInfo.CurrentCulture; 
+         set
+         {
+            if (CultureInfo.CurrentCulture != value)
+            {
+                localStorage.SetItemAsync<string>("culture", value.Name);
+                NavManager.NavigateTo(NavManager.BaseUri, forceLoad: true);
+            }
+         } 
+    }
+}
