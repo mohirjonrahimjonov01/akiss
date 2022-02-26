@@ -128,17 +128,17 @@
   </data>
   <data name="location1" xml:space="preserve">
     <value>
-    Mahtumquli ko'chasi
+    Namangan tuman, Navoiy ko'cha
     </value>
   </data>
   <data name="location2" xml:space="preserve">
     <value>
-    Yashnabod mintaqasi
+    Kumkurg'on mintaqa, 174-uy
     </value>
   </data>
-  <data name="location2" xml:space="preserve">
+  <data name="location3" xml:space="preserve">
     <value>
-    Tashkent
+    Namangan
     </value>
   </data>
   <data name="email" xml:space="preserve">
@@ -150,17 +150,14 @@
   <data name="home" xml:space="preserve">
     <value>Uy</value>
   </data>
-  <data name="aboutus" xml:space="preserve">
-    <value>Biz haqimizda</value>
+  <data name="acceptance" xml:space="preserve">
+    <value>Qabul</value>
   </data>
-  <data name="services" xml:space="preserve">
-    <value>Xizmatlar</value>
+  <data name="team" xml:space="preserve">
+    <value>Jamoa</value>
   </data>
-  <data name="termsofservice" xml:space="preserve">
-    <value>Xizmat ko'rsatish shartlari</value>
-  </data>
-  <data name="policy" xml:space="preserve">
-    <value>Maxvilik siyosati</value>
+  <data name="lessons" xml:space="preserve">
+    <value>Darslar</value>
   </data>
   <data name="DesignedBy" xml:space="preserve">
     <value>Ilmhub jamoasi tomonidan ❤️ bilan ishlab chiqilgan</value>

@@ -128,17 +128,17 @@
   </data>
   <data name="location1" xml:space="preserve">
     <value>
-    Mahtumquli street
+    Namangan district, Navoiy street
     </value>
   </data>
   <data name="location2" xml:space="preserve">
     <value>
-    Yashnabod region
+    Kumkurgan region, 174-home
     </value>
   </data>
   <data name="location3" xml:space="preserve">
     <value>
-    Tashkent
+    Namangan
     </value>
   </data>
   <data name="email" xml:space="preserve">
@@ -148,19 +148,16 @@
     <value>Phone</value>
   </data>
   <data name="home" xml:space="preserve">
-    <value>Home</value>
+    <value>Home Page</value>
   </data>
-  <data name="aboutus" xml:space="preserve">
-    <value>About Us</value>
+  <data name="acceptance" xml:space="preserve">
+    <value>Acceptance</value>
   </data>
-  <data name="services" xml:space="preserve">
-    <value>Services</value>
+  <data name="team" xml:space="preserve">
+    <value>Team</value>
   </data>
-  <data name="termsofservice" xml:space="preserve">
-    <value>Terms of Service</value>
-  </data>
-  <data name="policy" xml:space="preserve">
-    <value>Privacy policy</value>
+  <data name="lessons" xml:space="preserve">
+    <value>Lessons</value>
   </data>
   <data name="DesignedBy" xml:space="preserve">
     <value>Designed with ❤️ by Ilmhub Team</value>
