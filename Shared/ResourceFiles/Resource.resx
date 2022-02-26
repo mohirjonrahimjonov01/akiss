@@ -124,7 +124,10 @@
     <value>Welcome to AKISS</value>
   </data>
   <data name="heroewelcome" xml:space="preserve">
-    <value>Welcome to Al-Kharazmi International Special School.</value>
+    <value>Welcome to  International Special School </value>
+  </data>
+  <data name="heroename" xml:space="preserve">
+    <value> Al-Kharazmi .</value>
   </data>
   <data name="heroeadvice" xml:space="preserve">
     <value>The best investment is an investment in your child!</value>
