@@ -126,10 +126,18 @@
   <data name="contact" xml:space="preserve">
     <value>Kontakt</value>
   </data>
-  <data name="location" xml:space="preserve">
+  <data name="location1" xml:space="preserve">
     <value>
-    Mahtumquli ko'chasi,
-    Yashnabod mintaqasi,
+    Mahtumquli ko'chasi
+    </value>
+  </data>
+  <data name="location2" xml:space="preserve">
+    <value>
+    Yashnabod mintaqasi
+    </value>
+  </data>
+  <data name="location2" xml:space="preserve">
+    <value>
     Tashkent
     </value>
   </data>
@@ -154,11 +162,14 @@
   <data name="policy" xml:space="preserve">
     <value>Maxvilik siyosati</value>
   </data>
-  <data name="SML" xml:space="preserve">
-    <value>Ijtimoiy tarmoqlar linklari</value>
-  </data>
   <data name="DesignedBy" xml:space="preserve">
     <value>Ilmhub jamoasi tomonidan ❤️ bilan ishlab chiqilgan</value>
+  </data>
+  <data name="pages" xml:space="preserve">
+    <value>Sahifalar</value>
+  </data>
+  <data name="weareinSM" xml:space="preserve">
+    <value>Biz Ijtimoiy tarmoqdamiz</value>
   </data>
 
 </root>

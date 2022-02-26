@@ -126,10 +126,18 @@
   <data name="contact" xml:space="preserve">
     <value>Контакт</value>
   </data>
-  <data name="location" xml:space="preserve">
+  <data name="location1" xml:space="preserve">
     <value>
-    Улица Махтумкули,
-    Область Яшнабад,
+    Улица Махтумкули
+    </value>
+  </data>
+  <data name="location2" xml:space="preserve">
+    <value>
+    Область Яшнабад
+    </value>
+  </data>
+  <data name="location3" xml:space="preserve">
+    <value>
     Ташкент
     </value>
   </data>
@@ -154,10 +162,13 @@
   <data name="policy" xml:space="preserve">
     <value>Политика конфиденциальности</value>
   </data>
-  <data name="SML" xml:space="preserve">
-    <value>Ссылки на социальные сети</value>
-  </data>
   <data name="DesignedBy" xml:space="preserve">
     <value>Разработано с ❤️ командой Ilmhub Team</value>
+  </data>
+  <data name="pages" xml:space="preserve">
+    <value>Страницы</value>
+  </data>
+  <data name="weareinSM" xml:space="preserve">
+    <value>Мы в социальных сетях</value>
   </data>
 </root>

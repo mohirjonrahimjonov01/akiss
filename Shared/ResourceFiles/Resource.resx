@@ -126,10 +126,18 @@
   <data name="contact" xml:space="preserve">
     <value>Contact</value>
   </data>
-  <data name="location" xml:space="preserve">
+  <data name="location1" xml:space="preserve">
     <value>
-    Mahtumquli street,
-    Yashnabod region,
+    Mahtumquli street
+    </value>
+  </data>
+  <data name="location2" xml:space="preserve">
+    <value>
+    Yashnabod region
+    </value>
+  </data>
+  <data name="location3" xml:space="preserve">
+    <value>
     Tashkent
     </value>
   </data>
@@ -154,10 +162,13 @@
   <data name="policy" xml:space="preserve">
     <value>Privacy policy</value>
   </data>
-  <data name="SML" xml:space="preserve">
-    <value>Social Media Links</value>
-  </data>
   <data name="DesignedBy" xml:space="preserve">
     <value>Designed with ❤️ by Ilmhub Team</value>
+  </data>
+  <data name="pages" xml:space="preserve">
+    <value>Pages</value>
+  </data>
+  <data name="weareinSM" xml:space="preserve">
+    <value>We're in Social Media</value>
   </data>
 </root>
