@@ -123,4 +123,16 @@
   <data name="wlc" xml:space="preserve">
     <value>Добро пожаловать в АКИСС</value>
   </data>
+  <data name="heroewelcome" xml:space="preserve">
+    <value>Добро пожаловать в Международную специальную школу Аль-Харазми.</value>
+  </data>
+  <data name="heroeadvice" xml:space="preserve">
+    <value>Лучшая инвестиция - это инвестиция в своего ребенка!</value>
+  </data>
+  <data name="heroebutton" xml:space="preserve">
+    <value>Запишитесь на прием</value>
+  </data>
+  <data name="heroevideo" xml:space="preserve">
+    <value>Смотреть видео</value>
+  </data>
 </root>

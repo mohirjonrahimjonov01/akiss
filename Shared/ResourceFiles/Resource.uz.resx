@@ -123,4 +123,16 @@
   <data name="wlc" xml:space="preserve">
     <value>Xush Kelibsiz AKISS ga!</value>
   </data>
+  <data name="heroewelcome" xml:space="preserve">
+    <value>Al-Xorazmiy Xalqaro Maxsus Maktabiga xush kelibsiz.</value>
+  </data>
+  <data name="heroeadvice" xml:space="preserve">
+    <value>Eng yaxshi sarmoya - farzandingizga kiritilgan sarmoya!</value>
+  </data>
+  <data name="heroebutton" xml:space="preserve">
+    <value>Qabulga yoziling</value>
+  </data>
+  <data name="heroevideo" xml:space="preserve">
+    <value>Videoni ko'rish</value>
+  </data>
 </root>
