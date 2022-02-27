@@ -177,4 +177,19 @@
     <value>Мы в социальных сетях</value>
     <comment/>
   </data>
+  <data name="heroewelcome" xml:space="preserve">
+    <value>Добро пожаловать в Международную специальную школу </value>
+  </data>
+  <data name="heroename" xml:space="preserve">
+    <value>Аль-Харазми.</value>
+  </data>
+  <data name="heroeadvice" xml:space="preserve">
+    <value>Лучшая инвестиция - это инвестиция в своего ребенка!</value>
+  </data>
+  <data name="heroebutton" xml:space="preserve">
+    <value>Запишитесь на прием</value>
+  </data>
+  <data name="heroevideo" xml:space="preserve">
+    <value>Смотреть видео</value>
+  </data>
 </root>
