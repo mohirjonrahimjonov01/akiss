@@ -1,12 +1,13 @@
 ﻿@using System.Globalization
+@using akiss.Extensions
 @inject NavigationManager NavManager
 @inject ILocalStorageService localStorage
+@inject IStringLocalizer<Resource> localizer
 
-<strong>Culture</strong>
-<select class="form-control" @bind="Culture" style="width:300px; margin-left: 10px">
+<select class="form-control bg-light border-0 shadow-sm w-50" @bind="Culture">
     @foreach (var item in cultures)
     {
-        <option value="@item">@item.DisplayName</option>
+        <option value="@item">@localizer[item.TwoLetterISOLanguageName]</option>
     }
 </select>
 
@@ -18,16 +19,16 @@
         new CultureInfo("ru-RU")
     };
 
-    CultureInfo Culture
-    {
-        get => CultureInfo.CurrentCulture;
-        set
-        {
+    public CultureInfo Culture
+     { 
+         get => CultureInfo.CurrentCulture; 
+         set
+         {
             if (CultureInfo.CurrentCulture != value)
             {
                 localStorage.SetItemAsync<string>("culture", value.Name);
-                NavManager.NavigateTo(NavManager.Uri, forceLoad: true);
+                NavManager.NavigateTo(NavManager.BaseUri, forceLoad: true);
             }
-        }
+         } 
     }
 }
