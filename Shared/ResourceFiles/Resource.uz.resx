@@ -123,4 +123,22 @@
   <data name="wlc" xml:space="preserve">
     <value>Xush Kelibsiz AKISS ga!</value>
   </data>
+  <data name="home" xml:space="preserve">
+    <value>Bosh sahifa</value>
+  </data>
+  <data name="admission" xml:space="preserve">
+    <value>Qabul</value>
+  </data>
+  <data name="team" xml:space="preserve">
+    <value>Jamoa</value>
+  </data>
+  <data name="lessons" xml:space="preserve">
+    <value>Darslar</value>
+  </data>
+  <data name="it" xml:space="preserve">
+    <value>IT</value>
+  </data>
+  <data name="contact" xml:space="preserve">
+    <value>Bog'lanish</value>
+  </data>
 </root>

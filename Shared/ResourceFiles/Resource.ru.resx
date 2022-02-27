@@ -123,4 +123,22 @@
   <data name="wlc" xml:space="preserve">
     <value>Добро пожаловать в АКИСС</value>
   </data>
+  <data name="home" xml:space="preserve">
+    <value>Домой</value>
+  </data>
+  <data name="admission" xml:space="preserve">
+    <value>Прием</value>
+  </data>
+  <data name="team" xml:space="preserve">
+    <value>Команда</value>
+  </data>
+  <data name="lessons" xml:space="preserve">
+    <value>Уроки</value>
+  </data>
+  <data name="it" xml:space="preserve">
+    <value>ИТ</value>
+  </data>
+  <data name="contact" xml:space="preserve">
+    <value>Связь</value>
+  </data>
 </root>

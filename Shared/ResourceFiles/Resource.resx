@@ -123,4 +123,22 @@
   <data name="wlc" xml:space="preserve">
     <value>Welcome to AKISS</value>
   </data>
+  <data name="home" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="admission" xml:space="preserve">
+    <value>Admission</value>
+  </data>
+  <data name="team" xml:space="preserve">
+    <value>Team</value>
+  </data>
+  <data name="lessons" xml:space="preserve">
+    <value>Lessons</value>
+  </data>
+  <data name="it" xml:space="preserve">
+    <value>IT</value>
+  </data>
+  <data name="contact" xml:space="preserve">
+    <value>Contact</value>
+  </data>
 </root>
