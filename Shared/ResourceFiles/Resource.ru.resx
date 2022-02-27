@@ -117,29 +117,34 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="hw" xml:space="preserve">
+  <data name="greeting" xml:space="preserve">
     <value>Привет мир</value>
-    <comment/>
   </data>
   <data name="wlc" xml:space="preserve">
     <value>Добро пожаловать в АКИСС</value>
-    <comment/>
   </data>
   <data name="contact" xml:space="preserve">
     <value>Контакт</value>
-    <comment/>
   </data>
-  <data name="location1" xml:space="preserve">
-    <value>    Наманганский район, Улица Наманган     </value>
-    <comment/>
+  <data name="address-street" xml:space="preserve">
+    <value>
+    Улица Наманган 
+    </value>
   </data>
-  <data name="location2" xml:space="preserve">
-    <value>    Кумкурганский область, 174-дом    </value>
-    <comment/>
+  <data name="address-building" xml:space="preserve">
+    <value>
+    174-дом
+    </value>
   </data>
-  <data name="location3" xml:space="preserve">
-    <value>    Наманган    </value>
-    <comment/>
+  <data name="address-region" xml:space="preserve">
+    <value>
+    Кумкурганский район
+    </value>
+  </data>
+  <data name="province" xml:space="preserve">
+    <value>
+    Наманган
+    </value>
   </data>
   <data name="email" xml:space="preserve">
     <value>Эл. адрес</value>
@@ -151,19 +156,21 @@
   </data>
   <data name="home" xml:space="preserve">
     <value>Домой</value>
-    <comment/>
   </data>
-  <data name="acceptance" xml:space="preserve">
-    <value>Принятие</value>
-    <comment/>
+  <data name="admission" xml:space="preserve">
+    <value>Прием</value>
   </data>
   <data name="team" xml:space="preserve">
     <value>Команда</value>
-    <comment/>
   </data>
   <data name="lessons" xml:space="preserve">
     <value>Уроки</value>
-    <comment/>
+  </data>
+  <data name="it" xml:space="preserve">
+    <value>IT</value>
+  </data>
+  <data name="communication" xml:space="preserve">
+    <value>Связь</value>
   </data>
   <data name="DesignedBy" xml:space="preserve">
     <value>Разработано с ❤️ командой &lt;strong&gt;&lt;a href="#" onclick="window.open('https://ilmhub.uz', '_blank')"&gt;Ilmhub Team&lt;/a&gt;&lt;/strong&gt;</value>
@@ -174,8 +181,7 @@
     <comment/>
   </data>
   <data name="weareinSM" xml:space="preserve">
-    <value>Мы в социальных сетях</value>
-    <comment/>
+    <value>Наши социальные сети</value>
   </data>
   <data name="heroewelcome" xml:space="preserve">
     <value>Добро пожаловать в Международную специальную школу </value>

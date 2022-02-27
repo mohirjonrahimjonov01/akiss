@@ -117,29 +117,34 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="hw" xml:space="preserve">
+  <data name="greeting" xml:space="preserve">
     <value>Hello World</value>
-    <comment/>
   </data>
   <data name="wlc" xml:space="preserve">
     <value>Welcome to AKISS</value>
-    <comment/>
   </data>
   <data name="contact" xml:space="preserve">
     <value>Contact</value>
-    <comment/>
   </data>
-  <data name="location1" xml:space="preserve">
-    <value>Navoiy street, 174</value>
-    <comment/>
+  <data name="address-street" xml:space="preserve">
+    <value>
+    Namangan district, Navoiy street
+    </value>
   </data>
-  <data name="location2" xml:space="preserve">
-    <value>Kumkurgan</value>
-    <comment/>
+  <data name="address-building" xml:space="preserve">
+    <value>
+    174-home
+    </value>
   </data>
-  <data name="location3" xml:space="preserve">
-    <value>Namangan    </value>
-    <comment/>
+  <data name="address-region" xml:space="preserve">
+    <value>
+    Kumkurgan region
+    </value>
+  </data>
+  <data name="province" xml:space="preserve">
+    <value>
+    Namangan
+    </value>
   </data>
   <data name="email" xml:space="preserve">
     <value>Email</value>
@@ -151,19 +156,21 @@
   </data>
   <data name="home" xml:space="preserve">
     <value>Home Page</value>
-    <comment/>
   </data>
-  <data name="acceptance" xml:space="preserve">
-    <value>Acceptance</value>
-    <comment/>
+  <data name="admission" xml:space="preserve">
+    <value>Admission</value>
   </data>
   <data name="team" xml:space="preserve">
     <value>Team</value>
-    <comment/>
   </data>
   <data name="lessons" xml:space="preserve">
     <value>Lessons</value>
-    <comment/>
+  </data>
+  <data name="it" xml:space="preserve">
+    <value>IT</value>
+  </data>
+  <data name="communication" xml:space="preserve">
+    <value>Communication</value>
   </data>
   <data name="DesignedBy" xml:space="preserve">
     <value>Designed with ❤️  by &lt;strong&gt;&lt;a href="#" onclick="window.open('https://ilmhub.uz', '_blank')"&gt;Ilmhub Team&lt;/a&gt;&lt;/strong&gt;</value>
@@ -174,8 +181,7 @@
     <comment/>
   </data>
   <data name="weareinSM" xml:space="preserve">
-    <value>We're in Social Media</value>
-    <comment/>
+    <value>Our social media</value>
   </data>
   <data name="en" xml:space="preserve">
     <value>English</value>
