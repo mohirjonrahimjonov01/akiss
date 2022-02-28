@@ -165,10 +165,6 @@
     <value>Страницы</value>
     <comment/>
   </data>
-  <data name="weareinSM" xml:space="preserve">
-    <value>Мы в социальных сетях</value>
-    <comment/>
-  </data>
   <data name="ru" xml:space="preserve">
     <value>Русский</value>
     <comment/>
@@ -187,6 +183,10 @@
   </data>
   <data name="it" xml:space="preserve">
     <value>ИТ</value>
+    <comment/>
+  </data>
+  <data name="weareinSM" xml:space="preserve">
+    <value>Мы в социальных сетях</value>
     <comment/>
   </data>
 </root>

@@ -122,15 +122,15 @@
     <comment/>
   </data>
   <data name="address-street" xml:space="preserve">
-    <value>    Namangan district, Navoiy street    </value>
+    <value>Namangan district, Namangan street</value>
     <comment/>
   </data>
   <data name="address-building" xml:space="preserve">
-    <value>    174-home    </value>
+    <value>17A Home</value>
     <comment/>
   </data>
-  <data name="address-region" xml:space="preserve">
-    <value>    Kumkurgan region    </value>
+  <data name="province" xml:space="preserve">
+    <value>Namangan</value>
     <comment/>
   </data>
   <data name="email" xml:space="preserve">
@@ -145,8 +145,8 @@
     <value>Home</value>
     <comment/>
   </data>
-  <data name="acceptance" xml:space="preserve">
-    <value>Acceptance</value>
+  <data name="admission" xml:space="preserve">
+    <value>Admission </value>
     <comment/>
   </data>
   <data name="team" xml:space="preserve">
@@ -158,15 +158,15 @@
     <comment/>
   </data>
   <data name="DesignedBy" xml:space="preserve">
-    <value>Designed with ❤️  by &lt;strong&gt;&lt;a href="#" onclick="window.open('https://ilmhub.uz', '_blank')"&gt;Ilmhub Team&lt;/a&gt;&lt;/strong&gt;</value>
+    <value>Designed By ❤️ team &lt;strong&gt;&lt;a href="#" onclick="window.open('https://ilmhub.uz', '_blank')"&gt;Ilmhub Team&lt;/a&gt;&lt;/strong&gt;</value>
     <comment/>
   </data>
   <data name="pages" xml:space="preserve">
     <value>Pages</value>
     <comment/>
   </data>
-  <data name="weareinSM" xml:space="preserve">
-    <value>We're in Social Media</value>
+  <data name="uz" xml:space="preserve">
+    <value>Uzbek</value>
     <comment/>
   </data>
   <data name="en" xml:space="preserve">
@@ -177,16 +177,16 @@
     <value>Russian</value>
     <comment/>
   </data>
-  <data name="uz" xml:space="preserve">
-    <value>Uzbek</value>
-    <comment/>
-  </data>
-  <data name="province" xml:space="preserve">
-    <value>Namangan</value>
+  <data name="address-region" xml:space="preserve">
+    <value>Kumkurgan</value>
     <comment/>
   </data>
   <data name="it" xml:space="preserve">
     <value>IT</value>
+    <comment/>
+  </data>
+  <data name="weareinSM" xml:space="preserve">
+    <value>We're in Social Media</value>
     <comment/>
   </data>
 </root>
