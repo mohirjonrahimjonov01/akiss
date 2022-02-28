@@ -2,7 +2,7 @@
 @using akiss.Extensions
 @inject NavigationManager NavManager
 @inject ILocalStorageService localStorage
-@inject IStringLocalizer<Resource> localizer
+@inject IStringLocalizer<Resources.LanguageComponent> localizer
 
 <select class="form-control bg-light border-0 shadow-sm" style="width: 100px;" @bind="Culture">
     @foreach (var item in cultures)
@@ -21,15 +21,15 @@
     };
 
     public CultureInfo Culture
-     { 
-         get => CultureInfo.CurrentCulture; 
-         set
-         {
+    { 
+        get => CultureInfo.CurrentCulture; 
+        set
+        {
             if (CultureInfo.CurrentCulture != value)
             {
                 localStorage.SetItemAsync<string>("culture", value.Name);
                 NavManager.NavigateTo(NavManager.BaseUri, forceLoad: true);
             }
-         } 
+        } 
     }
 }

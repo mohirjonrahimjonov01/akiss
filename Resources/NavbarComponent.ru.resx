@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -117,129 +117,22 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="greeting" xml:space="preserve">
-    <value>Привет мир</value>
-  </data>
-  <data name="wlc" xml:space="preserve">
-    <value>Добро пожаловать в АКИСС</value>
+  <data name="admission" xml:space="preserve">
+    <value>Прием</value>
   </data>
   <data name="contact" xml:space="preserve">
-    <value>Контакт</value>
-  </data>
-  <data name="address-street" xml:space="preserve">
-    <value>
-    Улица Наманган 
-    </value>
-  </data>
-  <data name="address-building" xml:space="preserve">
-    <value>
-    174-дом
-    </value>
-  </data>
-  <data name="address-region" xml:space="preserve">
-    <value>
-    Кумкурганский район
-    </value>
-  </data>
-  <data name="province" xml:space="preserve">
-    <value>
-    Наманган
-    </value>
-  </data>
-  <data name="email" xml:space="preserve">
-    <value>Эл. адрес</value>
-  </data>
-  <data name="phone" xml:space="preserve">
-    <value>Телефон</value>
+    <value>Связь</value>
   </data>
   <data name="home" xml:space="preserve">
     <value>Домой</value>
   </data>
-  <data name="admission" xml:space="preserve">
-    <value>Прием</value>
-  </data>
-  <data name="team" xml:space="preserve">
-    <value>Команда</value>
+  <data name="it" xml:space="preserve">
+    <value>ИТ</value>
   </data>
   <data name="lessons" xml:space="preserve">
     <value>Уроки</value>
   </data>
-  <data name="it" xml:space="preserve">
-    <value>IT</value>
-  </data>
-  <data name="communication" xml:space="preserve">
-    <value>Связь</value>
-  </data>
-  <data name="DesignedBy" xml:space="preserve">
-    <value>Разработано с ❤️ командой &lt;strong&gt;&lt;a href="#" onclick="window.open('https://ilmhub.uz', '_blank')"&gt;Ilmhub Team&lt;/a&gt;&lt;/strong&gt;</value>
-  </data>
-  <data name="pages" xml:space="preserve">
-    <value>Страницы</value>
-  </data>
-  <data name="weareinSM" xml:space="preserve">
-    <value>Наши социальные сети</value>
-  </data>
-  <data name="heroewelcome" xml:space="preserve">
-    <value>Добро пожаловать в Международную специальную школу &lt;span&gt; Аль-Харазми.&lt;/span&gt;</value>
-    <comment/>
-  </data>
-  <data name="heroeadvice" xml:space="preserve">
-    <value>Лучшая инвестиция - это инвестиция в будущее своего ребенка!</value>
-    <comment/>
-  </data>
-  <data name="heroebutton" xml:space="preserve">
-    <value>Запишитесь на прием</value>
-    <comment/>
-  </data>
-  <data name="heroevideo" xml:space="preserve">
-    <value>Смотреть видео</value>
-  </data>
-  <data name="admission" xml:space="preserve">
-    <value>Прием</value>
-  </data>
-  <data name="it" xml:space="preserve">
-    <value>ИТ</value>
-    <comment/>
-  </data>
-  <data name="en" xml:space="preserve">
-    <value>Английский</value>
-  </data>
-  <data name="ru" xml:space="preserve">
-    <value>Русский</value>
-  </data>
-  <data name="uz" xml:space="preserve">
-    <value>Узбекский</value>
-  </data>
-  <data name="started" xml:space="preserve">
-    <value>начался</value>
-    <comment/>
-  </data>
-  <data name="Developed" xml:space="preserve">
-    <value>НАЧАЛСЯ ПРИЕМ одаренных детей в специальные школы, исходя из требований образования в развитых странах с высоким уровнем качества образования.</value>
-    <comment/>
-  </data>
-  <data name="Free" xml:space="preserve">
-    <value>Бесплатная Учеба</value>
-    <comment/>
-  </data>
-  <data name="Level" xml:space="preserve">
-    <value>Победители, занявшие 1, 2 и 3 места на региональном этапе, будут зачислены в нашу школу бесплатно.</value>
-    <comment/>
-  </data>
-  <data name="Discount" xml:space="preserve">
-    <value>Скидка</value>
-    <comment/>
-  </data>
-  <data name="Olimpic" xml:space="preserve">
-    <value>Все учащиеся, занявшие призовые места на районных и городских олимпиадах, будут зачислены в нашу школу со скидкой 50%.</value>
-    <comment/>
-  </data>
-  <data name="Recruitment" xml:space="preserve">
-    <value>Прием на Работу</value>
-    <comment/>
-  </data>
-  <data name="IshgaQabul" xml:space="preserve">
-    <value>Приглашаем учителей и тренеров учеников, победивших в олимпиаде, работать в нашей школе.</value>
-    <comment/>
+  <data name="team" xml:space="preserve">
+    <value>Команда</value>
   </data>
 </root>
