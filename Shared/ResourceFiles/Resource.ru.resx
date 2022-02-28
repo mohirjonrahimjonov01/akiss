@@ -125,10 +125,6 @@
   </data>
   <data name="contact" xml:space="preserve">
     <value>Связь</value>
-<<<<<<< HEAD
-=======
-    <comment/>
->>>>>>> main
   </data>
   <data name="location1" xml:space="preserve">
     <value>    Наманганский район, Улица Наманган     </value>
@@ -184,23 +180,14 @@
   </data>
   <data name="heroevideo" xml:space="preserve">
     <value>Смотреть видео</value>
-<<<<<<< HEAD
   </data>
   <data name="admission" xml:space="preserve">
     <value>Прием</value>
-=======
-    <comment/>
-  </data>
-  <data name="admission" xml:space="preserve">
-    <value>Прием</value>
-    <comment/>
->>>>>>> main
   </data>
   <data name="it" xml:space="preserve">
     <value>ИТ</value>
     <comment/>
   </data>
-<<<<<<< HEAD
   <data name="en" xml:space="preserve">
     <value>Английский</value>
   </data>
@@ -209,7 +196,7 @@
   </data>
   <data name="uz" xml:space="preserve">
     <value>Узбекский</value>
-=======
+  </data>
   <data name="started" xml:space="preserve">
     <value>начался</value>
     <comment/>
@@ -241,6 +228,5 @@
   <data name="IshgaQabul" xml:space="preserve">
     <value>Приглашаем учителей и тренеров учеников, победивших в олимпиаде, работать в нашей школе.</value>
     <comment/>
->>>>>>> main
   </data>
 </root>
