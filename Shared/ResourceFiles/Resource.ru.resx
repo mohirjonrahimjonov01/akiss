@@ -242,4 +242,13 @@
     <value>Приглашаем учителей и тренеров учеников, победивших в олимпиаде, работать в нашей школе.</value>
     <comment/>
   </data>
+  <data name="Teamsection" xml:space="preserve">
+    <value>команда</value>
+  </data>
+  <data name="ourteam" xml:space="preserve">
+    <value>Наша опытная &lt;span&gt;команда.&lt;/span&gt;</value>
+  </data>
+  <data name="Teamsubtitle" xml:space="preserve">
+    <value>У нас есть преподаватели со своими ценностями и многолетним зарубежным опытом.</value>
+  </data>
 </root>

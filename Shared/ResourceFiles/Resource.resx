@@ -247,4 +247,13 @@
     <value>We invite teachers and coaches of students who won the Olympiad to work in our school.</value>
     <comment/>
   </data>
+  <data name="Teamsection" xml:space="preserve">
+    <value>Team</value>
+  </data>
+  <data name="ourteam" xml:space="preserve">
+    <value>Our Professional &lt;span&gt;Team&lt;/span&gt;</value>
+  </data>
+  <data name="Teamsubtitle" xml:space="preserve">
+    <value>We have teachers who have their own values ​​and many years of foreign experience.</value>
+  </data>
 </root>

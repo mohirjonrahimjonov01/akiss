@@ -255,4 +255,13 @@
     <value>Fan olimpiadasida g’olib bo’lgan o’quvchilarning ustoz va murabbiylarini maktabimizga ishga taklif qilamiz.</value>
     <comment/>
   </data>
+  <data name="Teamsection" xml:space="preserve">
+    <value>Jamoa</value>
+  </data>
+  <data name="ourteam" xml:space="preserve">
+    <value>Bizning tajribali&lt;span&gt;Jamoa&lt;/span&gt;</value>
+  </data>
+  <data name="Teamsubtitle" xml:space="preserve">
+    <value>Bizda o'z qadriyatlariga va ko'p yillik chet-el tajribasiga ega ustozlar ta'lim va tarbiya berishadi.</value>
+  </data>
 </root>
