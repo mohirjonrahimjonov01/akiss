@@ -1,8 +1,8 @@
+using akiss;
+using akiss.Extensions;
+using Blazored.LocalStorage;
 using Microsoft.AspNetCore.Components.Web;
 using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
-using akiss;
-using Blazored.LocalStorage;
-using akiss.Extensions;
 
 
 var builder = WebAssemblyHostBuilder.CreateDefault(args);

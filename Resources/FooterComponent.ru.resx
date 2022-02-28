@@ -117,12 +117,36 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="contact" xml:space="preserve">
+    <value>Связь</value>
+    <comment/>
+  </data>
+  <data name="address-street" xml:space="preserve">
+    <value>    Наманганский район, Улица Наманган     </value>
+    <comment/>
+  </data>
+  <data name="address-building" xml:space="preserve">
+    <value>    174-дом  </value>
+    <comment/>
+  </data>
+  <data name="province" xml:space="preserve">
+    <value>    Наманган    </value>
+    <comment/>
+  </data>
+  <data name="email" xml:space="preserve">
+    <value>Эл. адрес</value>
+    <comment/>
+  </data>
+  <data name="phone" xml:space="preserve">
+    <value>Телефон</value>
+    <comment/>
+  </data>
   <data name="home" xml:space="preserve">
     <value>Домой</value>
     <comment/>
   </data>
   <data name="admission" xml:space="preserve">
-    <value>Прием</value>
+    <value>Принятие</value>
     <comment/>
   </data>
   <data name="team" xml:space="preserve">
@@ -133,12 +157,36 @@
     <value>Уроки</value>
     <comment/>
   </data>
+  <data name="DesignedBy" xml:space="preserve">
+    <value>Разработано с ❤️ командой &lt;strong&gt;&lt;a href="#" onclick="window.open('https://ilmhub.uz', '_blank')"&gt;Ilmhub Team&lt;/a&gt;&lt;/strong&gt;</value>
+    <comment/>
+  </data>
+  <data name="pages" xml:space="preserve">
+    <value>Страницы</value>
+    <comment/>
+  </data>
+  <data name="ru" xml:space="preserve">
+    <value>Русский</value>
+    <comment/>
+  </data>
+  <data name="uz" xml:space="preserve">
+    <value>Узбекский</value>
+    <comment/>
+  </data>
+  <data name="en" xml:space="preserve">
+    <value>Английский</value>
+    <comment/>
+  </data>
+  <data name="address-region" xml:space="preserve">
+    <value> Кумкурганский область,</value>
+    <comment/>
+  </data>
   <data name="it" xml:space="preserve">
     <value>ИТ</value>
     <comment/>
   </data>
-  <data name="contact" xml:space="preserve">
-    <value>Связь</value>
+  <data name="weareinSM" xml:space="preserve">
+    <value>Мы в социальных сетях</value>
     <comment/>
   </data>
 </root>
