@@ -164,19 +164,15 @@
   </data>
   <data name="heroewelcome" xml:space="preserve">
     <value>Добро пожаловать в Международную специальную школу </value>
-    <comment/>
   </data>
   <data name="heroename" xml:space="preserve">
     <value>Аль-Харазми.</value>
-    <comment/>
   </data>
   <data name="heroeadvice" xml:space="preserve">
     <value>Лучшая инвестиция - это инвестиция в своего ребенка!</value>
-    <comment/>
   </data>
   <data name="heroebutton" xml:space="preserve">
     <value>Запишитесь на прием</value>
-    <comment/>
   </data>
   <data name="heroevideo" xml:space="preserve">
     <value>Смотреть видео</value>
@@ -186,7 +182,6 @@
   </data>
   <data name="it" xml:space="preserve">
     <value>ИТ</value>
-    <comment/>
   </data>
   <data name="en" xml:space="preserve">
     <value>Английский</value>
@@ -199,34 +194,74 @@
   </data>
   <data name="started" xml:space="preserve">
     <value>начался</value>
-    <comment/>
   </data>
   <data name="Developed" xml:space="preserve">
     <value>НАЧАЛСЯ ПРИЕМ одаренных детей в специальные школы, исходя из требований образования в развитых странах с высоким уровнем качества образования.</value>
-    <comment/>
   </data>
   <data name="Free" xml:space="preserve">
     <value>Бесплатная Учеба</value>
-    <comment/>
   </data>
   <data name="Level" xml:space="preserve">
     <value>Победители, занявшие 1, 2 и 3 места на региональном этапе, будут зачислены в нашу школу бесплатно.</value>
-    <comment/>
   </data>
   <data name="Discount" xml:space="preserve">
     <value>Скидка</value>
-    <comment/>
   </data>
   <data name="Olimpic" xml:space="preserve">
     <value>Все учащиеся, занявшие призовые места на районных и городских олимпиадах, будут зачислены в нашу школу со скидкой 50%.</value>
-    <comment/>
   </data>
   <data name="Recruitment" xml:space="preserve">
     <value>Прием на Работу</value>
-    <comment/>
   </data>
   <data name="IshgaQabul" xml:space="preserve">
     <value>Приглашаем учителей и тренеров учеников, победивших в олимпиаде, работать в нашей школе.</value>
-    <comment/>
+  </data>
+  <data name="a1" xml:space="preserve">
+    <value>Уроки проводятся поэтапно на английском языке</value>
+  </data>
+  <data name="a10" xml:space="preserve">
+    <value>Возможность наблюдения родителей за процессом обучения онлайн</value>
+  </data>
+  <data name="a2" xml:space="preserve">
+    <value>Оксфордский и Кембриджский стиль преподавания уроков</value>
+  </data>
+  <data name="a3" xml:space="preserve">
+    <value>По всем дисциплинам подготовка к зарубежным вузам</value>
+  </data>
+  <data name="a4" xml:space="preserve">
+    <value>Повышение культуры общения при проведении летних каникул за границей</value>
+  </data>
+  <data name="a5" xml:space="preserve">
+    <value>Выдаются школьные аттестаты и дипломы</value>
+  </data>
+  <data name="a6" xml:space="preserve">
+    <value>Занятия проводятся на узбекском, русском и английском языках</value>
+  </data>
+  <data name="a7" xml:space="preserve">
+    <value>Для желающих есть отдельные классы для девочек</value>
+  </data>
+  <data name="a8" xml:space="preserve">
+    <value>Онлайн и офлайн занятия квалифицированных преподавателей из зарубежных стран</value>
+  </data>
+  <data name="a9" xml:space="preserve">
+    <value>Для желающих предусмотрены дистанционные занятия</value>
+  </data>
+  <data name="abt" xml:space="preserve">
+    <value>О школе</value>
+  </data>
+  <data name="abtUs" xml:space="preserve">
+    <value>O нас</value>
+  </data>
+  <data name="findOut" xml:space="preserve">
+    <value>Международная специальная школа Аль-Хоразмий</value>
+  </data>
+  <data name="subTitle" xml:space="preserve">
+    <value>Начинается набор учащихся специальных школ для одаренных детей с качественным образованием на основе требований образования в развитых странах</value>
+  </data>
+  <data name="subTitle2" xml:space="preserve">
+    <value>Приглашаем одаренных студентов учиться. Приглашаем на работу наших уважаемых учителей.</value>
+  </data>
+  <data name="title" xml:space="preserve">
+    <value>Преимущества нашей современной школы</value>
   </data>
 </root>
