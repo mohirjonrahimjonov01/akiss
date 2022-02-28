@@ -4,7 +4,7 @@
 @inject ILocalStorageService localStorage
 @inject IStringLocalizer<Resource> localizer
 
-<select class="form-control bg-light border-0 shadow-sm w-50" @bind="Culture">
+<select class="form-control bg-light border-0 shadow-sm" style="width: 100px;" @bind="Culture">
     @foreach (var item in cultures)
     {
         <option value="@item">@localizer[item.TwoLetterISOLanguageName]</option>
