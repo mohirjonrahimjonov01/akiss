@@ -197,17 +197,58 @@
   </data>
   <data name="heroewelcome" xml:space="preserve">
     <value>Welcome to  International Special School </value>
+    <comment/>
   </data>
   <data name="heroename" xml:space="preserve">
     <value> Al-Kharazmi .</value>
+    <comment/>
   </data>
   <data name="heroeadvice" xml:space="preserve">
     <value>The best investment is an investment in your child!</value>
+    <comment/>
   </data>
   <data name="heroebutton" xml:space="preserve">
     <value>Sign up</value>
+    <comment/>
   </data>
   <data name="heroevideo" xml:space="preserve">
     <value>Watch video</value>
+    <comment/>
+  </data>
+  <data name="admission" xml:space="preserve">
+    <value>Admission</value>
+    <comment/>
+  </data>
+  <data name="it" xml:space="preserve">
+    <value>IT</value>
+    <comment/>
+  </data>
+  <data name="Developed" xml:space="preserve">
+    <value>THE ADMISSION of gifted children in special schools has begun, based on the requirements of education in developed countries with a high level of quality of education.</value>
+    <comment/>
+  </data>
+  <data name="Free" xml:space="preserve">
+    <value>Free study</value>
+    <comment/>
+  </data>
+  <data name="Level" xml:space="preserve">
+    <value>The winners who took 1st, 2nd and 3rd places at the regional stage will be enrolled in our school for free.</value>
+    <comment/>
+  </data>
+  <data name="Discount" xml:space="preserve">
+    <value>Discount</value>
+    <comment/>
+  </data>
+  <data name="Olimpic" xml:space="preserve">
+    <value>All students who won prizes at regional and city Olympiads will be enrolled in our school with a 50% discount.</value>
+    <comment/>
+  </data>
+  <data name="Recruitment" xml:space="preserve">
+    <value>Recruitment</value>
+    <comment/>
+  </data>
+  <data name="IshgaQabul" xml:space="preserve">
+    <value>We invite teachers and coaches of students who won the Olympiad to work in our school.</value>
+    <comment/>
   </data>
 </root>
