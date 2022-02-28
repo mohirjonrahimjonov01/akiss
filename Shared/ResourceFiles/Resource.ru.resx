@@ -180,15 +180,11 @@
     <value>Наши социальные сети</value>
   </data>
   <data name="heroewelcome" xml:space="preserve">
-    <value>Добро пожаловать в Международную специальную школу </value>
-    <comment/>
-  </data>
-  <data name="heroename" xml:space="preserve">
-    <value>Аль-Харазми.</value>
+    <value>Добро пожаловать в Международную специальную школу &lt;span&gt; Аль-Харазми.&lt;/span&gt;</value>
     <comment/>
   </data>
   <data name="heroeadvice" xml:space="preserve">
-    <value>Лучшая инвестиция - это инвестиция в своего ребенка!</value>
+    <value>Лучшая инвестиция - это инвестиция в будущее своего ребенка!</value>
     <comment/>
   </data>
   <data name="heroebutton" xml:space="preserve">
