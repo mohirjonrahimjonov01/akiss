@@ -121,25 +121,34 @@
     <value>Salom</value>
     <comment/>
   </data>
+  <data name="greeting" xml:space="preserve">
+    <value>Salom</value>
+  </data>
   <data name="wlc" xml:space="preserve">
     <value>Xush Kelibsiz AKISS ga!</value>
-    <comment/>
   </data>
   <data name="contact" xml:space="preserve">
-    <value>Bog'lanish</value>
-    <comment/>
+    <value>Kontakt</value>
   </data>
-  <data name="location1" xml:space="preserve">
-    <value>Navoiy ko'chasi 174-uy</value>
-    <comment/>
+  <data name="address-street" xml:space="preserve">
+    <value>
+    Navoiy ko'cha
+    </value>
   </data>
-  <data name="location2" xml:space="preserve">
-    <value>Kumkurg'on tumani</value>
-    <comment/>
+  <data name="address-building" xml:space="preserve">
+    <value>
+     174-uy
+    </value>
   </data>
-  <data name="location3" xml:space="preserve">
-    <value>Namangan</value>
-    <comment/>
+  <data name="address-region" xml:space="preserve">
+    <value>
+    Kumkurg'on mintaqa
+    </value>
+  </data>
+  <data name="province" xml:space="preserve">
+    <value>
+    Namangan
+    </value>
   </data>
   <data name="email" xml:space="preserve">
     <value>Elektron pochta</value>
@@ -151,19 +160,21 @@
   </data>
   <data name="home" xml:space="preserve">
     <value>Bosh sahifa</value>
-    <comment/>
   </data>
-  <data name="acceptance" xml:space="preserve">
+  <data name="admission" xml:space="preserve">
     <value>Qabul</value>
-    <comment/>
   </data>
   <data name="team" xml:space="preserve">
     <value>Jamoa</value>
-    <comment/>
   </data>
   <data name="lessons" xml:space="preserve">
     <value>Darslar</value>
-    <comment/>
+  </data>
+  <data name="it" xml:space="preserve">
+    <value>IT</value>
+  </data>
+  <data name="communication" xml:space="preserve">
+    <value>Bog'lanish</value>
   </data>
   <data name="DesignedBy" xml:space="preserve">
     <value>&lt;strong&gt;&lt;a href="#" onclick="window.open('https://ilmhub.uz', '_blank')"&gt;Ilmhub Team&lt;/a&gt;&lt;/strong&gt; tomonidan ❤️  bilan yaratildi</value>
@@ -174,8 +185,7 @@
     <comment/>
   </data>
   <data name="weareinSM" xml:space="preserve">
-    <value>Biz Ijtimoiy tarmoqdamiz</value>
-    <comment/>
+    <value>Bizni ijtimoiy tarmoqlar</value>
   </data>
   <data name="en" xml:space="preserve">
     <value>Inglizcha</value>
