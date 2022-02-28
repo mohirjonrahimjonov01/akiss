@@ -126,7 +126,7 @@
     <comment/>
   </data>
   <data name="contact" xml:space="preserve">
-    <value>Kontakt</value>
+    <value>Bog'lanish</value>
     <comment/>
   </data>
   <data name="location1" xml:space="preserve">
@@ -150,7 +150,7 @@
     <comment/>
   </data>
   <data name="home" xml:space="preserve">
-    <value>Uy</value>
+    <value>Bosh sahifa</value>
     <comment/>
   </data>
   <data name="acceptance" xml:space="preserve">
@@ -191,36 +191,62 @@
   </data>
   <data name="heroewelcome" xml:space="preserve">
     <value> Xalqaro Maxsus Maktabiga xush kelibsiz.</value>
+    <comment/>
   </data>
   <data name="heroename" xml:space="preserve">
     <value>Al-Xorazmiy </value>
+    <comment/>
   </data>
-
   <data name="heroeadvice" xml:space="preserve">
     <value>Eng yaxshi sarmoya - farzandingizga kiritilgan sarmoya!</value>
+    <comment/>
   </data>
   <data name="heroebutton" xml:space="preserve">
     <value>Qabulga yoziling</value>
+    <comment/>
   </data>
   <data name="heroevideo" xml:space="preserve">
     <value>Videoni ko'rish</value>
-  </data>
-  <data name="home" xml:space="preserve">
-    <value>Bosh sahifa</value>
+    <comment/>
   </data>
   <data name="admission" xml:space="preserve">
     <value>Qabul</value>
-  </data>
-  <data name="team" xml:space="preserve">
-    <value>Jamoa</value>
-  </data>
-  <data name="lessons" xml:space="preserve">
-    <value>Darslar</value>
+    <comment/>
   </data>
   <data name="it" xml:space="preserve">
     <value>IT</value>
+    <comment/>
   </data>
-  <data name="contact" xml:space="preserve">
-    <value>Bog'lanish</value>
+  <data name="started" xml:space="preserve">
+    <value>boshlandi</value>
+    <comment/>
+  </data>
+  <data name="Developed" xml:space="preserve">
+    <value>Rivojlangan davlatlar ta’limi talablari asosida yuqori darajadagi ta’lim sifati, beriladigan iqtidorli bolalar maxsus maktab o’quvchilarni RO’YHATGA OLISHNI BOSHLADI.</value>
+    <comment/>
+  </data>
+  <data name="Free" xml:space="preserve">
+    <value>Bepul O'qish</value>
+    <comment/>
+  </data>
+  <data name="Level" xml:space="preserve">
+    <value>Viloyat bosqich faxirli 1,2,3 - o’rinlarni olgan olimpiada g’oliblari maktabimizga bepul qabul qilinadi.</value>
+    <comment/>
+  </data>
+  <data name="Discount" xml:space="preserve">
+    <value>Chegirma</value>
+    <comment/>
+  </data>
+  <data name="Olimpic" xml:space="preserve">
+    <value>Fan olimpiadasining tuman va shaxar boshqichlarida sovrinli o’rin olgan barcha o’quvchilar maktabimizda 50% chegirma asosida qabul qilinadi.</value>
+    <comment/>
+  </data>
+  <data name="Recruitment" xml:space="preserve">
+    <value>Ishga Qabul</value>
+    <comment/>
+  </data>
+  <data name="IshgaQabul" xml:space="preserve">
+    <value>Fan olimpiadasida g’olib bo’lgan o’quvchilarning ustoz va murabbiylarini maktabimizga ishga taklif qilamiz.</value>
+    <comment/>
   </data>
 </root>

@@ -125,6 +125,10 @@
   </data>
   <data name="contact" xml:space="preserve">
     <value>Связь</value>
+<<<<<<< HEAD
+=======
+    <comment/>
+>>>>>>> main
   </data>
   <data name="location1" xml:space="preserve">
     <value>    Наманганский район, Улица Наманган     </value>
@@ -164,25 +168,39 @@
   </data>
   <data name="heroewelcome" xml:space="preserve">
     <value>Добро пожаловать в Международную специальную школу </value>
+    <comment/>
   </data>
   <data name="heroename" xml:space="preserve">
     <value>Аль-Харазми.</value>
+    <comment/>
   </data>
   <data name="heroeadvice" xml:space="preserve">
     <value>Лучшая инвестиция - это инвестиция в своего ребенка!</value>
+    <comment/>
   </data>
   <data name="heroebutton" xml:space="preserve">
     <value>Запишитесь на прием</value>
+    <comment/>
   </data>
   <data name="heroevideo" xml:space="preserve">
     <value>Смотреть видео</value>
+<<<<<<< HEAD
   </data>
   <data name="admission" xml:space="preserve">
     <value>Прием</value>
+=======
+    <comment/>
+  </data>
+  <data name="admission" xml:space="preserve">
+    <value>Прием</value>
+    <comment/>
+>>>>>>> main
   </data>
   <data name="it" xml:space="preserve">
     <value>ИТ</value>
+    <comment/>
   </data>
+<<<<<<< HEAD
   <data name="en" xml:space="preserve">
     <value>Английский</value>
   </data>
@@ -191,5 +209,38 @@
   </data>
   <data name="uz" xml:space="preserve">
     <value>Узбекский</value>
+=======
+  <data name="started" xml:space="preserve">
+    <value>начался</value>
+    <comment/>
+  </data>
+  <data name="Developed" xml:space="preserve">
+    <value>НАЧАЛСЯ ПРИЕМ одаренных детей в специальные школы, исходя из требований образования в развитых странах с высоким уровнем качества образования.</value>
+    <comment/>
+  </data>
+  <data name="Free" xml:space="preserve">
+    <value>Бесплатная Учеба</value>
+    <comment/>
+  </data>
+  <data name="Level" xml:space="preserve">
+    <value>Победители, занявшие 1, 2 и 3 места на региональном этапе, будут зачислены в нашу школу бесплатно.</value>
+    <comment/>
+  </data>
+  <data name="Discount" xml:space="preserve">
+    <value>Скидка</value>
+    <comment/>
+  </data>
+  <data name="Olimpic" xml:space="preserve">
+    <value>Все учащиеся, занявшие призовые места на районных и городских олимпиадах, будут зачислены в нашу школу со скидкой 50%.</value>
+    <comment/>
+  </data>
+  <data name="Recruitment" xml:space="preserve">
+    <value>Прием на Работу</value>
+    <comment/>
+  </data>
+  <data name="IshgaQabul" xml:space="preserve">
+    <value>Приглашаем учителей и тренеров учеников, победивших в олимпиаде, работать в нашей школе.</value>
+    <comment/>
+>>>>>>> main
   </data>
 </root>
