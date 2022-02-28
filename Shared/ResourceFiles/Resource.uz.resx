@@ -200,11 +200,7 @@
     <comment/>
   </data>
   <data name="heroewelcome" xml:space="preserve">
-    <value> Xalqaro Maxsus Maktabiga xush kelibsiz.</value>
-    <comment/>
-  </data>
-  <data name="heroename" xml:space="preserve">
-    <value>Al-Xorazmiy </value>
+    <value>&lt;span&gt;Al-Xorazmiy&lt;/span&gt; Xalqaro Maxsus Maktabiga xush kelibsiz.</value>
     <comment/>
   </data>
   <data name="heroeadvice" xml:space="preserve">

@@ -196,15 +196,11 @@
     <comment/>
   </data>
   <data name="heroewelcome" xml:space="preserve">
-    <value>Welcome to  International Special School </value>
-    <comment/>
-  </data>
-  <data name="heroename" xml:space="preserve">
-    <value> Al-Kharazmi .</value>
+    <value>Welcome to  International Special School&lt;span&gt; Al-Kharazmi .&lt;/span&gt;</value>
     <comment/>
   </data>
   <data name="heroeadvice" xml:space="preserve">
-    <value>The best investment is an investment in your child!</value>
+    <value>The best investment is an investment in your child's future !</value>
     <comment/>
   </data>
   <data name="heroebutton" xml:space="preserve">
