@@ -117,48 +117,68 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="admission" xml:space="preserve">
-    <value>Qabul</value>
+  <data name="contact" xml:space="preserve">
+    <value>contact</value>
     <comment/>
   </data>
-  <data name="started" xml:space="preserve">
-    <value>Boshlandi</value>
+  <data name="contactUs" xml:space="preserve">
+    <value>Contact Us</value>
     <comment/>
   </data>
-  <data name="Developed" xml:space="preserve">
-    <value>Rivojlangan davlatlar ta’limi talablari asosida yuqori darajadagi ta’lim sifati, beriladigan iqtidorli bolalar maxsus maktab o’quvchilarni RO’YHATGA OLISHNI BOSHLADI.</value>
+  <data name="text" xml:space="preserve">
+    <value>Your child no longer needs to be educated in Europe. The quality of European education is now here - at the International Special School for Gifted Youth!</value>
     <comment/>
   </data>
-  <data name="Free" xml:space="preserve">
-    <value>Bepul O'qish</value>
+  <data name="Visit" xml:space="preserve">
+    <value>Visit Us</value>
     <comment/>
   </data>
-  <data name="Level" xml:space="preserve">
-    <value>Viloyat bosqich faxirli 1,2,3 - o’rinlarni olgan olimpiada g’oliblari maktabimizga bepul qabul qilinadi.</value>
+  <data name="address" xml:space="preserve">
+    <value>Namangan region, Namangan district, Kumkurgan MFY, Navoi street, 17A</value>
     <comment/>
   </data>
-  <data name="Discount" xml:space="preserve">
-    <value>Chegirma</value>
+  <data name="Email" xml:space="preserve">
+    <value>Email</value>
     <comment/>
   </data>
-  <data name="Olimpic" xml:space="preserve">
-    <value>Fan olimpiadasining tuman va shaxar boshqichlarida sovrinli o’rin olgan barcha o’quvchilar maktabimizda 50% chegirma asosida qabul qilinadi.</value>
+  <data name="Emailadress" xml:space="preserve">
+    <value>nano-djems@mail.ru akiss@gmail.com</value>
     <comment/>
   </data>
-  <data name="Recruitment" xml:space="preserve">
-    <value>Ishga Qabul</value>
+  <data name="Phone" xml:space="preserve">
+    <value>Phone</value>
     <comment/>
   </data>
-  <data name="IshgaQabul" xml:space="preserve">
-    <value>Fan olimpiadasida g’olib bo’lgan o’quvchilarning ustoz va murabbiylarini maktabimizga ishga taklif qilamiz.</value>
+  <data name="Phonenum" xml:space="preserve">
+    <value>+998 94 303 07 07 +998 93 300 07 00</value>
     <comment/>
   </data>
-  <data name="Life" xml:space="preserve">
-    <value>Turar Joy</value>
+  <data name="Loading" xml:space="preserve">
+    <value>Loading...</value>
     <comment/>
   </data>
-  <data name="Lifeplace" xml:space="preserve">
-    <value>Uzoq joydan kelgan o’quvchilarga yotoqxonalar mavjud.</value>
+  <data name="Success" xml:space="preserve">
+    <value>Your message has been sent. Thank you!</value>
+    <comment/>
+  </data>
+  <data name="Sent" xml:space="preserve">
+    <value>Send Message</value>
+    <comment/>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Name</value>
+    <comment/>
+  </data>
+  <data name="YourEmail" xml:space="preserve">
+    <value>Your Email</value>
+    <comment/>
+  </data>
+  <data name="Theme" xml:space="preserve">
+    <value>About what are you writing?</value>
+    <comment/>
+  </data>
+  <data name="Message" xml:space="preserve">
+    <value>Message</value>
     <comment/>
   </data>
 </root>

@@ -153,4 +153,12 @@
     <value>Started</value>
     <comment/>
   </data>
+  <data name="Life" xml:space="preserve">
+    <value>Residence</value>
+    <comment/>
+  </data>
+  <data name="Lifeplace" xml:space="preserve">
+    <value>There are hostels for students who come from far away.</value>
+    <comment/>
+  </data>
 </root>
