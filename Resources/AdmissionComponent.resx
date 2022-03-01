@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!--
     Microsoft ResX Schema
@@ -117,104 +117,8 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="hw" xml:space="preserve">
-    <value>Hello World</value>
-    <comment/>
-  </data>
-  <data name="wlc" xml:space="preserve">
-    <value>Welcome to AKISS</value>
-    <comment/>
-  </data>
-  <data name="contact" xml:space="preserve">
-    <value>Contact</value>
-    <comment/>
-  </data>
-  <data name="location1" xml:space="preserve">
-    <value>Navoiy street, 174</value>
-    <comment/>
-  </data>
-  <data name="location2" xml:space="preserve">
-    <value>Kumkurgan</value>
-    <comment/>
-  </data>
-  <data name="location3" xml:space="preserve">
-    <value>Namangan    </value>
-    <comment/>
-  </data>
-  <data name="email" xml:space="preserve">
-    <value>Email</value>
-    <comment/>
-  </data>
-  <data name="phone" xml:space="preserve">
-    <value>Phone</value>
-    <comment/>
-  </data>
-  <data name="home" xml:space="preserve">
-    <value>Home</value>
-    <comment/>
-  </data>
-  <data name="acceptance" xml:space="preserve">
-    <value>Acceptance</value>
-    <comment/>
-  </data>
-  <data name="team" xml:space="preserve">
-    <value>Team</value>
-    <comment/>
-  </data>
-  <data name="lessons" xml:space="preserve">
-    <value>Lessons</value>
-    <comment/>
-  </data>
-  <data name="DesignedBy" xml:space="preserve">
-    <value>Designed with ❤️  by &lt;strong&gt;&lt;a href="#" onclick="window.open('https://ilmhub.uz', '_blank')"&gt;Ilmhub Team&lt;/a&gt;&lt;/strong&gt;</value>
-    <comment/>
-  </data>
-  <data name="pages" xml:space="preserve">
-    <value>Pages</value>
-    <comment/>
-  </data>
-  <data name="weareinSM" xml:space="preserve">
-    <value>We're in Social Media</value>
-    <comment/>
-  </data>
-  <data name="en" xml:space="preserve">
-    <value>English</value>
-    <comment/>
-  </data>
-  <data name="ru" xml:space="preserve">
-    <value>Russian</value>
-    <comment/>
-  </data>
-  <data name="uz" xml:space="preserve">
-    <value>Uzbek</value>
-    <comment/>
-  </data>
-  <data name="heroewelcome" xml:space="preserve">
-    <value>Welcome to  International Special School </value>
-    <comment/>
-  </data>
-  <data name="heroename" xml:space="preserve">
-    <value> Al-Kharazmi .</value>
-    <comment/>
-  </data>
-  <data name="heroeadvice" xml:space="preserve">
-    <value>The best investment is an investment in your child!</value>
-    <comment/>
-  </data>
-  <data name="heroebutton" xml:space="preserve">
-    <value>Sign up</value>
-    <comment/>
-  </data>
-  <data name="heroevideo" xml:space="preserve">
-    <value>Watch video</value>
-    <comment/>
-  </data>
   <data name="admission" xml:space="preserve">
     <value>Admission</value>
-    <comment/>
-  </data>
-  <data name="it" xml:space="preserve">
-    <value>IT</value>
     <comment/>
   </data>
   <data name="Developed" xml:space="preserve">
@@ -222,7 +126,7 @@
     <comment/>
   </data>
   <data name="Free" xml:space="preserve">
-    <value>Free study</value>
+    <value>Free Study</value>
     <comment/>
   </data>
   <data name="Level" xml:space="preserve">
@@ -245,68 +149,8 @@
     <value>We invite teachers and coaches of students who won the Olympiad to work in our school.</value>
     <comment/>
   </data>
-  <data name="a1" xml:space="preserve">
-    <value>Lessons are taught step by step in English</value>
-    <comment/>
-  </data>
-  <data name="a10" xml:space="preserve">
-    <value>Ability to monitor the course process online by parents</value>
-    <comment/>
-  </data>
-  <data name="a2" xml:space="preserve">
-    <value>Oxford and Cambridge teaching style lessons</value>
-    <comment/>
-  </data>
-  <data name="a3" xml:space="preserve">
-    <value>In all disciplines, preparation for foreign universities</value>
-    <comment/>
-  </data>
-  <data name="a4" xml:space="preserve">
-    <value>Improving the culture of communication by spending summer vacations abroad</value>
-    <comment/>
-  </data>
-  <data name="a5" xml:space="preserve">
-    <value>School certificates and diplomas are issued</value>
-    <comment/>
-  </data>
-  <data name="a6" xml:space="preserve">
-    <value>Classes are conducted in Uzbek, Russian and English</value>
-    <comment/>
-  </data>
-  <data name="a7" xml:space="preserve">
-    <value>There are separate classes for girls for those who want</value>
-    <comment/>
-  </data>
-  <data name="a8" xml:space="preserve">
-    <value>Online and offline classes of qualified teachers from foreign countries</value>
-    <comment/>
-  </data>
-  <data name="a9" xml:space="preserve">
-    <value>Distance lessons are provided for those who wish</value>
-    <comment/>
-  </data>
-  <data name="abt" xml:space="preserve">
-    <value>About school</value>
-    <comment/>
-  </data>
-  <data name="abtUs" xml:space="preserve">
-    <value>About Us</value>
-    <comment/>
-  </data>
-  <data name="findOut" xml:space="preserve">
-    <value>Al-Khorazmiy International Special School</value>
-    <comment/>
-  </data>
-  <data name="subTitle" xml:space="preserve">
-    <value>Starts enrollment of students of special schools for gifted children with high quality education based on the requirements of education in developed countries</value>
-    <comment/>
-  </data>
-  <data name="subTitle2" xml:space="preserve">
-    <value>We invite gifted students to study. We invite our esteemed teachers to work.</value>
-    <comment/>
-  </data>
-  <data name="title" xml:space="preserve">
-    <value>Advantages of our modern school</value>
+  <data name="started" xml:space="preserve">
+    <value>Started</value>
     <comment/>
   </data>
 </root>

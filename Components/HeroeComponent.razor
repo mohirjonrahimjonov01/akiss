@@ -1,7 +1,8 @@
-@inject IStringLocalizer<Resource> localizer
+@inject IStringLocalizer<Resources.HeroeComponent> localizer
+
 <section id="hero" class="d-flex align-items-center">
     <div class="container" data-aos="zoom-out" data-aos-delay="100">
-        <h1>@localizer["heroewelcome"] <span>@localizer["heroename"]</span></h1>
+        <h1> @((MarkupString)localizer["heroewelcome"].ToString())</h1>
         <h2>@localizer["heroeadvice"]</h2>
         <div class="d-flex">
             <a href="" class="btn-get-started scrollto">@localizer["heroebutton"]</a>
