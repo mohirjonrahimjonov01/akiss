@@ -28,8 +28,7 @@
             if (CultureInfo.CurrentCulture != value)
             {
                 localStorage.SetItemAsync<string>("culture", value.Name);
-                NavManager.NavigateTo(NavManager.BaseUri);
-                StateHasChanged();
+                NavManager.NavigateTo(NavManager.BaseUri, forceLoad: true);
             }
         } 
     }
