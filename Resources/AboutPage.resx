@@ -117,68 +117,68 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="contact" xml:space="preserve">
-    <value>Bog'lanish</value>
+  <data name="about" xml:space="preserve">
+    <value>About us</value>
     <comment/>
   </data>
-  <data name="address-street" xml:space="preserve">
-    <value>Namangan shahar, Namangan ko'chasi</value>
+  <data name="find" xml:space="preserve">
+    <value>Al-Khorazmiy International Special School</value>
     <comment/>
   </data>
-  <data name="address-building" xml:space="preserve">
-    <value>17A Uy</value>
+  <data name="started" xml:space="preserve">
+    <value>Addmission started</value>
     <comment/>
   </data>
-  <data name="province" xml:space="preserve">
-    <value>Namangan</value>
+  <data name="advantages" xml:space="preserve">
+    <value>Our advantages</value>
     <comment/>
   </data>
-  <data name="address-region" xml:space="preserve">
-    <value>Kumko'rg'on tumani</value>
+  <data name="taklif" xml:space="preserve">
+    <value>We invite good students and teachers</value>
     <comment/>
   </data>
-  <data name="home" xml:space="preserve">
-    <value>Bosh sahifa</value>
+  <data name="facts" xml:space="preserve">
+    <value>Facts aabout us</value>
     <comment/>
   </data>
-  <data name="email" xml:space="preserve">
-    <value>Elektron pochta</value>
+  <data name="f1" xml:space="preserve">
+    <value>Classes are conducted in English in stages</value>
     <comment/>
   </data>
-  <data name="phone" xml:space="preserve">
-    <value>Telefon raqam</value>
+  <data name="f2" xml:space="preserve">
+    <value>Oxford and Cambridge teaching style lessons</value>
     <comment/>
   </data>
-  <data name="admission" xml:space="preserve">
-    <value>Qabul</value>
+  <data name="f3" xml:space="preserve">
+    <value>In all disciplines, preparation for foreign oligarchs</value>
     <comment/>
   </data>
-  <data name="team" xml:space="preserve">
-    <value>Jamoa</value>
+  <data name="f4" xml:space="preserve">
+    <value>Enhancing the culture of communication by spending summer vacations abroad</value>
     <comment/>
   </data>
-  <data name="lessons" xml:space="preserve">
-    <value>Darslar</value>
+  <data name="f5" xml:space="preserve">
+    <value>Certificates and diplomas are awarded at the school</value>
     <comment/>
   </data>
-  <data name="DesignedBy" xml:space="preserve">
-    <value>tomonidan ❤️  bilan yaratildi &lt;strong&gt;&lt;a href="#" onclick="window.open('https://ilmhub.uz', '_blank')"&gt;Ilmhub Team&lt;/a&gt;&lt;/strong&gt;</value>
+  <data name="f6" xml:space="preserve">
+    <value>Classes are conducted in Uzbek, Russian and English</value>
     <comment/>
   </data>
-  <data name="pages" xml:space="preserve">
-    <value>Sahifalar</value>
+  <data name="f7" xml:space="preserve">
+    <value>There are separate classes for girls for those who wish</value>
     <comment/>
   </data>
-  <data name="uz" xml:space="preserve">
-    <value>O'zbekcha</value>
+  <data name="f8" xml:space="preserve">
+    <value>Online and offline classes of qualified teachers from foreign countries</value>
     <comment/>
   </data>
-  <data name="ru" xml:space="preserve">
-    <value>Ruscha</value>
+  <data name="f9" xml:space="preserve">
+    <value>Distance learning classes are available for those who wish</value>
     <comment/>
   </data>
-  <data name="en" xml:space="preserve">
-    <value>Inglizcha</value>
+  <data name="f10" xml:space="preserve">
+    <value>Opportunity for parents to follow the course process online</value>
     <comment/>
   </data>
   <data name="it" xml:space="preserve">
@@ -186,35 +186,31 @@
     <comment/>
   </data>
   <data name="weareinSM" xml:space="preserve">
-    <value>Biz Ijtimoiy tarmoqdamiz</value>
-    <comment/>
-  </data>
-  <data name="Developed" xml:space="preserve">
-    <value>Rivojlangan davlatlar ta’limi talablari asosida yuqori darajadagi ta’lim sifati, beriladigan iqtidorli bolalar maxsus maktab o’quvchilarni RO’YHATGA OLISHNI BOSHLADI.</value>
+    <value>We're in Social Media</value>
     <comment/>
   </data>
   <data name="Free" xml:space="preserve">
-    <value>Bepul O'qish</value>
+    <value>Free study</value>
     <comment/>
   </data>
   <data name="Level" xml:space="preserve">
-    <value>Viloyat bosqich faxirli 1,2,3 - o’rinlarni olgan olimpiada g’oliblari maktabimizga bepul qabul qilinadi.</value>
+    <value>The winners who took 1st, 2nd and 3rd places at the regional stage will be enrolled in our school for free.</value>
     <comment/>
   </data>
   <data name="Discount" xml:space="preserve">
-    <value>Chegirma</value>
+    <value>Discount</value>
     <comment/>
   </data>
   <data name="Olimpic" xml:space="preserve">
-    <value>Fan olimpiadasining tuman va shaxar boshqichlarida sovrinli o’rin olgan barcha o’quvchilar maktabimizda 50% chegirma asosida qabul qilinadi.</value>
+    <value>All students who won prizes at regional and city Olympiads will be enrolled in our school with a 50% discount.</value>
     <comment/>
   </data>
   <data name="Recruitment" xml:space="preserve">
-    <value>Ishga Qabul</value>
+    <value>Recruitment</value>
     <comment/>
   </data>
   <data name="IshgaQabul" xml:space="preserve">
-    <value>Fan olimpiadasida g’olib bo’lgan o’quvchilarning ustoz va murabbiylarini maktabimizga ishga taklif qilamiz.</value>
+    <value>We invite teachers and coaches of students who won the Olympiad to work in our school.</value>
     <comment/>
   </data>
 </root>
