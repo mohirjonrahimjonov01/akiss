@@ -117,32 +117,68 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="admission" xml:space="preserve">
-    <value>Прием</value>
-    <comment/>
-  </data>
-  <data name="contact" xml:space="preserve">
-    <value>Связь</value>
-    <comment/>
-  </data>
-  <data name="home" xml:space="preserve">
-    <value>Домой</value>
-    <comment/>
-  </data>
-  <data name="it" xml:space="preserve">
-    <value>ИТ</value>
-    <comment/>
-  </data>
-  <data name="lessons" xml:space="preserve">
-    <value>Уроки</value>
-    <comment/>
-  </data>
-  <data name="team" xml:space="preserve">
-    <value>Команда</value>
-    <comment/>
-  </data>
   <data name="about" xml:space="preserve">
-    <value> О нас</value>
+    <value>About us</value>
+    <comment/>
+  </data>
+  <data name="find" xml:space="preserve">
+    <value>Al-Khorazmiy International Special School</value>
+    <comment/>
+  </data>
+  <data name="started" xml:space="preserve">
+    <value>Addmission started</value>
+    <comment/>
+  </data>
+  <data name="advantages" xml:space="preserve">
+    <value>Our advantages</value>
+    <comment/>
+  </data>
+  <data name="taklif" xml:space="preserve">
+    <value>We invite good students and teachers</value>
+    <comment/>
+  </data>
+  <data name="facts" xml:space="preserve">
+    <value>Facts aabout us</value>
+    <comment/>
+  </data>
+  <data name="f1" xml:space="preserve">
+    <value>Classes are conducted in English in stages</value>
+    <comment/>
+  </data>
+  <data name="f2" xml:space="preserve">
+    <value>Oxford and Cambridge teaching style lessons</value>
+    <comment/>
+  </data>
+  <data name="f3" xml:space="preserve">
+    <value>In all disciplines, preparation for foreign oligarchs</value>
+    <comment/>
+  </data>
+  <data name="f4" xml:space="preserve">
+    <value>Enhancing the culture of communication by spending summer vacations abroad</value>
+    <comment/>
+  </data>
+  <data name="f5" xml:space="preserve">
+    <value>Certificates and diplomas are awarded at the school</value>
+    <comment/>
+  </data>
+  <data name="f6" xml:space="preserve">
+    <value>Classes are conducted in Uzbek, Russian and English</value>
+    <comment/>
+  </data>
+  <data name="f7" xml:space="preserve">
+    <value>There are separate classes for girls for those who wish</value>
+    <comment/>
+  </data>
+  <data name="f8" xml:space="preserve">
+    <value>Online and offline classes of qualified teachers from foreign countries</value>
+    <comment/>
+  </data>
+  <data name="f9" xml:space="preserve">
+    <value>Distance learning classes are available for those who wish</value>
+    <comment/>
+  </data>
+  <data name="f10" xml:space="preserve">
+    <value>Opportunity for parents to follow the course process online</value>
     <comment/>
   </data>
 </root>

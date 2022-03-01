@@ -1,5 +1,5 @@
 ﻿@page "/aboutus"
-@inject IStringLocalizer<Resource> localizer
+@inject IStringLocalizer<Resources.AboutPage> localizer
 
 <PageTitle>About</PageTitle>
 
@@ -7,70 +7,58 @@
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-          <h2>@localizer["abt"]</h2>
-          <h3><span>@localizer["findOut"]</span></h3>
-          <p>@localizer["subTitle"]</p>
+          <h2>@localizer["about"]</h2>
+          <h3><span>@localizer["find"]</span></h3>
+          <p>@localizer["started"]</p>
         </div>
         <div class="row">
           <div class="col-lg-6" data-aos="fade-right" data-aos-delay="100">
             <img src="about.jpg" class="img-fluid" alt="">
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0 content d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="100">
-            <h3>@localizer["title"]</h3>
-            <p class="fst-italic">@localizer["subTitle2"]
+            <h3>@localizer["advantages"]</h3>
+            <p class="fst-italic">@localizer["taklif"]
             </p>
             <ul>
-              <li>
-                🇬🇧
-                <div>
-                  <h5>@localizer["a1"]</h5>
-                </div>
+              <li class="d-flex align-items-center">
+                <i class="bx bx-rocket" style="display:inline-block;vertical-align:middle;"></i>
+                <h5 style="display:inline-block;vertical-align:top">@localizer["f1"]</h5>
               </li>
-              <li>
-                🧑‍🎓
-                <div>
-                  <h5>@localizer["a2"]</h5>
-                </div>
-              </li><li>
-                📚
-                <div>
-                  <h5>@localizer["a3"]</h5>
-                </div>
-              </li><li>
-                🗣️
-                <div>
-                  <h5>@localizer["a4"]</h5>
-                </div>
-              </li><li>
-                📜
-                <div>
-                  <h5>@localizer["a5"]</h5>
-                </div>
-              </li><li>
-                🌐
-                <div>
-                  <h5>@localizer["a6"]</h5>
-                </div>
-              </li><li>
-                🎀
-                <div>
-                  <h5>@localizer["a7"]</h5>
-                </div>
-              </li><li>
-                🧑🏻‍🏫
-                <div>
-                  <h5>@localizer["a8"]</h5>
-                </div>
-              </li><li>
-                👨🏻‍💻
-                <div>
-                  <h5>@localizer["a9"]</h5>
-                </div>
-              </li><li>
-                🎥
-                <div>
-                  <h5>@localizer["a10"]</h5>
-                </div>
+              <li class="d-flex align-items-center">
+                <i class="bx bx-globe"></i>
+                  <h5>@localizer["f2"]</h5>
+              </li>
+              <li class="d-flex align-items-center">
+                <i class="bx bx-book"></i>
+                  <h5>@localizer["f3"]</h5>
+              </li>
+              <li class="d-flex align-items-center">
+                <i class="bx bx-microphone"></i>
+                  <h5>@localizer["f4"]</h5>
+              </li>
+              <li class="d-flex align-items-center">
+                <i class="bx bx-badge-check"></i>
+                  <h5>@localizer["f5"]</h5>
+              </li>
+              <li class="d-flex align-items-center">
+                <i class="bx bx-globe-alt"></i>
+                  <h5>@localizer["f6"]</h5>
+              </li>
+              <li class="d-flex align-items-center">
+                <i class="bx bx-female-sign"></i>
+                  <h5>@localizer["f7"]</h5>
+              </li>
+              <li class="d-flex align-items-center">
+                <i class="bx bx-wifi"></i>
+                  <h5>@localizer["f8"]</h5>
+              </li>
+              <li class="d-flex align-items-center">
+                <i class="bx bx-laptop"></i>
+                  <h5>@localizer["f9"]</h5>
+              </li>
+              <li class="d-flex align-items-center">
+                <i class="bx bx-camera"></i>
+                  <h5>@localizer["f10"]</h5>
               </li>
             </ul>
           </div>
