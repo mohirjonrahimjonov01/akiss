@@ -1,17 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
-  <!-- 
-    Microsoft ResX Schema 
-    
+  <!--
+    Microsoft ResX Schema
+
     Version 2.0
-    
-    The primary goals of this format is to allow a simple XML format 
-    that is mostly human readable. The generation and parsing of the 
-    various data types are done through the TypeConverter classes 
+
+    The primary goals of this format is to allow a simple XML format
+    that is mostly human readable. The generation and parsing of the
+    various data types are done through the TypeConverter classes
     associated with the data types.
-    
+
     Example:
-    
+
     ... ado.net/XML headers & schema ...
     <resheader name="resmimetype">text/microsoft-resx</resheader>
     <resheader name="version">2.0</resheader>
@@ -26,79 +26,79 @@
         <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
         <comment>This is a comment</comment>
     </data>
-                
-    There are any number of "resheader" rows that contain simple 
+
+    There are any number of "resheader" rows that contain simple
     name/value pairs.
-    
-    Each data row contains a name, and value. The row also contains a 
-    type or mimetype. Type corresponds to a .NET class that support 
-    text/value conversion through the TypeConverter architecture. 
-    Classes that don't support this are serialized and stored with the 
+
+    Each data row contains a name, and value. The row also contains a
+    type or mimetype. Type corresponds to a .NET class that support
+    text/value conversion through the TypeConverter architecture.
+    Classes that don't support this are serialized and stored with the
     mimetype set.
-    
-    The mimetype is used for serialized objects, and tells the 
-    ResXResourceReader how to depersist the object. This is currently not 
+
+    The mimetype is used for serialized objects, and tells the
+    ResXResourceReader how to depersist the object. This is currently not
     extensible. For a given mimetype the value must be set accordingly:
-    
-    Note - application/x-microsoft.net.object.binary.base64 is the format 
-    that the ResXResourceWriter will generate, however the reader can 
+
+    Note - application/x-microsoft.net.object.binary.base64 is the format
+    that the ResXResourceWriter will generate, however the reader can
     read any of the formats listed below.
-    
+
     mimetype: application/x-microsoft.net.object.binary.base64
-    value   : The object must be serialized with 
+    value   : The object must be serialized with
             : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
             : and then encoded with base64 encoding.
-    
+
     mimetype: application/x-microsoft.net.object.soap.base64
-    value   : The object must be serialized with 
+    value   : The object must be serialized with
             : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
             : and then encoded with base64 encoding.
 
     mimetype: application/x-microsoft.net.object.bytearray.base64
-    value   : The object must be serialized into a byte array 
+    value   : The object must be serialized into a byte array
             : using a System.ComponentModel.TypeConverter
             : and then encoded with base64 encoding.
     -->
   <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
-    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
     <xsd:element name="root" msdata:IsDataSet="true">
       <xsd:complexType>
         <xsd:choice maxOccurs="unbounded">
           <xsd:element name="metadata">
             <xsd:complexType>
               <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
               </xsd:sequence>
-              <xsd:attribute name="name" use="required" type="xsd:string" />
-              <xsd:attribute name="type" type="xsd:string" />
-              <xsd:attribute name="mimetype" type="xsd:string" />
-              <xsd:attribute ref="xml:space" />
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
             </xsd:complexType>
           </xsd:element>
           <xsd:element name="assembly">
             <xsd:complexType>
-              <xsd:attribute name="alias" type="xsd:string" />
-              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
             </xsd:complexType>
           </xsd:element>
           <xsd:element name="data">
             <xsd:complexType>
               <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
-                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
               </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
-              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
-              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
-              <xsd:attribute ref="xml:space" />
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
             </xsd:complexType>
           </xsd:element>
           <xsd:element name="resheader">
             <xsd:complexType>
               <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
               </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" use="required" />
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
             </xsd:complexType>
           </xsd:element>
         </xsd:choice>
@@ -119,146 +119,194 @@
   </resheader>
   <data name="hw" xml:space="preserve">
     <value>Hello World</value>
+    <comment/>
   </data>
   <data name="wlc" xml:space="preserve">
     <value>Welcome to AKISS</value>
+    <comment/>
   </data>
   <data name="contact" xml:space="preserve">
     <value>Contact</value>
+    <comment/>
   </data>
   <data name="location1" xml:space="preserve">
     <value>Navoiy street, 174</value>
+    <comment/>
   </data>
   <data name="location2" xml:space="preserve">
     <value>Kumkurgan</value>
+    <comment/>
   </data>
   <data name="location3" xml:space="preserve">
     <value>Namangan    </value>
+    <comment/>
   </data>
   <data name="email" xml:space="preserve">
     <value>Email</value>
+    <comment/>
   </data>
   <data name="phone" xml:space="preserve">
     <value>Phone</value>
+    <comment/>
   </data>
   <data name="home" xml:space="preserve">
     <value>Home</value>
+    <comment/>
   </data>
   <data name="acceptance" xml:space="preserve">
     <value>Acceptance</value>
+    <comment/>
   </data>
   <data name="team" xml:space="preserve">
     <value>Team</value>
+    <comment/>
   </data>
   <data name="lessons" xml:space="preserve">
     <value>Lessons</value>
+    <comment/>
   </data>
   <data name="DesignedBy" xml:space="preserve">
     <value>Designed with ❤️  by &lt;strong&gt;&lt;a href="#" onclick="window.open('https://ilmhub.uz', '_blank')"&gt;Ilmhub Team&lt;/a&gt;&lt;/strong&gt;</value>
+    <comment/>
   </data>
   <data name="pages" xml:space="preserve">
     <value>Pages</value>
+    <comment/>
   </data>
   <data name="weareinSM" xml:space="preserve">
     <value>We're in Social Media</value>
+    <comment/>
   </data>
   <data name="en" xml:space="preserve">
     <value>English</value>
+    <comment/>
   </data>
   <data name="ru" xml:space="preserve">
     <value>Russian</value>
+    <comment/>
   </data>
   <data name="uz" xml:space="preserve">
     <value>Uzbek</value>
+    <comment/>
   </data>
   <data name="heroewelcome" xml:space="preserve">
     <value>Welcome to  International Special School </value>
+    <comment/>
   </data>
   <data name="heroename" xml:space="preserve">
     <value> Al-Kharazmi .</value>
+    <comment/>
   </data>
   <data name="heroeadvice" xml:space="preserve">
     <value>The best investment is an investment in your child!</value>
+    <comment/>
   </data>
   <data name="heroebutton" xml:space="preserve">
     <value>Sign up</value>
+    <comment/>
   </data>
   <data name="heroevideo" xml:space="preserve">
     <value>Watch video</value>
+    <comment/>
   </data>
   <data name="admission" xml:space="preserve">
     <value>Admission</value>
+    <comment/>
   </data>
   <data name="it" xml:space="preserve">
     <value>IT</value>
+    <comment/>
   </data>
   <data name="Developed" xml:space="preserve">
     <value>THE ADMISSION of gifted children in special schools has begun, based on the requirements of education in developed countries with a high level of quality of education.</value>
+    <comment/>
   </data>
   <data name="Free" xml:space="preserve">
     <value>Free study</value>
+    <comment/>
   </data>
   <data name="Level" xml:space="preserve">
     <value>The winners who took 1st, 2nd and 3rd places at the regional stage will be enrolled in our school for free.</value>
+    <comment/>
   </data>
   <data name="Discount" xml:space="preserve">
     <value>Discount</value>
+    <comment/>
   </data>
   <data name="Olimpic" xml:space="preserve">
     <value>All students who won prizes at regional and city Olympiads will be enrolled in our school with a 50% discount.</value>
+    <comment/>
   </data>
   <data name="Recruitment" xml:space="preserve">
     <value>Recruitment</value>
+    <comment/>
   </data>
   <data name="IshgaQabul" xml:space="preserve">
     <value>We invite teachers and coaches of students who won the Olympiad to work in our school.</value>
+    <comment/>
   </data>
   <data name="a1" xml:space="preserve">
     <value>Lessons are taught step by step in English</value>
+    <comment/>
   </data>
   <data name="a10" xml:space="preserve">
     <value>Ability to monitor the course process online by parents</value>
+    <comment/>
   </data>
   <data name="a2" xml:space="preserve">
     <value>Oxford and Cambridge teaching style lessons</value>
+    <comment/>
   </data>
   <data name="a3" xml:space="preserve">
     <value>In all disciplines, preparation for foreign universities</value>
+    <comment/>
   </data>
   <data name="a4" xml:space="preserve">
     <value>Improving the culture of communication by spending summer vacations abroad</value>
+    <comment/>
   </data>
   <data name="a5" xml:space="preserve">
     <value>School certificates and diplomas are issued</value>
+    <comment/>
   </data>
   <data name="a6" xml:space="preserve">
     <value>Classes are conducted in Uzbek, Russian and English</value>
+    <comment/>
   </data>
   <data name="a7" xml:space="preserve">
     <value>There are separate classes for girls for those who want</value>
+    <comment/>
   </data>
   <data name="a8" xml:space="preserve">
     <value>Online and offline classes of qualified teachers from foreign countries</value>
+    <comment/>
   </data>
   <data name="a9" xml:space="preserve">
     <value>Distance lessons are provided for those who wish</value>
+    <comment/>
   </data>
   <data name="abt" xml:space="preserve">
     <value>About school</value>
+    <comment/>
   </data>
   <data name="abtUs" xml:space="preserve">
     <value>About Us</value>
+    <comment/>
   </data>
   <data name="findOut" xml:space="preserve">
     <value>Al-Khorazmiy International Special School</value>
+    <comment/>
   </data>
   <data name="subTitle" xml:space="preserve">
     <value>Starts enrollment of students of special schools for gifted children with high quality education based on the requirements of education in developed countries</value>
+    <comment/>
   </data>
   <data name="subTitle2" xml:space="preserve">
     <value>We invite gifted students to study. We invite our esteemed teachers to work.</value>
+    <comment/>
   </data>
   <data name="title" xml:space="preserve">
-    <value>advantages of our modern school</value>
+    <value>Advantages of our modern school</value>
+    <comment/>
   </data>
 </root>
