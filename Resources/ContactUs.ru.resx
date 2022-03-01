@@ -165,4 +165,20 @@
     <value>Отправить</value>
     <comment/>
   </data>
+  <data name="Name" xml:space="preserve">
+    <value>Имя</value>
+    <comment/>
+  </data>
+  <data name="YourEmail" xml:space="preserve">
+    <value>Эл. Адрес</value>
+    <comment/>
+  </data>
+  <data name="Theme" xml:space="preserve">
+    <value>О чем ты пишешь?</value>
+    <comment/>
+  </data>
+  <data name="Message" xml:space="preserve">
+    <value>Сообщение</value>
+    <comment/>
+  </data>
 </root>

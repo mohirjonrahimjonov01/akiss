@@ -165,8 +165,20 @@
     <value>Send Message</value>
     <comment/>
   </data>
-  <data name="name" xml:space="preserve">
+  <data name="Name" xml:space="preserve">
     <value>Name</value>
+    <comment/>
+  </data>
+  <data name="YourEmail" xml:space="preserve">
+    <value>Your Email</value>
+    <comment/>
+  </data>
+  <data name="Theme" xml:space="preserve">
+    <value>About what are you writing?</value>
+    <comment/>
+  </data>
+  <data name="Message" xml:space="preserve">
+    <value>Message</value>
     <comment/>
   </data>
 </root>

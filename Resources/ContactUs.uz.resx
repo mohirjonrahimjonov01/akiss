@@ -165,4 +165,20 @@
     <value>Jo'natish</value>
     <comment/>
   </data>
+  <data name="Name" xml:space="preserve">
+    <value>Ismingiz</value>
+    <comment/>
+  </data>
+  <data name="YourEmail" xml:space="preserve">
+    <value>Emailingiz</value>
+    <comment/>
+  </data>
+  <data name="Theme" xml:space="preserve">
+    <value>Nima mavzuda yozyapsiz?</value>
+    <comment/>
+  </data>
+  <data name="Message" xml:space="preserve">
+    <value>Habar matni</value>
+    <comment/>
+  </data>
 </root>
