@@ -121,7 +121,7 @@
     <value>Jamoa</value>
   </data>
   <data name="ourteam" xml:space="preserve">
-    <value>Bizning tajribali&lt;span&gt;Jamoa&lt;/span&gt;</value>
+    <value>Bizning tajribali &lt;span&gt;Jamoa&lt;/span&gt;</value>
   </data>
   <data name="Teamsubtitle" xml:space="preserve">
     <value>Bizda o'z qadriyatlariga va ko'p yillik chet-el tajribasiga ega ustozlar ta'lim va tarbiya berishadi.</value>
