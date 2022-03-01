@@ -89,14 +89,3 @@
     </div>
 </section>
 
-@code {
-    public string Clr { get; set; }
-
-
-    protected override void OnInitialized()
-    {
-        var random = new Random();
-        Clr = String.Format("#{0:X6}", random.Next(0x1000000)).Substring(1);
-        Console.WriteLine($"{Clr} keldi");
-    }
-}
