@@ -140,5 +140,23 @@ namespace akiss.Resources {
                 return ResourceManager.GetString("started", resourceCulture);
             }
         }
+
+        /// <summary>
+        ///   Looks up a localized string similar to Our Team.
+        /// </summary>
+        public static string Live {
+            get {
+                return ResourceManager.GetString("Live", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized string similar to Our Team.
+        /// </summary>
+        public static string Liveplace {
+            get {
+                return ResourceManager.GetString("Liveplace", resourceCulture);
+            }
+        }
     }
 }

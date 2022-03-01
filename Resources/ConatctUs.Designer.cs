@@ -167,5 +167,14 @@ namespace akiss.Resources {
                 return ResourceManager.GetString("Sent", resourceCulture);
             }
         }
+
+        /// <summary>
+        ///   Looks up a localized string similar to Our Team.
+        /// </summary>
+        public static string name {
+            get {
+                return ResourceManager.GetString("name", resourceCulture);
+            }
+        }
     }
 }

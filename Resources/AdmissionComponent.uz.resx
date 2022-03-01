@@ -153,4 +153,12 @@
     <value>Fan olimpiadasida g’olib bo’lgan o’quvchilarning ustoz va murabbiylarini maktabimizga ishga taklif qilamiz.</value>
     <comment/>
   </data>
+  <data name="Life" xml:space="preserve">
+    <value>Turar Joy</value>
+    <comment/>
+  </data>
+  <data name="Lifeplace" xml:space="preserve">
+    <value>Uzoq joydan kelgan o’quvchilarga yotoqxonalar mavjud.</value>
+    <comment/>
+  </data>
 </root>

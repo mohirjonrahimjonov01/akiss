@@ -165,4 +165,8 @@
     <value>Send Message</value>
     <comment/>
   </data>
+  <data name="name" xml:space="preserve">
+    <value>Name</value>
+    <comment/>
+  </data>
 </root>
