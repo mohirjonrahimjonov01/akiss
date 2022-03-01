@@ -14,7 +14,7 @@
             <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
                 <div class="member">
                     <div class="member-img">
-                        <img src="https://avatars.dicebear.com/api/avataaars/rand_num.svg?b=clr" width="216px"
+                        <img src="https://avatars.dicebear.com/api/avataaars/1.svg?b=yellow" width="216px"
                             height="216px" class="img-fluid">
                         <div class="social">
                             <a href=""><i class="bi bi-twitter"></i></a>
@@ -33,7 +33,7 @@
             <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
                 <div class="member">
                     <div class="member-img">
-                        <img src="https://avatars.dicebear.com/api/avataaars/rand_num.svg?b=clr" width="216px"
+                        <img src="https://avatars.dicebear.com/api/avataaars/3.svg?b=green" width="216px"
                             height="216px" class="img-fluid">
                         <div class="social">
                             <a href=""><i class="bi bi-twitter"></i></a>
@@ -52,7 +52,7 @@
             <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
                 <div class="member">
                     <div class="member-img">
-                        <img src="https://avatars.dicebear.com/api/avataaars/rand_num.svg?b=clr" width="216px"
+                        <img src="https://avatars.dicebear.com/api/avataaars/rand_num.svg?b=red" width="216px"
                             height="216px" class="img-fluid">
                         <div class="social">
                             <a href=""><i class="bi bi-twitter"></i></a>
@@ -71,8 +71,9 @@
             <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="400">
                 <div class="member">
                     <div class="member-img">
-                        <img src="https://avatars.dicebear.com/api/avataaars/rand_num.svg?b=clr" width="216px"
-                            height="216px" class="img-fluid">
+                        <img src="https://avatars.dicebear.com/api/avataaars/appRandom.svg?b=blue"
+                        width="216px"
+                        height="216px" class="img-fluid">
                         <div class="social">
                             <a href=""><i class="bi bi-twitter"></i></a>
                             <a href=""><i class="bi bi-facebook"></i></a>
@@ -89,16 +90,3 @@
         </div>
     </div>
 </section>
-@code
-{
-    protected override void OnInitialized()
-    {
-        for (int i = 1; i <= 5; i++)
-        {
-            var random = new Random();
-            var clr = String.Format("#{0:X6}", random.Next(0x1000000));
-            var ran = new Random();
-            var rand_num = ran.Next(100);
-        }
-    }
-}
