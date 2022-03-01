@@ -117,64 +117,64 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="contact" xml:space="preserve">
-    <value>Связь</value>
+  <data name="about" xml:space="preserve">
+    <value>Biz haqimizda</value>
     <comment/>
   </data>
-  <data name="address-street" xml:space="preserve">
-    <value>    Наманганский район, Улица Наманган     </value>
+  <data name="find" xml:space="preserve">
+    <value>Al-Xorazmiy International Specialized school</value>
     <comment/>
   </data>
-  <data name="address-building" xml:space="preserve">
-    <value>    174-дом  </value>
+  <data name="started" xml:space="preserve">
+    <value>Rivojlangan davlatlar ta'limi talablari asosida yuqori darajadagi ta'lim sifati beriladigan iqtidorli bolalar maxsus makatabi o'quvchilarni ro'yxatga olish boshlandi</value>
     <comment/>
   </data>
-  <data name="province" xml:space="preserve">
-    <value>    Наманган    </value>
+  <data name="advantages" xml:space="preserve">
+    <value>Zamonaviy maktabimiz afzalliklari</value>
     <comment/>
   </data>
-  <data name="email" xml:space="preserve">
-    <value>Эл. адрес</value>
+  <data name="taklif" xml:space="preserve">
+    <value>Iqtidorli o'quvchilarni o'qishga taklif etamiz. Xurmatli ustozlarimizni esa ishga taklif etamiz</value>
     <comment/>
   </data>
-  <data name="phone" xml:space="preserve">
-    <value>Телефон</value>
+  <data name="f1" xml:space="preserve">
+    <value>Darslar bosqichma-bosqich ingliz tilida olib boriladi</value>
     <comment/>
   </data>
-  <data name="home" xml:space="preserve">
-    <value>Домой</value>
+  <data name="f2" xml:space="preserve">
+    <value>Oksford va Kembridj ta'lim uslubidagi darslar</value>
     <comment/>
   </data>
-  <data name="admission" xml:space="preserve">
-    <value>Принятие</value>
+  <data name="f3" xml:space="preserve">
+    <value>Barcha fanlar yo'nalishlarida, xorijiy oligohlarga tayyorgarlik</value>
     <comment/>
   </data>
-  <data name="team" xml:space="preserve">
-    <value>Команда</value>
+  <data name="f4" xml:space="preserve">
+    <value> Yozgi ta'tilni xorijiy davralarda o'tkazib muloqot madaniyatini oshirish</value>
     <comment/>
   </data>
-  <data name="lessons" xml:space="preserve">
-    <value>Уроки</value>
+  <data name="f5" xml:space="preserve">
+    <value>Maktabda attestati va diplomlar beriladi</value>
     <comment/>
   </data>
-  <data name="DesignedBy" xml:space="preserve">
-    <value>Разработано с ❤️ командой &lt;strong&gt;&lt;a href="#" onclick="window.open('https://ilmhub.uz', '_blank')"&gt;Ilmhub Team&lt;/a&gt;&lt;/strong&gt;</value>
+  <data name="f6" xml:space="preserve">
+    <value>Darslar o'zbek, rus va ingliz tillarida olib boriladi</value>
     <comment/>
   </data>
-  <data name="pages" xml:space="preserve">
-    <value>Страницы</value>
+  <data name="f7" xml:space="preserve">
+    <value>Hohlovchilar uchun qizlarga alohida sinflar mavjud</value>
     <comment/>
   </data>
-  <data name="ru" xml:space="preserve">
-    <value>Русский</value>
+  <data name="f8" xml:space="preserve">
+    <value>Horijiy davlatlardan malakali ustozlarning onlayn va oflayn darslari</value>
     <comment/>
   </data>
-  <data name="uz" xml:space="preserve">
-    <value>Узбекский</value>
+  <data name="f9" xml:space="preserve">
+    <value>Hohlovchilar uchun masofadan darslar uzatiladi</value>
     <comment/>
   </data>
-  <data name="en" xml:space="preserve">
-    <value>Английский</value>
+  <data name="f10" xml:space="preserve">
+    <value>Ota-onalar tomonidan dars jarayonini onlayn kuzatish imkoniyati</value>
     <comment/>
   </data>
   <data name="address-region" xml:space="preserve">
