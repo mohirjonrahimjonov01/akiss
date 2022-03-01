@@ -117,20 +117,13 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="heroewelcome" xml:space="preserve">
-    <value>Добро пожаловать в Международную специальную школу &lt;span&gt;Аль-Харазми.&lt;/span&gt;</value>
-    <comment/>
+  <data name="Teamsection" xml:space="preserve">
+    <value>Team</value>
   </data>
-  <data name="heroeadvice" xml:space="preserve">
-    <value>Лучшая инвестиция - это инвестиция в будущее своего ребенка!</value>
-    <comment/>
+  <data name="ourteam" xml:space="preserve">
+    <value>Our Professional &lt;span&gt;Team&lt;/span&gt;</value>
   </data>
-  <data name="heroebutton" xml:space="preserve">
-    <value>Запишитесь на прием</value>
-    <comment/>
-  </data>
-  <data name="heroevideo" xml:space="preserve">
-    <value>Смотреть видео</value>
-    <comment/>
+  <data name="Teamsubtitle" xml:space="preserve">
+    <value>We have teachers who have their own values ​​and many years of foreign experience.</value>
   </data>
 </root>
