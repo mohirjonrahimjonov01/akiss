@@ -117,18 +117,6 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="admission" xml:space="preserve">
-    <value>Qabul</value>
-    <comment/>
-  </data>
-  <data name="started" xml:space="preserve">
-    <value>Boshlandi</value>
-    <comment/>
-  </data>
-  <data name="Developed" xml:space="preserve">
-    <value>Rivojlangan davlatlar ta’limi talablari asosida yuqori darajadagi ta’lim sifati, beriladigan iqtidorli bolalar maxsus maktab o’quvchilarni RO’YHATGA OLISHNI BOSHLADI.</value>
-    <comment/>
-  </data>
   <data name="Free" xml:space="preserve">
     <value>Bepul O'qish</value>
     <comment/>
