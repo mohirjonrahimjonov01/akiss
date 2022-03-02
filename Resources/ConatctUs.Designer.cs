@@ -61,33 +61,6 @@ namespace akiss.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Admissions.
-        /// </summary>
-        public static string contactUs{
-            get {
-                return ResourceManager.GetString("contactUs", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Contact Us.
-        /// </summary>
-        public static string contact{
-            get {
-                return ResourceManager.GetString("contact", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Home.
-        /// </summary>
-        public static string text{
-            get {
-                return ResourceManager.GetString("text", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to IT Program.
         /// </summary>
         public static string Visit {
