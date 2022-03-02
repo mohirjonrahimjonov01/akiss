@@ -8,83 +8,10 @@
             <h3>@((MarkupString)localizer["ourteam"].ToString()) </h3>
             <p>@localizer["Teamsubtitle"]</p>
         </div>
-
         <div class="row">
-            <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
-                <div class="member">
-                    <div class="member-img">
-                        <img src="https://avatars.dicebear.com/api/avataaars/@((new Random()).Next(10000)).svg?b=%2355@(new Random().Next(90))"
-                            width="216px" height="216px" class="img-fluid">
-                        <div class="social">
-                            <a href=""><i class="bi bi-twitter"></i></a>
-                            <a href=""><i class="bi bi-facebook"></i></a>
-                            <a href=""><i class="bi bi-instagram"></i></a>
-                            <a href=""><i class="bi bi-linkedin"></i></a>
-                        </div>
-                    </div>
-                    <div class="member-info">
-                        <h4>Ilmhub UZ</h4>
-                        <span>Production</span>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
-                <div class="member">
-                    <div class="member-img">
-                        <img src="https://avatars.dicebear.com/api/avataaars/@((new Random()).Next(10000)).svg?b=%2355@(new Random().Next(90))"
-                            width="216px" height="216px" class="img-fluid">
-                        <div class="social">
-                            <a href=""><i class="bi bi-twitter"></i></a>
-                            <a href=""><i class="bi bi-facebook"></i></a>
-                            <a href=""><i class="bi bi-instagram"></i></a>
-                            <a href=""><i class="bi bi-linkedin"></i></a>
-                        </div>
-                    </div>
-                    <div class="member-info">
-                        <h4>Ilmhub UZ</h4>
-                        <span>Production</span>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
-                <div class="member">
-                    <div class="member-img">
-                        <img src="https://avatars.dicebear.com/api/avataaars/@((new Random()).Next(10000)).svg?b=%2355@(new Random().Next(90))"
-                            width="216px" height="216px" class="img-fluid">
-                        <div class="social">
-                            <a href=""><i class="bi bi-twitter"></i></a>
-                            <a href=""><i class="bi bi-facebook"></i></a>
-                            <a href=""><i class="bi bi-instagram"></i></a>
-                            <a href=""><i class="bi bi-linkedin"></i></a>
-                        </div>
-                    </div>
-                    <div class="member-info">
-                        <h4>Ilmhub UZ</h4>
-                        <span>Production</span>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="400">
-                <div class="member">
-                    <div class="member-img">
-                        <img src="https://avatars.dicebear.com/api/avataaars/@((new Random()).Next(10000)).svg?b=%2355@(new Random().Next(90))"
-                            width="216px" height="216px" class="img-fluid">
-                        <div class="social">
-                            <a href=""><i class="bi bi-twitter"></i></a>
-                            <a href=""><i class="bi bi-facebook"></i></a>
-                            <a href=""><i class="bi bi-instagram"></i></a>
-                            <a href=""><i class="bi bi-linkedin"></i></a>
-                        </div>
-                    </div>
-                    <div class="member-info">
-                        <h4>Ilmhub UZ</h4>
-                        <span>Production</span>
-                    </div>
-                </div>
-            </div>
+            @for(int i=1;i<5;i++){
+                <Team_MembersComponent></Team_MembersComponent> 
+            }  
         </div>
     </div>
 </section>

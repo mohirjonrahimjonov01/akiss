@@ -1,0 +1,32 @@
+@using Models
+@inject IStringLocalizer<Resources.ITProgramm> localizer
+<div class="col-lg-4 col-md-6">
+    <div class="team">
+        <div class="team-avatar">
+            <img class="w-100" src=@Model.Image alt="" style="border-radius: 10px;">
+        </div>
+        <div class="team-content">
+            <div class=" team-content-inner" style="border-radius: 10px;">
+                <div class="d-flex">
+                    <div class="team-info">
+                        <h5 class="mb-0"><a href="#"
+                                class="avatar-name">@localizer[Model.Name]</a>
+                        </h5>
+                        <span class="team-position">@localizer[Model.Tag]</span>
+                    </div>
+                </div>
+                <div class="team-contact mt-2" style="border-radius: 10px;">
+                    <a class="text-white d-block" href="#">
+                        <i class="far fa-envelope mr-1"></i>
+                        @localizer[Model.Description]
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@code {
+    [Parameter]
+    public ItProgramItemModel Model { get; set; }
+}
