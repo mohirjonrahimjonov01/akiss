@@ -189,32 +189,4 @@
     <value>Мы в социальных сетях</value>
     <comment/>
   </data>
-  <data name="Developed" xml:space="preserve">
-    <value>НАЧАЛСЯ ПРИЕМ одаренных детей в специальные школы, исходя из требований образования в развитых странах с высоким уровнем качества образования.</value>
-    <comment/>
-  </data>
-  <data name="Free" xml:space="preserve">
-    <value>Бесплатная Учеба</value>
-    <comment/>
-  </data>
-  <data name="Level" xml:space="preserve">
-    <value>Победители, занявшие 1, 2 и 3 места на региональном этапе, будут зачислены в нашу школу бесплатно.</value>
-    <comment/>
-  </data>
-  <data name="Discount" xml:space="preserve">
-    <value>Скидка</value>
-    <comment/>
-  </data>
-  <data name="Olimpic" xml:space="preserve">
-    <value>Все учащиеся, занявшие призовые места на районных и городских олимпиадах, будут зачислены в нашу школу со скидкой 50%.</value>
-    <comment/>
-  </data>
-  <data name="Recruitment" xml:space="preserve">
-    <value>Прием на Работу</value>
-    <comment/>
-  </data>
-  <data name="IshgaQabul" xml:space="preserve">
-    <value>Приглашаем учителей и тренеров учеников, победивших в олимпиаде, работать в нашей школе.</value>
-    <comment/>
-  </data>
 </root>

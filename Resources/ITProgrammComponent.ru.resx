@@ -117,32 +117,52 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="admission" xml:space="preserve">
-    <value>Прием</value>
-    <comment/>
-  </data>
-  <data name="contact" xml:space="preserve">
-    <value>Связь</value>
-    <comment/>
-  </data>
-  <data name="home" xml:space="preserve">
-    <value>Домой</value>
-    <comment/>
-  </data>
   <data name="it" xml:space="preserve">
     <value>ИТ</value>
     <comment/>
   </data>
-  <data name="lessons" xml:space="preserve">
-    <value>Уроки</value>
+  <data name="itlessons" xml:space="preserve">
+    <value>У нас есть IT-курсы</value>
     <comment/>
   </data>
-  <data name="team" xml:space="preserve">
-    <value>Команда</value>
+  <data name="aboutitlessons" xml:space="preserve">
+    <value>У нас есть специальные классы для обучения современным и прибыльным ИТ-направлениям с раннего возраста. Наша ИТ-программа основана на разработках курсов, основанных на всемирно известном университете Массачусетского технологического института и исследованиях Google.</value>
     <comment/>
   </data>
-  <data name="about" xml:space="preserve">
-    <value> О нас</value>
+  <data name="pythonbeginner" xml:space="preserve">
+    <value>Основа Пайтона</value>
+    <comment/>
+  </data>
+  <data name="pythonbeginnerdescr" xml:space="preserve">
+    <value>Курс Python для начинающих, это первый шаг в программировании.</value>
+    <comment/>
+  </data>
+  <data name="pythonbeginnertag" xml:space="preserve">
+    <value>Дети</value>
+    <comment/>
+  </data>
+  <data name="scratch" xml:space="preserve">
+    <value>Скретч</value>
+    <comment/>
+  </data>
+  <data name="scratchtag" xml:space="preserve">
+    <value>Дети</value>
+    <comment/>
+  </data>
+  <data name="scratchdescr" xml:space="preserve">
+    <value>Этот курс предназначен для юных программистов школьного возраста.</value>
+    <comment/>
+  </data>
+  <data name="dotnetbootcamp" xml:space="preserve">
+    <value>Учебный лагерь .NET</value>
+    <comment/>
+  </data>
+  <data name="dotnetbootcamptag" xml:space="preserve">
+    <value>Учебный лагерь</value>
+    <comment/>
+  </data>
+  <data name="dotnetbootcampdescr" xml:space="preserve">
+    <value>Платформа .NET используется во многих областях программирования.</value>
     <comment/>
   </data>
 </root>

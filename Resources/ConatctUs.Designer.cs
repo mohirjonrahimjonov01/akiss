@@ -22,14 +22,14 @@ namespace akiss.Resources {
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "17.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    public class AdmissionComponent {
+    public class ContactUs {
         
         private static global::System.Resources.ResourceManager resourceMan;
         
         private static global::System.Globalization.CultureInfo resourceCulture;
         
         [global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode")]
-        internal AdmissionComponent() {
+        internal ContactUs() {
         }
         
         /// <summary>
@@ -39,7 +39,7 @@ namespace akiss.Resources {
         public static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("akiss.Resources.Admission", typeof(AdmissionComponent).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("akiss.Pages.ContactUs", typeof(ContactUs).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -63,99 +63,144 @@ namespace akiss.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Admissions.
         /// </summary>
-        public static string admission {
+        public static string contactUs{
             get {
-                return ResourceManager.GetString("admission", resourceCulture);
+                return ResourceManager.GetString("contactUs", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Contact Us.
         /// </summary>
-        public static string Developed {
+        public static string contact{
             get {
-                return ResourceManager.GetString("Developed", resourceCulture);
+                return ResourceManager.GetString("contact", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Home.
         /// </summary>
-        public static string Free {
+        public static string text{
             get {
-                return ResourceManager.GetString("Free", resourceCulture);
+                return ResourceManager.GetString("text", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to IT Program.
         /// </summary>
-        public static string Level {
+        public static string Visit {
             get {
-                return ResourceManager.GetString("Level", resourceCulture);
+                return ResourceManager.GetString("Visit", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Lessons.
         /// </summary>
-        public static string Discount {
+        public static string address {
             get {
-                return ResourceManager.GetString("Discount", resourceCulture);
+                return ResourceManager.GetString("address", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Our Team.
         /// </summary>
-        public static string Olimpic {
+        public static string Email {
             get {
-                return ResourceManager.GetString("Olimpic", resourceCulture);
+                return ResourceManager.GetString("Email", resourceCulture);
             }
         }
 
         /// <summary>
         ///   Looks up a localized string similar to Our Team.
         /// </summary>
-        public static string Recruitment {
+        public static string Emailadress {
             get {
-                return ResourceManager.GetString("Recruitment", resourceCulture);
+                return ResourceManager.GetString("Emailadress", resourceCulture);
             }
         }
 
         /// <summary>
         ///   Looks up a localized string similar to Our Team.
         /// </summary>
-        public static string IshgaQabul {
+        public static string Phone {
             get {
-                return ResourceManager.GetString("IshgaQabul", resourceCulture);
+                return ResourceManager.GetString("Phone", resourceCulture);
             }
         }
 
         /// <summary>
         ///   Looks up a localized string similar to Our Team.
         /// </summary>
-        public static string started {
+        public static string Phonenum {
             get {
-                return ResourceManager.GetString("started", resourceCulture);
+                return ResourceManager.GetString("Phonenum", resourceCulture);
             }
         }
 
         /// <summary>
         ///   Looks up a localized string similar to Our Team.
         /// </summary>
-        public static string Live {
+        public static string Loading {
             get {
-                return ResourceManager.GetString("Live", resourceCulture);
+                return ResourceManager.GetString("Loading", resourceCulture);
             }
         }
 
         /// <summary>
         ///   Looks up a localized string similar to Our Team.
         /// </summary>
-        public static string Liveplace {
+        public static string Success {
             get {
-                return ResourceManager.GetString("Liveplace", resourceCulture);
+                return ResourceManager.GetString("Success", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized string similar to Our Team.
+        /// </summary>
+        public static string Sent {
+            get {
+                return ResourceManager.GetString("Sent", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized string similar to Our Team.
+        /// </summary>
+        public static string Name {
+            get {
+                return ResourceManager.GetString("Name", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized string similar to Our Team.
+        /// </summary>
+        public static string YourEmail {
+            get {
+                return ResourceManager.GetString("YourEmail", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized string similar to Our Team.
+        /// </summary>
+        public static string Theme {
+            get {
+                return ResourceManager.GetString("Theme", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized string similar to Our Team.
+        /// </summary>
+        public static string Message {
+            get {
+                return ResourceManager.GetString("Message", resourceCulture);
             }
         }
     }

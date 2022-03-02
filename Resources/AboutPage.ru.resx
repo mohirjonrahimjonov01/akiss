@@ -117,32 +117,104 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="admission" xml:space="preserve">
-    <value>Прием</value>
+  <data name="about" xml:space="preserve">
+    <value>О нас</value>
     <comment/>
   </data>
-  <data name="contact" xml:space="preserve">
-    <value>Связь</value>
+  <data name="find" xml:space="preserve">
+    <value>Аль-Хорезми Международная специализированная школа</value>
     <comment/>
   </data>
-  <data name="home" xml:space="preserve">
-    <value>Домой</value>
+  <data name="started" xml:space="preserve">
+    <value>Начата регистрация учащихся в специальные школы для одаренных детей с высоким уровнем качественного образования на основе требований образования в развитых странах</value>
+    <comment/>
+  </data>
+  <data name="advantages" xml:space="preserve">
+    <value>Преимущества нашей современной школы</value>
+    <comment/>
+  </data>
+  <data name="taklif" xml:space="preserve">
+    <value>Приглашаем одаренных студентов учиться. Приглашаем наших уважаемых преподавателей на работу</value>
+    <comment/>
+  </data>
+  <data name="f1" xml:space="preserve">
+    <value>Уроки проводятся поэтапно на английском языке</value>
+    <comment/>
+  </data>
+  <data name="f2" xml:space="preserve">
+    <value>Оксфордский и Кембриджский стиль преподавания уроков</value>
+    <comment/>
+  </data>
+  <data name="f3" xml:space="preserve">
+    <value>Во всех областях науки подготовка иностранных олигархов</value>
+    <comment/>
+  </data>
+  <data name="f4" xml:space="preserve">
+    <value>Повышение культуры общения при проведении летних каникул за границей</value>
+    <comment/>
+  </data>
+  <data name="f5" xml:space="preserve">
+    <value>Сертификаты и дипломы выдаются в школе</value>
+    <comment/>
+  </data>
+  <data name="f6" xml:space="preserve">
+    <value>Занятия проводятся на узбекском, русском и английском языках</value>
+    <comment/>
+  </data>
+  <data name="f7" xml:space="preserve">
+    <value>Для желающих есть отдельные занятия для девочек</value>
+    <comment/>
+  </data>
+  <data name="f8" xml:space="preserve">
+    <value>Онлайн и офлайн занятия квалифицированных преподавателей из зарубежных стран</value>
+    <comment/>
+  </data>
+  <data name="f9" xml:space="preserve">
+    <value>Для желающих предусмотрены дистанционные занятия</value>
+    <comment/>
+  </data>
+  <data name="f10" xml:space="preserve">
+    <value>Возможность наблюдения родителей за процессом обучения онлайн</value>
+    <comment/>
+  </data>
+  <data name="en" xml:space="preserve">
+    <value>Inglizcha</value>
     <comment/>
   </data>
   <data name="it" xml:space="preserve">
-    <value>ИТ</value>
+    <value>IT</value>
     <comment/>
   </data>
-  <data name="lessons" xml:space="preserve">
-    <value>Уроки</value>
+  <data name="weareinSM" xml:space="preserve">
+    <value>Biz Ijtimoiy tarmoqdamiz</value>
     <comment/>
   </data>
-  <data name="team" xml:space="preserve">
-    <value>Команда</value>
+  <data name="Developed" xml:space="preserve">
+    <value>Rivojlangan davlatlar ta’limi talablari asosida yuqori darajadagi ta’lim sifati, beriladigan iqtidorli bolalar maxsus maktab o’quvchilarni RO’YHATGA OLISHNI BOSHLADI.</value>
     <comment/>
   </data>
-  <data name="about" xml:space="preserve">
-    <value> О нас</value>
+  <data name="Free" xml:space="preserve">
+    <value>Bepul O'qish</value>
+    <comment/>
+  </data>
+  <data name="Level" xml:space="preserve">
+    <value>Viloyat bosqich faxirli 1,2,3 - o’rinlarni olgan olimpiada g’oliblari maktabimizga bepul qabul qilinadi.</value>
+    <comment/>
+  </data>
+  <data name="Discount" xml:space="preserve">
+    <value>Chegirma</value>
+    <comment/>
+  </data>
+  <data name="Olimpic" xml:space="preserve">
+    <value>Fan olimpiadasining tuman va shaxar boshqichlarida sovrinli o’rin olgan barcha o’quvchilar maktabimizda 50% chegirma asosida qabul qilinadi.</value>
+    <comment/>
+  </data>
+  <data name="Recruitment" xml:space="preserve">
+    <value>Ishga Qabul</value>
+    <comment/>
+  </data>
+  <data name="IshgaQabul" xml:space="preserve">
+    <value>Fan olimpiadasida g’olib bo’lgan o’quvchilarning ustoz va murabbiylarini maktabimizga ishga taklif qilamiz.</value>
     <comment/>
   </data>
 </root>

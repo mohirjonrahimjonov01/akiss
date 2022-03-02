@@ -22,14 +22,14 @@ namespace akiss.Resources {
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "17.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    public class AdmissionComponent {
+    public class AboutPage {
         
         private static global::System.Resources.ResourceManager resourceMan;
         
         private static global::System.Globalization.CultureInfo resourceCulture;
         
         [global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode")]
-        internal AdmissionComponent() {
+        internal AboutPage() {
         }
         
         /// <summary>
@@ -39,7 +39,7 @@ namespace akiss.Resources {
         public static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("akiss.Resources.Admission", typeof(AdmissionComponent).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("akiss.Resources.AboutPage", typeof(AboutPage).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -63,99 +63,99 @@ namespace akiss.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Admissions.
         /// </summary>
-        public static string admission {
+        public static string about {
             get {
-                return ResourceManager.GetString("admission", resourceCulture);
+                return ResourceManager.GetString("about", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Contact Us.
         /// </summary>
-        public static string Developed {
+        public static string find {
             get {
-                return ResourceManager.GetString("Developed", resourceCulture);
+                return ResourceManager.GetString("find", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Home.
         /// </summary>
-        public static string Free {
+        public static string started {
             get {
-                return ResourceManager.GetString("Free", resourceCulture);
+                return ResourceManager.GetString("started", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to IT Program.
         /// </summary>
-        public static string Level {
+        public static string advantages {
             get {
-                return ResourceManager.GetString("Level", resourceCulture);
+                return ResourceManager.GetString("advantages", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Lessons.
         /// </summary>
-        public static string Discount {
+        public static string taklif {
             get {
-                return ResourceManager.GetString("Discount", resourceCulture);
+                return ResourceManager.GetString("taklif", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Our Team.
         /// </summary>
-        public static string Olimpic {
+        public static string f1 {
             get {
-                return ResourceManager.GetString("Olimpic", resourceCulture);
+                return ResourceManager.GetString("f1", resourceCulture);
             }
         }
-
-        /// <summary>
-        ///   Looks up a localized string similar to Our Team.
-        /// </summary>
-        public static string Recruitment {
+        public static string f2 {
             get {
-                return ResourceManager.GetString("Recruitment", resourceCulture);
+                return ResourceManager.GetString("f2", resourceCulture);
             }
         }
-
-        /// <summary>
-        ///   Looks up a localized string similar to Our Team.
-        /// </summary>
-        public static string IshgaQabul {
+        public static string f3 {
             get {
-                return ResourceManager.GetString("IshgaQabul", resourceCulture);
+                return ResourceManager.GetString("f3", resourceCulture);
             }
         }
-
-        /// <summary>
-        ///   Looks up a localized string similar to Our Team.
-        /// </summary>
-        public static string started {
+        public static string f4 {
             get {
-                return ResourceManager.GetString("started", resourceCulture);
+                return ResourceManager.GetString("f4", resourceCulture);
             }
         }
-
-        /// <summary>
-        ///   Looks up a localized string similar to Our Team.
-        /// </summary>
-        public static string Live {
+        public static string f5 {
             get {
-                return ResourceManager.GetString("Live", resourceCulture);
+                return ResourceManager.GetString("f5", resourceCulture);
             }
         }
-
-        /// <summary>
-        ///   Looks up a localized string similar to Our Team.
-        /// </summary>
-        public static string Liveplace {
+        public static string f6 {
             get {
-                return ResourceManager.GetString("Liveplace", resourceCulture);
+                return ResourceManager.GetString("f6", resourceCulture);
+            }
+        }
+        public static string f7 {
+            get {
+                return ResourceManager.GetString("f7", resourceCulture);
+            }
+        }
+        public static string f8 {
+            get {
+                return ResourceManager.GetString("f8", resourceCulture);
+            }
+        }
+        public static string f9 {
+            get {
+                return ResourceManager.GetString("f9", resourceCulture);
+            }
+        }
+        public static string f10 {
+            get {
+                return ResourceManager.GetString("f10", resourceCulture);
             }
         }
     }

@@ -117,32 +117,52 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="admission" xml:space="preserve">
-    <value>Прием</value>
-    <comment/>
-  </data>
-  <data name="contact" xml:space="preserve">
-    <value>Связь</value>
-    <comment/>
-  </data>
-  <data name="home" xml:space="preserve">
-    <value>Домой</value>
-    <comment/>
-  </data>
   <data name="it" xml:space="preserve">
-    <value>ИТ</value>
+    <value>IT</value>
     <comment/>
   </data>
-  <data name="lessons" xml:space="preserve">
-    <value>Уроки</value>
+  <data name="itlessons" xml:space="preserve">
+    <value>Bizda IT darslar bor</value>
     <comment/>
   </data>
-  <data name="team" xml:space="preserve">
-    <value>Команда</value>
+  <data name="aboutitlessons" xml:space="preserve">
+    <value>Bizda zamonaviy va serdaromad IT yo'nalishlarini yoshlikdan o'rgatish uchun maxsus darslar tashkil qilingan. IT dasturimiz dunyoda tan olingan MIT universiteti va Google tadqiqotlari asosida tuzilgan dars ishlanmalarga asoslangan.</value>
     <comment/>
   </data>
-  <data name="about" xml:space="preserve">
-    <value> О нас</value>
+  <data name="pythonbeginner" xml:space="preserve">
+    <value>Python asoslari</value>
+    <comment/>
+  </data>
+  <data name="pythonbeginnerdescr" xml:space="preserve">
+    <value>Python Beginner kursi dasturlashga ilk qadam hisoblanadi.</value>
+    <comment/>
+  </data>
+  <data name="scratch" xml:space="preserve">
+    <value>Scratch</value>
+    <comment/>
+  </data>
+  <data name="scratchtag" xml:space="preserve">
+    <value>Bolalar</value>
+    <comment/>
+  </data>
+  <data name="pythonbeginnertag" xml:space="preserve">
+    <value>Bolalar</value>
+    <comment/>
+  </data>
+  <data name="scratchdescr" xml:space="preserve">
+    <value>Kursimiz maktab yoshidagi, dasturlashga kirmoqchi bo'lgan yosh dasturchilar uchun mo'ljallangan.</value>
+    <comment/>
+  </data>
+  <data name="dotnetbootcamp" xml:space="preserve">
+    <value>.NET Bootcamp</value>
+    <comment/>
+  </data>
+  <data name="dotnetbootcamptag" xml:space="preserve">
+    <value>Bootcamp</value>
+    <comment/>
+  </data>
+  <data name="dotnetbootcampdescr" xml:space="preserve">
+    <value>.NET freymvorkidan dasturlashning ko'plab sohalarida foydalaniladi.</value>
     <comment/>
   </data>
 </root>

@@ -117,32 +117,52 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="admission" xml:space="preserve">
-    <value>Прием</value>
-    <comment/>
-  </data>
-  <data name="contact" xml:space="preserve">
-    <value>Связь</value>
-    <comment/>
-  </data>
-  <data name="home" xml:space="preserve">
-    <value>Домой</value>
-    <comment/>
-  </data>
   <data name="it" xml:space="preserve">
-    <value>ИТ</value>
+    <value>IT</value>
     <comment/>
   </data>
-  <data name="lessons" xml:space="preserve">
-    <value>Уроки</value>
+  <data name="itlessons" xml:space="preserve">
+    <value>We have IT lessons</value>
     <comment/>
   </data>
-  <data name="team" xml:space="preserve">
-    <value>Команда</value>
+  <data name="aboutitlessons" xml:space="preserve">
+    <value>We have special classes for teaching modern and profitable IT areas from an early age. Our IT program is based on course developments based on the world-renowned University of Massachusetts Institute of Technology and Google research.</value>
     <comment/>
   </data>
-  <data name="about" xml:space="preserve">
-    <value> О нас</value>
+  <data name="pythonbeginner" xml:space="preserve">
+    <value>Python Beginner</value>
+    <comment/>
+  </data>
+  <data name="pythonbeginnerdescr" xml:space="preserve">
+    <value>The Python Beginner course is the first step in programming.</value>
+    <comment/>
+  </data>
+  <data name="scratch" xml:space="preserve">
+    <value>Scratch</value>
+    <comment/>
+  </data>
+  <data name="scratchtag" xml:space="preserve">
+    <value>Kids</value>
+    <comment/>
+  </data>
+  <data name="pythonbeginnertag" xml:space="preserve">
+    <value>Kids</value>
+    <comment/>
+  </data>
+  <data name="scratchdescr" xml:space="preserve">
+    <value>This course is designed for school-age young programmers who want to take the first step in programming.</value>
+    <comment/>
+  </data>
+  <data name="dotnetbootcamp" xml:space="preserve">
+    <value>.NET Bootcamp</value>
+    <comment/>
+  </data>
+  <data name="dotnetbootcamptag" xml:space="preserve">
+    <value>Bootcamp</value>
+    <comment/>
+  </data>
+  <data name="dotnetbootcampdescr" xml:space="preserve">
+    <value>The .NET framework is used in many areas of programming, such as mobile, frontend, backend, and more.</value>
     <comment/>
   </data>
 </root>

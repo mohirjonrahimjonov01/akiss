@@ -189,28 +189,4 @@
     <value>We're in Social Media</value>
     <comment/>
   </data>
-  <data name="Free" xml:space="preserve">
-    <value>Free study</value>
-    <comment/>
-  </data>
-  <data name="Level" xml:space="preserve">
-    <value>The winners who took 1st, 2nd and 3rd places at the regional stage will be enrolled in our school for free.</value>
-    <comment/>
-  </data>
-  <data name="Discount" xml:space="preserve">
-    <value>Discount</value>
-    <comment/>
-  </data>
-  <data name="Olimpic" xml:space="preserve">
-    <value>All students who won prizes at regional and city Olympiads will be enrolled in our school with a 50% discount.</value>
-    <comment/>
-  </data>
-  <data name="Recruitment" xml:space="preserve">
-    <value>Recruitment</value>
-    <comment/>
-  </data>
-  <data name="IshgaQabul" xml:space="preserve">
-    <value>We invite teachers and coaches of students who won the Olympiad to work in our school.</value>
-    <comment/>
-  </data>
 </root>
