@@ -117,100 +117,24 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="about" xml:space="preserve">
-    <value>About us</value>
+  <data name="About" xml:space="preserve">
+    <value>О школе</value>
     <comment/>
   </data>
-  <data name="find" xml:space="preserve">
-    <value>Al-Khorazmiy International Special School</value>
+  <data name="Team" xml:space="preserve">
+    <value>Команда</value>
     <comment/>
   </data>
-  <data name="started" xml:space="preserve">
-    <value>Addmission started</value>
+  <data name="ContactUs" xml:space="preserve">
+    <value>Связаться</value>
     <comment/>
   </data>
-  <data name="advantages" xml:space="preserve">
-    <value>Our advantages</value>
+  <data name="Index" xml:space="preserve">
+    <value>Главная страница</value>
     <comment/>
   </data>
-  <data name="taklif" xml:space="preserve">
-    <value>We invite good students and teachers</value>
-    <comment/>
-  </data>
-  <data name="facts" xml:space="preserve">
-    <value>Advan</value>
-    <comment/>
-  </data>
-  <data name="f1" xml:space="preserve">
-    <value>Classes are conducted in English in stages</value>
-    <comment/>
-  </data>
-  <data name="f2" xml:space="preserve">
-    <value>Oxford and Cambridge teaching style lessons</value>
-    <comment/>
-  </data>
-  <data name="f3" xml:space="preserve">
-    <value>In all disciplines, preparation for foreign oligarchs</value>
-    <comment/>
-  </data>
-  <data name="f4" xml:space="preserve">
-    <value>Enhancing the culture of communication by spending summer vacations abroad</value>
-    <comment/>
-  </data>
-  <data name="f5" xml:space="preserve">
-    <value>Certificates and diplomas are awarded at the school</value>
-    <comment/>
-  </data>
-  <data name="f6" xml:space="preserve">
-    <value>Classes are conducted in Uzbek, Russian and English</value>
-    <comment/>
-  </data>
-  <data name="f7" xml:space="preserve">
-    <value>There are separate classes for girls for those who wish</value>
-    <comment/>
-  </data>
-  <data name="f8" xml:space="preserve">
-    <value>Online and offline classes of qualified teachers from foreign countries</value>
-    <comment/>
-  </data>
-  <data name="f9" xml:space="preserve">
-    <value>Distance learning classes are available for those who wish</value>
-    <comment/>
-  </data>
-  <data name="f10" xml:space="preserve">
-    <value>Opportunity for parents to follow the course process online</value>
-    <comment/>
-  </data>
-  <data name="it" xml:space="preserve">
-    <value>IT</value>
-    <comment/>
-  </data>
-  <data name="weareinSM" xml:space="preserve">
-    <value>We're in Social Media</value>
-    <comment/>
-  </data>
-  <data name="Free" xml:space="preserve">
-    <value>Free study</value>
-    <comment/>
-  </data>
-  <data name="Level" xml:space="preserve">
-    <value>The winners who took 1st, 2nd and 3rd places at the regional stage will be enrolled in our school for free.</value>
-    <comment/>
-  </data>
-  <data name="Discount" xml:space="preserve">
-    <value>Discount</value>
-    <comment/>
-  </data>
-  <data name="Olimpic" xml:space="preserve">
-    <value>All students who won prizes at regional and city Olympiads will be enrolled in our school with a 50% discount.</value>
-    <comment/>
-  </data>
-  <data name="Recruitment" xml:space="preserve">
-    <value>Recruitment</value>
-    <comment/>
-  </data>
-  <data name="IshgaQabul" xml:space="preserve">
-    <value>We invite teachers and coaches of students who won the Olympiad to work in our school.</value>
+  <data name="ITProgramm" xml:space="preserve">
+    <value>ИТ программа</value>
     <comment/>
   </data>
 </root>
