@@ -1,3 +1,4 @@
+@using Models
 @inject IStringLocalizer<Resources.ITProgramm> localizer
 
 <section id="portfolio" class="portfolio">
@@ -11,82 +12,39 @@
             </div>
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-4 col-md-6">
-                        <div class="team">
-                            <div class="team-avatar">
-                                <img class="w-100" src="img/courses/Python.png" alt="" style="border-radius: 10px;">
-                            </div>
-                            <div class="team-content">
-                                <div class=" team-content-inner" style="border-radius: 10px;">
-                                    <div class="d-flex">
-                                        <div class="team-info">
-                                            <h5 class="mb-0"><a href="#"
-                                                    class="avatar-name">@localizer["pythonbeginner"]</a>
-                                            </h5>
-                                            <span class="team-position">@localizer["pythonbeginnertag"]</span>
-                                        </div>
-                                    </div>
-                                    <div class="team-contact mt-2" style="border-radius: 10px;">
-                                        <a class="text-white d-block" href="#">
-                                            <i class="far fa-envelope mr-1"></i>
-                                            @localizer["pythonbeginnerdescr"]
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6">
-                        <div class="team">
-                            <div class="team-avatar">
-                                <img class="w-100" src="img/courses/Scratch.png" alt="" style="border-radius: 10px;">
-                            </div>
-                            <div class="team-content">
-                                <div class=" team-content-inner" style="border-radius: 10px;">
-                                    <div class="d-flex">
-                                        <div class="team-info">
-                                            <h5 class="mb-0"><a href="#" class="avatar-name">@localizer["scratch"]</a>
-                                            </h5>
-                                            <span class="team-position">@localizer["scratchtag"]</span>
-                                        </div>
-                                    </div>
-                                    <div class="team-contact mt-2">
-                                        <a class="text-white d-block" href="#">
-                                            <i class="far fa-envelope mr-1"></i>
-                                            @localizer["scratchdescr"]
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6">
-                        <div class="team">
-                            <div class="team-avatar">
-                                <img class="w-100" src="img/courses/netbootcamp.png" alt=""
-                                    style="border-radius: 10px;">
-                            </div>
-                            <div class="team-content">
-                                <div class=" team-content-inner" style="border-radius: 10px;">
-                                    <div class="d-flex">
-                                        <div class="team-info">
-                                            <h5 class="mb-0"><a href="#"
-                                                    class="avatar-name">@localizer["dotnetbootcamp"]</a></h5>
-                                            <span class="team-position">@localizer["dotnetbootcamptag"]</span>
-                                        </div>
-                                    </div>
-                                    <div class="team-contact mt-2">
-                                        <a class="text-white d-block" href="#">
-                                            <i class="far fa-envelope mr-1"></i>
-                                            @localizer["dotnetbootcampdescr"]
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    @foreach (var item in models)
+                    {
+                        <ItProgramItemComponent Model="@item" />
+                    }
                 </div>
             </div>
         </div>
     </div>
 </section>
+
+@code {
+    List<ItProgramItemModel> models = new List<ItProgramItemModel>
+    {
+        new ItProgramItemModel()
+        {
+            Tag="dotnetbootcamptag",
+            Description="dotnetbootcampdescr",
+            Name="dotnetbootcamp",
+            Image="img/courses/netbootcamp.png"
+        },
+        new ItProgramItemModel()
+        {
+            Tag="scratchtag",
+            Description="scratchdescr",
+            Name="scratch",
+            Image="img/courses/Scratch.png"
+        },
+        new ItProgramItemModel()
+        {
+            Tag="pythonbeginnertag",
+            Description="pythonbeginnerdescr",
+            Name="pythonbeginner",
+            Image="img/courses/Python.png"
+        }
+    };
+}
