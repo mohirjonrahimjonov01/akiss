@@ -117,18 +117,6 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="admission" xml:space="preserve">
-    <value>Прием</value>
-    <comment/>
-  </data>
-  <data name="started" xml:space="preserve">
-    <value>начался</value>
-    <comment/>
-  </data>
-  <data name="Developed" xml:space="preserve">
-    <value>НАЧАЛСЯ ПРИЕМ одаренных детей в специальные школы, исходя из требований образования в развитых странах с высоким уровнем качества образования.</value>
-    <comment/>
-  </data>
   <data name="Free" xml:space="preserve">
     <value>Бесплатная Учеба</value>
     <comment/>
