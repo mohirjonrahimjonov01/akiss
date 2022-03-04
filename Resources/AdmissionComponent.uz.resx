@@ -133,14 +133,6 @@
     <value>Fan olimpiadasining tuman va shaxar boshqichlarida sovrinli o’rin olgan barcha o’quvchilar maktabimizda 50% chegirma asosida qabul qilinadi.</value>
     <comment/>
   </data>
-  <data name="Recruitment" xml:space="preserve">
-    <value>Ishga Qabul</value>
-    <comment/>
-  </data>
-  <data name="IshgaQabul" xml:space="preserve">
-    <value>Fan olimpiadasida g’olib bo’lgan o’quvchilarning ustoz va murabbiylarini maktabimizga ishga taklif qilamiz.</value>
-    <comment/>
-  </data>
   <data name="Life" xml:space="preserve">
     <value>Turar Joy</value>
     <comment/>

@@ -99,24 +99,6 @@ namespace akiss.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Our Team.
         /// </summary>
-        public static string Recruitment {
-            get {
-                return ResourceManager.GetString("Recruitment", resourceCulture);
-            }
-        }
-
-        /// <summary>
-        ///   Looks up a localized string similar to Our Team.
-        /// </summary>
-        public static string IshgaQabul {
-            get {
-                return ResourceManager.GetString("IshgaQabul", resourceCulture);
-            }
-        }
-
-        /// <summary>
-        ///   Looks up a localized string similar to Our Team.
-        /// </summary>
         public static string Live {
             get {
                 return ResourceManager.GetString("Live", resourceCulture);
