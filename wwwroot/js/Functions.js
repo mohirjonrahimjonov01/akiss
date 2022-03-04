@@ -11,9 +11,4 @@ function Send_Data(){
         document.getElementById("res_suc").setAttribute("hidden","hidden");
         document.getElementById("res_err").setAttribute("hidden","hidden");
       }, 4500))
-      
-      document.getElementById("name").value = '';
-      document.getElementById("email").value = '';
-      document.getElementById("subject").value = '';
-      document.getElementById("message").value = '';
-  }
+}
