@@ -1,5 +1,6 @@
+@using System.Text.Json
 @inject IStringLocalizer<Resources.ContactUs> localizer
-
+@inject IJSRuntime jsRun
 <div class="row" data-aos="fade-up" data-aos-delay="100">
     <div class="col-lg-6">
         <div class="info-box mb-4">
@@ -35,7 +36,7 @@
             frameborder="0" style="border:0; width: 100%; height: 384px;" allowfullscreen></iframe>
     </div>
     <div class="col-lg-6">
-        <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+        <form id="contact-form" class="php-email-form">
             <div class="row">
                 <div class="col form-group">
                     <input type="text" name="name" class="form-control" id="name" placeholder='@localizer["Name"]'
@@ -54,13 +55,10 @@
                 <textarea class="form-control" name="message" rows="5" placeholder='@localizer["Message"]'
                     required></textarea>
             </div>
-            <div class="my-3">
-                <div class="loading">@localizer["Loading"]</div>
-                <div class="error-message"></div>
-                <div class="sent-message">@localizer["Success"]</div>
-            </div>
-            <div class="text-center"><button type="submit">@localizer["Sent"]</button></div>
+            
+            <div class="text-center"><button onclick="Send_Data()" type="submit">@localizer["Sent"]</button></div>
+            <div id="res_suc" hidden class="alert alert-success mt-3">success</div>
+            <div id="res_err" hidden class="alert alert-danger">error</div>
         </form>
     </div>
-
 </div>
