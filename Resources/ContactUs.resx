@@ -169,4 +169,8 @@
     <value>Message</value>
     <comment/>
   </data>
+  <data name="Error" xml:space="preserve">
+    <value>Something went wrong please try again !!</value>
+    <comment/>
+  </data>
 </root>
