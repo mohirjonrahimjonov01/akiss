@@ -44,8 +44,20 @@
     <script src="vendor/waypoints/noframework.waypoints.js"></script>
     
     <script src="_framework/blazor.webassembly.js"></script>
+    <script src="js/function.js"></script>
     <script src="js/main.js"></script>
     <script src="js/mobileview.js"></script>
+    <script>
+      document.getElementById('submitBtn').addEventListener('click',
+        function(e){
+          google.script.run.withSuccessHandler(onSuccess).uploadFiles(this.parentNode)
+        })
+        
+        function onSuccess(data){
+          document.getElementById('resp').innerHTML = "File Uploaded to the path " +data;
+        }
+
+    </script>
 </body>
 
 </html>

@@ -169,4 +169,8 @@
     <value>Habar matni</value>
     <comment/>
   </data>
+  <data name="Error" xml:space="preserve">
+    <value>Xatolik yuz berdi iltimos qayata urining !!</value>
+    <comment/>
+  </data>
 </root>
