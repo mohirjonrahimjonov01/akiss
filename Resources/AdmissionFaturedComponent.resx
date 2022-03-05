@@ -117,28 +117,100 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="Free" xml:space="preserve">
-    <value>Bepul O'qish</value>
+  <data name="Dars" xml:space="preserve">
+    <value>Foreign Language</value>
     <comment/>
   </data>
-  <data name="Level" xml:space="preserve">
-    <value>Viloyat bosqich faxirli 1,2,3 - o’rinlarni olgan olimpiada g’oliblari maktabimizga bepul qabul qilinadi.</value>
+  <data name="DarsInfo" xml:space="preserve">
+    <value>Classes are conducted in English in a step-by-step manner</value>
     <comment/>
   </data>
-  <data name="Discount" xml:space="preserve">
-    <value>Chegirma</value>
+  <data name="Talim" xml:space="preserve">
+    <value>Education</value>
     <comment/>
   </data>
-  <data name="Olimpic" xml:space="preserve">
-    <value>Fan olimpiadasining tuman va shaxar boshqichlarida sovrinli o’rin olgan barcha o’quvchilar maktabimizda 50% chegirma asosida qabul qilinadi.</value>
+  <data name="TalimInfo" xml:space="preserve">
+    <value>Oxford and Cambridge teaching methods</value>
     <comment/>
   </data>
-  <data name="Life" xml:space="preserve">
-    <value>Turar Joy</value>
+  <data name="Lan" xml:space="preserve">
+    <value>Multi Language</value>
     <comment/>
   </data>
-  <data name="Lifeplace" xml:space="preserve">
-    <value>Uzoq joydan kelgan o’quvchilarga yotoqxonalar mavjud.</value>
+  <data name="LanInfo" xml:space="preserve">
+    <value>Classes are taught in Uzbek, Russian and English</value>
+    <comment/>
+  </data>
+  <data name="Pre" xml:space="preserve">
+    <value>Preparation</value>
+    <comment/>
+  </data>
+  <data name="PreInfo" xml:space="preserve">
+    <value>In all subjects, preparation for foreign universities</value>
+    <comment/>
+  </data>
+  <data name="Tatil" xml:space="preserve">
+    <value>Summer vacation</value>
+    <comment/>
+  </data>
+  <data name="TatilInfo" xml:space="preserve">
+    <value>Spending a summer vacation abroad is a good way to keep up with the culture of communication</value>
+    <comment/>
+  </data>
+  <data name="Diplom" xml:space="preserve">
+    <value>Certificate</value>
+    <comment/>
+  </data>
+  <data name="DiplomInfo" xml:space="preserve">
+    <value>School certificates and diplomas are awarded</value>
+    <comment/>
+  </data>
+  <data name="Girls" xml:space="preserve">
+    <value>Girls</value>
+    <comment/>
+  </data>
+  <data name="GirlsInfo" xml:space="preserve">
+    <value>There are separate classes for girls for those who wish</value>
+    <comment/>
+  </data>
+  <data name="Teacher" xml:space="preserve">
+    <value>Teachers</value>
+    <comment/>
+  </data>
+  <data name="TeacherInfo" xml:space="preserve">
+    <value>Online and offline classes of qualified teachers from foreign countries</value>
+    <comment/>
+  </data>
+  <data name="Online" xml:space="preserve">
+    <value>Online</value>
+    <comment/>
+  </data>
+  <data name="OnlineInfo" xml:space="preserve">
+    <value>Distance learning classes are available for those who wish</value>
+    <comment/>
+  </data>
+  <data name="Parents" xml:space="preserve">
+    <value>Parents</value>
+    <comment/>
+  </data>
+  <data name="ParentsInfo" xml:space="preserve">
+    <value>Opportunity for parents to follow the course process online</value>
+    <comment/>
+  </data>
+  <data name="Pupil" xml:space="preserve">
+    <value>Admission</value>
+    <comment/>
+  </data>
+  <data name="PupilInfo" xml:space="preserve">
+    <value>Admission has begun for students from 1st to 11th grade</value>
+    <comment/>
+  </data>
+  <data name="English" xml:space="preserve">
+    <value>English</value>
+    <comment/>
+  </data>
+  <data name="EnglishInfo" xml:space="preserve">
+    <value>Gradually, the transition to full English will take place</value>
     <comment/>
   </data>
 </root>
