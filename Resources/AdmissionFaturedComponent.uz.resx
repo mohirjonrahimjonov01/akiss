@@ -117,28 +117,100 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="Free" xml:space="preserve">
-    <value>Bepul O'qish</value>
+  <data name="Dars" xml:space="preserve">
+    <value>Chet Tili</value>
     <comment/>
   </data>
-  <data name="Level" xml:space="preserve">
-    <value>Viloyat bosqich faxirli 1,2,3 - o’rinlarni olgan olimpiada g’oliblari maktabimizga bepul qabul qilinadi.</value>
+  <data name="DarsInfo" xml:space="preserve">
+    <value>Darslar boshqichma bosqich ingiliz tilida olib boriladi</value>
     <comment/>
   </data>
-  <data name="Discount" xml:space="preserve">
-    <value>Chegirma</value>
+  <data name="Talim" xml:space="preserve">
+    <value>Ta'lim</value>
     <comment/>
   </data>
-  <data name="Olimpic" xml:space="preserve">
-    <value>Fan olimpiadasining tuman va shaxar boshqichlarida sovrinli o’rin olgan barcha o’quvchilar maktabimizda 50% chegirma asosida qabul qilinadi.</value>
+  <data name="TalimInfo" xml:space="preserve">
+    <value>Oksford va Kembrij ta’lim uslubidagi darslar</value>
     <comment/>
   </data>
-  <data name="Life" xml:space="preserve">
-    <value>Turar Joy</value>
+  <data name="Lan" xml:space="preserve">
+    <value>Ko'p Tilli</value>
     <comment/>
   </data>
-  <data name="Lifeplace" xml:space="preserve">
-    <value>Uzoq joydan kelgan o’quvchilarga yotoqxonalar mavjud.</value>
+  <data name="LanInfo" xml:space="preserve">
+    <value>Darslar o’zbek, rus va ingiliz tillarida olib boriladi</value>
+    <comment/>
+  </data>
+  <data name="Pre" xml:space="preserve">
+    <value>Tayorgarlik</value>
+    <comment/>
+  </data>
+  <data name="PreInfo" xml:space="preserve">
+    <value>Barcha fanlar yo’nalishlarida, horijiy oliygoxlarga tayorgarlik</value>
+    <comment/>
+  </data>
+  <data name="Tatil" xml:space="preserve">
+    <value>Yozgi Ta'til</value>
+    <comment/>
+  </data>
+  <data name="TatilInfo" xml:space="preserve">
+    <value>Yozgi ta’tilni horijiy davlatlarda o’tkazib muloqot madaniyatini oshirish</value>
+    <comment/>
+  </data>
+  <data name="Diplom" xml:space="preserve">
+    <value>Sertifikat</value>
+    <comment/>
+  </data>
+  <data name="DiplomInfo" xml:space="preserve">
+    <value>Maktab attestati va diplomlar beriladi</value>
+    <comment/>
+  </data>
+  <data name="Girls" xml:space="preserve">
+    <value>Qizlar</value>
+    <comment/>
+  </data>
+  <data name="GirlsInfo" xml:space="preserve">
+    <value>Hohlovchilar uchun qizlarga aloxida sinflar mavjud</value>
+    <comment/>
+  </data>
+  <data name="Teacher" xml:space="preserve">
+    <value>Ustozlar</value>
+    <comment/>
+  </data>
+  <data name="TeacherInfo" xml:space="preserve">
+    <value>Horijiy davlatlardan malakali ustozlarning onlayn va oflayn darslari</value>
+    <comment/>
+  </data>
+  <data name="Online" xml:space="preserve">
+    <value>Onlayn</value>
+    <comment/>
+  </data>
+  <data name="OnlineInfo" xml:space="preserve">
+    <value>Hohlovchilar uchun masofadan darslar uzatiladi</value>
+    <comment/>
+  </data>
+  <data name="Parents" xml:space="preserve">
+    <value>Ota-Onalar</value>
+    <comment/>
+  </data>
+  <data name="ParentsInfo" xml:space="preserve">
+    <value>Ota-onalar tomonidan dars jarayoni onlayn kuzatish imkoniyati</value>
+    <comment/>
+  </data>
+  <data name="Pupil" xml:space="preserve">
+    <value>Qabul</value>
+    <comment/>
+  </data>
+  <data name="PupilInfo" xml:space="preserve">
+    <value>1 sinfdan 11 sinfgacha o’quvchilarni o’qishga qabul qilish uchun ro’yhatga olish boshlandi</value>
+    <comment/>
+  </data>
+  <data name="English" xml:space="preserve">
+    <value>Ingiliz Tili</value>
+    <comment/>
+  </data>
+  <data name="EnglishInfo" xml:space="preserve">
+    <value>Bosqichma-bosqich to’liq ingiliz tilida o’qitishga o’tiladi</value>
     <comment/>
   </data>
 </root>
