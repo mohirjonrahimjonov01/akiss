@@ -1,5 +1,5 @@
 function Send_Data(){
-    const scriptURL = 'https://script.google.com/macros/s/AKfycbxvVVtST9fMRFuNOOFKhp0ToSnjdPYnyUMrH-qsCvw_bJxwZV4m1OnTOLBXiOodKrY4/exec'
+    const scriptURL = 'https://script.google.com/macros/s/AKfycby_HCrx8RTyylqfgb3L20296hmQWpZ-qNigjkYXgHWO9QKd8TO_IsqUyRa1MqpMNQTH/exec'
     const form = document.forms['contact-form']
     form.addEventListener('submit',e => {
       e.preventDefault()
