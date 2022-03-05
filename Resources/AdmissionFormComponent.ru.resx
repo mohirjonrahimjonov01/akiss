@@ -117,76 +117,64 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="contact" xml:space="preserve">
-    <value>Contact</value>
+  <data name="fullname" xml:space="preserve">
+    <value>Ф.И.О</value>
     <comment/>
   </data>
-  <data name="address-street" xml:space="preserve">
-    <value>Namangan district, Namangan street</value>
+  <data name="grade" xml:space="preserve">
+    <value>Класс</value>
     <comment/>
   </data>
-  <data name="address-building" xml:space="preserve">
-    <value>17A Home</value>
+  <data name="olimpiad" xml:space="preserve">
+    <value>Участвовали ли вы в каких-либо олимпиадах?</value>
     <comment/>
   </data>
-  <data name="province" xml:space="preserve">
-    <value>Namangan</value>
+  <data name="subject" xml:space="preserve">
+    <value>Какой предмет?</value>
     <comment/>
   </data>
-  <data name="email" xml:space="preserve">
-    <value>Email</value>
+  <data name="addres" xml:space="preserve">
+    <value>Ваше место жительства</value>
     <comment/>
   </data>
-  <data name="phone" xml:space="preserve">
-    <value>Phone</value>
+  <data name="number1" xml:space="preserve">
+    <value>Введите номер телефона</value>
     <comment/>
   </data>
-  <data name="home" xml:space="preserve">
-    <value>Home</value>
+  <data name="application" xml:space="preserve">
+    <value>Отправить заявку</value>
     <comment/>
   </data>
-  <data name="admission" xml:space="preserve">
-    <value>Admission </value>
+  <data name="faculty" xml:space="preserve">
+    <value>В каком направлении?</value>
     <comment/>
   </data>
-  <data name="team" xml:space="preserve">
-    <value>Team</value>
+  <data name="aniqfanlar" xml:space="preserve">
+    <value>Точные науки</value>
     <comment/>
   </data>
-  <data name="lessons" xml:space="preserve">
-    <value>Lessons</value>
+  <data name="gumanitarfanlar" xml:space="preserve">
+    <value>Гуманитарные науки</value>
     <comment/>
   </data>
-  <data name="DesignedBy" xml:space="preserve">
-    <value>Designed With ❤️ &lt;strong&gt;&lt;a href="#" onclick="window.open('https://ilmhub.uz', '_blank')"&gt;Ilmhub Team&lt;/a&gt;&lt;/strong&gt;</value>
+  <data name="hozirgimaktab" xml:space="preserve">
+    <value>Ваша текущая школа</value>
     <comment/>
   </data>
-  <data name="pages" xml:space="preserve">
-    <value>Pages</value>
+  <data name="shahar" xml:space="preserve">
+    <value>Город</value>
     <comment/>
   </data>
-  <data name="uz" xml:space="preserve">
-    <value>Uzbek</value>
+  <data name="tuman" xml:space="preserve">
+    <value>Район</value>
     <comment/>
   </data>
-  <data name="en" xml:space="preserve">
-    <value>English</value>
+  <data name="maktabraqami" xml:space="preserve">
+    <value>Номер школы</value>
     <comment/>
   </data>
-  <data name="ru" xml:space="preserve">
-    <value>Russian</value>
-    <comment/>
-  </data>
-  <data name="address-region" xml:space="preserve">
-    <value>Kumkurgan</value>
-    <comment/>
-  </data>
-  <data name="it" xml:space="preserve">
-    <value>IT</value>
-    <comment/>
-  </data>
-  <data name="weareinSM" xml:space="preserve">
-    <value>We're in Social Media</value>
+  <data name="habar" xml:space="preserve">
+    <value>Сообщение</value>
     <comment/>
   </data>
 </root>

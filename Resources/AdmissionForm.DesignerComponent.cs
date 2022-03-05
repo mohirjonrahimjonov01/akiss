@@ -22,14 +22,14 @@ namespace akiss.Resources {
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "17.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    public class NavbarComponent {
+    public class AdmissionFormComponent {
         
         private static global::System.Resources.ResourceManager resourceMan;
         
         private static global::System.Globalization.CultureInfo resourceCulture;
         
         [global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode")]
-        internal NavbarComponent() {
+        internal AdmissionFormComponent() {
         }
         
         /// <summary>
@@ -39,7 +39,7 @@ namespace akiss.Resources {
         public static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("akiss.Resources.NavbarComponent", typeof(NavbarComponent).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("akiss.Resources.AdmissionFormComponent", typeof(AdmissionFormComponent).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -61,56 +61,85 @@ namespace akiss.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Admissions.
-        /// </summary>
-        public static string admission {
-            get {
-                return ResourceManager.GetString("admission", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to Contact Us.
         /// </summary>
-        public static string contact {
+        public static string fullname {
             get {
-                return ResourceManager.GetString("contact", resourceCulture);
+                return ResourceManager.GetString("fullname", resourceCulture);
             }
         }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Home.
-        /// </summary>
-        public static string home {
-            get {
-                return ResourceManager.GetString("home", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to IT Program.
-        /// </summary>
-        public static string it {
-            get {
-                return ResourceManager.GetString("it", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Lessons.
-        /// </summary>
-        public static string lessons {
-            get {
-                return ResourceManager.GetString("lessons", resourceCulture);
-            }
-        }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Our Team.
         /// </summary>
-        public static string teachers {
+        public static string grade {
             get {
-                return ResourceManager.GetString("teachers", resourceCulture);
+                return ResourceManager.GetString("grade", resourceCulture);
+            }
+        }
+        public static string olimpiad {
+            get {
+                return ResourceManager.GetString("olimpiad", resourceCulture);
+            }
+        }
+        public static string subject {
+            get {
+                return ResourceManager.GetString("subject", resourceCulture);
+            }
+        }
+        public static string number1 {
+            get {
+                return ResourceManager.GetString("number1", resourceCulture);
+            }
+        }
+        public static string addres {
+            get {
+                return ResourceManager.GetString("addres", resourceCulture);
+            }
+        }
+        public static string application {
+            get {
+                return ResourceManager.GetString("application", resourceCulture);
+            }
+        }
+        public static string facluty {
+            get {
+                return ResourceManager.GetString("facluty", resourceCulture);
+            }
+        }
+        public static string aniqfanlar {
+            get {
+                return ResourceManager.GetString("aniqfanlar", resourceCulture);
+            }
+        }
+        public static string gumanitarfanlar {
+            get {
+                return ResourceManager.GetString("gumanitarfanlar", resourceCulture);
+            }
+        }
+        public static string hozirgimaktab {
+            get {
+                return ResourceManager.GetString("hozirgimaktab", resourceCulture);
+            }
+        }
+        public static string shahar {
+            get {
+                return ResourceManager.GetString("shahar", resourceCulture);
+            }
+        }
+        public static string tuman {
+            get {
+                return ResourceManager.GetString("tuman", resourceCulture);
+            }
+        }
+        public static string maktabraqami {
+            get {
+                return ResourceManager.GetString("maktabraqami", resourceCulture);
+            }
+        }
+        public static string habar {
+            get {
+                return ResourceManager.GetString("habar", resourceCulture);
             }
         }
     }

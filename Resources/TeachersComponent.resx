@@ -117,76 +117,14 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="contact" xml:space="preserve">
-    <value>Contact</value>
-    <comment/>
+  <data name="teachersection" xml:space="preserve">
+    <value>Teachers</value>
   </data>
-  <data name="address-street" xml:space="preserve">
-    <value>Namangan district, Namangan street</value>
-    <comment/>
+  <data name="ourteachers" xml:space="preserve">
+    <value>For dear teachers and coaches</value>
   </data>
-  <data name="address-building" xml:space="preserve">
-    <value>17A Home</value>
-    <comment/>
-  </data>
-  <data name="province" xml:space="preserve">
-    <value>Namangan</value>
-    <comment/>
-  </data>
-  <data name="email" xml:space="preserve">
-    <value>Email</value>
-    <comment/>
-  </data>
-  <data name="phone" xml:space="preserve">
-    <value>Phone</value>
-    <comment/>
-  </data>
-  <data name="home" xml:space="preserve">
-    <value>Home</value>
-    <comment/>
-  </data>
-  <data name="admission" xml:space="preserve">
-    <value>Admission </value>
-    <comment/>
-  </data>
-  <data name="team" xml:space="preserve">
-    <value>Team</value>
-    <comment/>
-  </data>
-  <data name="lessons" xml:space="preserve">
-    <value>Lessons</value>
-    <comment/>
-  </data>
-  <data name="DesignedBy" xml:space="preserve">
-    <value>Designed With ❤️ &lt;strong&gt;&lt;a href="#" onclick="window.open('https://ilmhub.uz', '_blank')"&gt;Ilmhub Team&lt;/a&gt;&lt;/strong&gt;</value>
-    <comment/>
-  </data>
-  <data name="pages" xml:space="preserve">
-    <value>Pages</value>
-    <comment/>
-  </data>
-  <data name="uz" xml:space="preserve">
-    <value>Uzbek</value>
-    <comment/>
-  </data>
-  <data name="en" xml:space="preserve">
-    <value>English</value>
-    <comment/>
-  </data>
-  <data name="ru" xml:space="preserve">
-    <value>Russian</value>
-    <comment/>
-  </data>
-  <data name="address-region" xml:space="preserve">
-    <value>Kumkurgan</value>
-    <comment/>
-  </data>
-  <data name="it" xml:space="preserve">
-    <value>IT</value>
-    <comment/>
-  </data>
-  <data name="weareinSM" xml:space="preserve">
-    <value>We're in Social Media</value>
-    <comment/>
+  <data name="teachersubtitle" xml:space="preserve">
+    <value>Join our team and build a successful career.
+Improve your skills with us and increase your salary by 35 ~ 100%</value>
   </data>
 </root>

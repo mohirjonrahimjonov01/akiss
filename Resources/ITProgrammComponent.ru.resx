@@ -153,16 +153,16 @@
     <value>Этот курс предназначен для юных программистов школьного возраста.</value>
     <comment/>
   </data>
-  <data name="dotnetbootcamp" xml:space="preserve">
-    <value>Учебный лагерь .NET</value>
+  <data name="arduino" xml:space="preserve">
+    <value>Ардуино робототехника</value>
     <comment/>
   </data>
-  <data name="dotnetbootcamptag" xml:space="preserve">
-    <value>Учебный лагерь</value>
+  <data name="arduinotag" xml:space="preserve">
+    <value>Ардуино</value>
     <comment/>
   </data>
-  <data name="dotnetbootcampdescr" xml:space="preserve">
-    <value>Платформа .NET используется во многих областях программирования.</value>
+  <data name="arduinodescr" xml:space="preserve">
+    <value>Модуль робототехники предназначен для молодежи школьного возраста, которая интересуется техникой и хочет создавать технику.</value>
     <comment/>
   </data>
 </root>

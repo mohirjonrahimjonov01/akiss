@@ -117,13 +117,32 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="Teamsection" xml:space="preserve">
-    <value>Team</value>
+  <data name="teachers" xml:space="preserve">
+    <value>Учителя</value>
   </data>
-  <data name="ourteam" xml:space="preserve">
-    <value>Our Professional &lt;span&gt;Team&lt;/span&gt;</value>
+  <data name="teachersub" xml:space="preserve">
+    <value>Нанимаем на работу</value>
   </data>
-  <data name="Teamsubtitle" xml:space="preserve">
-    <value>We have teachers who have their own values ​​and many years of foreign experience.</value>
+  <data name="teachersdescr" xml:space="preserve">
+    <value>Если у вас есть следующие навыки и опыт, присоединяйтесь к нашей команде и постройте свою карьеру на растущем доходе в современной школе.ome in a modern school.</value>
   </data>
+  <data name="1title" xml:space="preserve">
+    <value>Выбор</value>
+  </data>
+  <data name="1subtitle" xml:space="preserve">
+    <value>Мы предлагаем учителей по всем предметам на выборочной основе</value>
+  </data>
+  <data name="2title" xml:space="preserve">
+    <value>Отличная возможность</value>
+  </data>
+  <data name="2subtitle" xml:space="preserve">
+    <value>Учителя, которые могут преподавать на английском языке, будут допущены ко всем предметам без конкурса</value>
+  </data>
+  <data name="3title" xml:space="preserve">
+    <value>Соглашение</value>
+  </data>
+  <data name="3subtitle" xml:space="preserve">
+    <value>Удовлетворяющая учителей заработная плата оговаривается на основе их опыта и навыков.</value>
+  </data>
+  
 </root>

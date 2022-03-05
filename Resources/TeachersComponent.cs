@@ -23,7 +23,7 @@ namespace akiss.Resources
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "17.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    public class TeamComponent
+    public class TeachersComponent
     {
 
         private static global::System.Resources.ResourceManager resourceMan;
@@ -31,7 +31,7 @@ namespace akiss.Resources
         private static global::System.Globalization.CultureInfo resourceCulture;
 
         [global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode")]
-        internal TeamComponent()
+        internal TeachersComponent()
         {
         }
 
@@ -45,7 +45,7 @@ namespace akiss.Resources
             {
                 if (object.ReferenceEquals(resourceMan, null))
                 {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("akiss.Resources.TeamComponent", typeof(TeamComponent).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("akiss.Resources.TeachersComponent", typeof(TeachersComponent).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -72,33 +72,33 @@ namespace akiss.Resources
         /// <summary>
         ///   Looks up a localized string similar to Admissions.
         /// </summary>
-        public static string admission
+        public static string teachersection
         {
             get
             {
-                return ResourceManager.GetString("Teamsection", resourceCulture);
+                return ResourceManager.GetString("teachersection", resourceCulture);
             }
         }
 
         /// <summary>
         ///   Looks up a localized string similar to Contact Us.
         /// </summary>
-        public static string contact
+        public static string ourteachers
         {
             get
             {
-                return ResourceManager.GetString("ourteam", resourceCulture);
+                return ResourceManager.GetString("ourteachers", resourceCulture);
             }
         }
 
         /// <summary>
         ///   Looks up a localized string similar to Home.
         /// </summary>
-        public static string home
+        public static string teachersubtitle
         {
             get
             {
-                return ResourceManager.GetString("Teamsubtitle", resourceCulture);
+                return ResourceManager.GetString("teachersubtitle", resourceCulture);
             }
         }
 

@@ -1,0 +1,117 @@
+@inject IStringLocalizer<Resources.AdmissionFormComponent> localizer
+
+<!-- ======= Contact Section ======= -->
+<section id="contact" class="contact">
+  <div class="container " data-aos="fade-up">
+
+    <div class="row" data-aos="fade-up" data-aos-delay="100">
+
+      <div class="col-lg-6" data-aos="fade-right" data-aos-delay="100">
+        <img src="school.jpg" class="img-fluid" alt="Responsive image">
+      </div>
+
+      <div class="col-lg-6">
+        <form action="forms/contact.php" method="post" role="form" class="php-email-form muhammad">
+
+          <div class="col form-group">
+            <input type="text" name="name" class="form-control" id="name" placeholder='@localizer["fullname"]' required>
+          </div>
+
+          <div class="col form-group">
+            <input type="tel" class="form-control" name="tel" id="phone" placeholder='@localizer["number1"]' required>
+          </div>
+
+          <div class="col form-group">
+            <select class="form-select">
+              <option selected>@localizer["faculty"]</option>
+              <option>@localizer["aniqfanlar"]</option>
+              <option>@localizer["gumanitarfanlar"]</option>
+            </select>
+          </div>
+
+          <div class="col form-group">
+            <input type="number" class="form-control" name="grade" id="grade" placeholder='@localizer["grade"]'
+              required>
+          </div>
+
+
+          <div class="form-group">
+            <h7>@localizer["hozirgimaktab"]</h7>
+          </div>
+
+          <form>
+            <div class="col form-group">
+              <div class="row">
+                <div class="col-md-4">
+                  <input type="text" class="form-control" placeholder='@localizer["shahar"]'>
+                </div>
+                <div class="col-md-4">
+                  <input type="text" class="form-control" placeholder='@localizer["tuman"]'>
+                </div>
+                <div class="col-md-4">
+                  <input type="number" class="form-control" placeholder='@localizer["maktabraqami"]'>
+                </div>
+              </div>
+            </div>
+          </form>
+
+
+          <div class="form-group">
+            <h7>@localizer["addres"]</h7>
+          </div>
+
+          <form>
+            <div class="col form-group">
+              <div class="row">
+                <div class="col-md-6">
+                  <input type="text" class="form-control" placeholder='@localizer["shahar"]'>
+                </div>
+                <div class="col-md-6">
+                  <input type="text" class="form-control" placeholder='@localizer["tuman"]'>
+                </div>
+              </div>
+            </div>
+          </form>
+
+
+
+          <div class="form-group d-flex align-items-center">
+            <div class="d-inline-block">@localizer["olimpiad"]</div>
+            <div class="form-check form-switch p-0 mx-auto mb-3">
+              <input type="checkbox" @onchange="(() => DisplayForm = !DisplayForm)" class="form-check-input"
+                id="site_state" style="cursor: pointer;">
+            </div>
+          </div>
+
+
+          @if (DisplayForm)
+          {
+            <div class="col form-group">
+              <input type="text" class="form-control" name="subject" id="subject" placeholder='@localizer["subject"]'
+              required>
+            </div>
+          }
+
+          <div class="form-group">
+            <textarea class="form-control" name="message" rows="5" placeholder='@localizer["habar"]'></textarea>
+          </div>
+
+          <div class="my-3">
+            <div class="loading">@localizer["Loading"]</div>
+            <div class="error-message"></div>
+            <div class="sent-message">@localizer["Success"]</div>
+          </div>
+          <div class="text-center"><button type="submit">@localizer["application"]</button></div>
+        </form>
+      </div>
+
+    </div>
+
+  </div>
+</section><!-- End Contact Section -->
+
+
+@code {
+  [Parameter] public bool DisplayForm { get; set; } = false;
+
+}
