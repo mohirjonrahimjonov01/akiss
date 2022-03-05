@@ -133,14 +133,6 @@
     <value>Все учащиеся, занявшие призовые места на районных и городских олимпиадах, будут зачислены в нашу школу со скидкой 50%.</value>
     <comment/>
   </data>
-  <data name="Recruitment" xml:space="preserve">
-    <value>Прием на Работу</value>
-    <comment/>
-  </data>
-  <data name="IshgaQabul" xml:space="preserve">
-    <value>Приглашаем учителей и тренеров учеников, победивших в олимпиаде, работать в нашей школе.</value>
-    <comment/>
-  </data>
   <data name="Life" xml:space="preserve">
     <value>Проживания</value>
     <comment/>

@@ -117,28 +117,16 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="Free" xml:space="preserve">
-    <value>Bepul O'qish</value>
+  <data name="aheroewelcome" xml:space="preserve">
+    <value> &lt;span&gt;Ro’yhatga &lt;/span&gt;olish boshlandi</value>
     <comment/>
   </data>
-  <data name="Level" xml:space="preserve">
-    <value>Viloyat bosqich faxirli 1,2,3 - o’rinlarni olgan olimpiada g’oliblari maktabimizga bepul qabul qilinadi.</value>
+  <data name="aheroeadvice" xml:space="preserve">
+    <value>Farzandingizni endilikda yevropada ta’lim olishga hojati yoq! Yevropa ta’lim sifati endi shu yerda, halqaro iqtidorlik bolalar mahsus maktabida.</value>
     <comment/>
   </data>
-  <data name="Discount" xml:space="preserve">
-    <value>Chegirma</value>
-    <comment/>
-  </data>
-  <data name="Olimpic" xml:space="preserve">
-    <value>Fan olimpiadasining tuman va shaxar boshqichlarida sovrinli o’rin olgan barcha o’quvchilar maktabimizda 50% chegirma asosida qabul qilinadi.</value>
-    <comment/>
-  </data>
-  <data name="Life" xml:space="preserve">
-    <value>Turar Joy</value>
-    <comment/>
-  </data>
-  <data name="Lifeplace" xml:space="preserve">
-    <value>Uzoq joydan kelgan o’quvchilarga yotoqxonalar mavjud.</value>
+  <data name="aheroebutton" xml:space="preserve">
+    <value>Qabulga yoziling</value>
     <comment/>
   </data>
 </root>
