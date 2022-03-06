@@ -1,3 +1,5 @@
+@inject IStringLocalizer<Resources.TeachersInUs> localizer
+
 <!-- ======= Featured Services Section ======= -->
 <section id="featured-services" class="featured-services">
     <div class="container" data-aos="fade-up">
@@ -8,9 +10,9 @@
             {
                 <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
                     <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
-                        <div class="icon"><i class="@card.Icon"></i></div>
-                        <h4 class="title"><a>@card.Title</a></h4>
-                        <p class="description">@card.Description</p>
+                        <div class="icon"><i class="@localizer[card.Icon]"></i></div>
+                        <h4 class="title"><a>@localizer[card.Title]</a></h4>
+                        <p class="description">@localizer[card.Description]</p>
                     </div>
                 </div>
             }
@@ -18,3 +20,34 @@
 
     </div>
 </section><!-- End Featured Services Section -->
+
+@code {
+    public List<TeachersInUsCardModel> TeachersInUsCards { get; set; } = new()
+    {
+        new TeachersInUsCardModel()
+        {
+            Title = "1title",
+            Description = "1subtitle",
+            Icon = "bx bx-task",
+        },
+        new TeachersInUsCardModel()
+        {
+            Title = "2title",
+            Description = "2subtitle",
+            Icon = "bx bx-planet"
+        },
+        new TeachersInUsCardModel()
+        {
+            Title = "3title",
+            Description = "3subtitle",
+            Icon = "bx bx-building-house"
+        },
+        new TeachersInUsCardModel()
+        {
+            Title = "4title",
+            Description = "4subtitle",
+            Icon = "bx bx-wallet-alt"
+        }
+    };
+
+}

@@ -1,3 +1,21 @@
+(function () {
+  'use strict'
+
+  var forms = document.querySelectorAll('.needs-validation')
+
+  Array.prototype.slice.call(forms)
+    .forEach(function (form) {
+      form.addEventListener('submit', function (event) {
+        if (!form.checkValidity()) {
+          event.preventDefault()
+          event.stopPropagation()
+        }
+
+        form.classList.add('was-validated')
+      }, false)
+    })
+})()
+
 function Send_Data(){
    const scriptURL = 'https://script.google.com/macros/s/AKfycbweIh6TTeQ7ICsVA_fSXivU-m87oJd0yQL-KLhlzOxXhwWTi6akzji8JZMIBgDpL9ZWvQ/exec'
    const form = document.forms['contact-form']
