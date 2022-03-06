@@ -177,4 +177,12 @@
     <value>Сообщение</value>
     <comment/>
   </data>
+  <data name="Success" xml:space="preserve">
+    <value>Спасибо ! Ваше сообщение успешно получено.</value>
+    <comment/>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>Что-то пошло не так. Пожалуйста, попытайтесь еще раз.</value>
+    <comment/>
+  </data>
 </root>

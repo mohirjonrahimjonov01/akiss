@@ -177,4 +177,12 @@
     <value>Message</value>
     <comment/>
   </data>
+  <data name="Success" xml:space="preserve">
+    <value>Thanks ! Your message has been successfully received.</value>
+    <comment/>
+  </data>
+   <data name="Error" xml:space="preserve">
+    <value>Something went wrong. Please try again.</value>
+    <comment/>
+  </data>
 </root>
