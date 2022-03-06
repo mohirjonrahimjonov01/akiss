@@ -135,4 +135,11 @@
   <data name="send" xml:space="preserve">
     <value>Send</value>
   </data>
+  <data name="Success" xml:space="preserve">
+    <value>Successfully sent</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>Error occure while sending data</value>
+  </data>
+
 </root>

@@ -5,40 +5,29 @@
     <div class="container" data-aos="fade-up">
         <div class="row">
             <div class="col-lg-6" data-aos="fade-right" data-aos-delay="100">
-                <img src="teacherwithst.jpg" style="height: 15cm; width: 30cm" class="img-fluid" alt="">
+                <img src="school.jpg" class="img-fluid" alt="">
             </div>
             <div class="col-lg-6 pt-4 pt-lg-0 content d-flex flex-column justify-content-center" data-aos="fade-up"
                 data-aos-delay="100">
 
-                <form method="post"
-                    action="https://script.google.com/macros/s/AKfycbweIh6TTeQ7ICsVA_fSXivU-m87oJd0yQL-KLhlzOxXhwWTi6akzji8JZMIBgDpL9ZWvQ/exec"
-                    role="form" class="php-email-form needs-validation" id="teacher-form" novalidate>
+                <form role="form" class="php-email-form" id="teacher-form">
                     <div class="row">
                         <div class="col form-group">
-                            <input type="text" name="Fullname" class="form-control" id="validationCustom01"
-                                placeholder="@localizer["fullname"]" required>
+                            <input type="text" name="Fullname" class="form-control" id="name"
+                                placeholder="Your Fullname" required>
                         </div>
                         <div class="col form-group">
-                            <input type="email" class="form-control" name="Email" id="validationCustom02"
-                                placeholder="@localizer["email"]" required>
-                            <div class="invalid-feedback">
-                                Please input a email.
-                            </div>
+                            <input type="email" class="form-control" name="Email" id="email" placeholder="Your Email"
+                                required>
                         </div>
                     </div>
                     <div class="form-group">
                         <input type="number" class="form-control" min="0" name="ExperienceInYears"
-                            id="validationCustom03" placeholder="@localizer["experience"]" required>
-                        <div class="invalid-feedback">
-                            Please input years.
-                        </div>
+                            id="ExperienceInYears" placeholder="Your Experience in years" required>
                     </div>
                     <div class="form-group">
-                        <input type="text" class="form-control" name="Phone" id="validationCustom03"
-                            placeholder="@localizer["phone"]" required>
-                        <div class="invalid-feedback">
-                            Please input a phone number.
-                        </div>
+                        <input type="text" class="form-control" name="Phone" id="Phone" placeholder="Your Phone"
+                            required>
                     </div>
                     <div class="form-group">
                         <InputFile class="form-control" name="myResume" type="file" accept="application/pdf,
@@ -54,7 +43,7 @@
                         <option value="C2">C2</option>
                     </select>
                     <div class="form-group mt-4">
-                        <textarea class="form-control" name="Subject" rows="5" placeholder="@localizer["message"]"
+                        <textarea class="form-control" name="Subject" rows="5" placeholder="Message"
                             required></textarea>
                     </div>
                     @* <div class="my-3">
@@ -62,7 +51,10 @@
                         <div class="error-message"></div>
                         <div class="sent-message">Your message has been sent. Thank you!</div>
                         </div> *@
-                    <div class="text-center"><button type="submit">@localizer["send"]</button></div>
+                    <div class="text-center"><button type="submit" onclick="Send_Data()">@localizer["Sent"]</button>
+                    </div>
+                    <div id="res_suc" hidden class="alert alert-success mt-3">@localizer["Success"]</div>
+                    <div id="res_err" hidden class="alert alert-danger">@localizer["Error"]</div>
                 </form>
             </div>
         </div>

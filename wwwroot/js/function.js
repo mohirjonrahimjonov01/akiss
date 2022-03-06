@@ -1,24 +1,6 @@
-(function () {
-  'use strict'
-
-  var forms = document.querySelectorAll('.needs-validation')
-
-  Array.prototype.slice.call(forms)
-    .forEach(function (form) {
-      form.addEventListener('submit', function (event) {
-        if (!form.checkValidity()) {
-          event.preventDefault()
-          event.stopPropagation()
-        }
-
-        form.classList.add('was-validated')
-      }, false)
-    })
-})()
-
 function Send_Data(){
    const scriptURL = 'https://script.google.com/macros/s/AKfycbweIh6TTeQ7ICsVA_fSXivU-m87oJd0yQL-KLhlzOxXhwWTi6akzji8JZMIBgDpL9ZWvQ/exec'
-   const form = document.forms['contact-form']
+   const form = document.forms['teacher-form']
    form.addEventListener('submit', e => {
      e.preventDefault()
    });
@@ -29,16 +11,4 @@ function Send_Data(){
        document.getElementById("res_suc").setAttribute("hidden","hidden");
        document.getElementById("res_err").setAttribute("hidden","hidden");
      }, 4500))
-}
-
-function doGet() {
-   var html = HtmlService.createHtmlOutputFromFile('teacher-form');
-   return html.setXFrameOptionsMode(HtmlService.XFrameOptionsMode.ALLOWALL);
-} 
-
-function uploadFiles(data) {
-   var file = data.myFile;
-   var folder = DriveApp.getFolderById('1mZCRkN4pvdNGGkvurC2bBsB7ncQ_Nn93');
-   var createFile = folder.createFile(file);
-   return createFile.getUrl();
 }
