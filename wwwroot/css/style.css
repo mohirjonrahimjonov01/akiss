@@ -182,13 +182,13 @@ body {
 }
 
 a {
-  color: #106eea;
-  text-decoration: none;
+  color: hsl(214, 87%, 49%);
+  text-decoration: none !important;
 }
 
 a:hover {
   color: #3b8af2;
-  text-decoration: none;
+  text-decoration: none !important;
 }
 
 h1,
