@@ -7,7 +7,7 @@
   "linkerEnabled": true,
   "resources": {
     "assembly": {
-      "akiss.dll": "sha256-sHa15ZuMSJCCtx2BN1AyL1oXKR0\/tQYf4iD33XHItg8=",
+      "akiss.dll": "sha256-PwU4lEf2eQHAFXOtKyij+OWJViHiOVhJQpqyl3vhEMo=",
       "Blazored.LocalStorage.dll": "sha256-6RRoYeDP3d0xabXmcCMF66wXeJlXVPem28Trs8sQiis=",
       "Google.Apis.Auth.dll": "sha256-BAQgSZYTPBVdLEWlJELaComR7zSdf+tjirZt6GKYCz0=",
       "Google.Apis.Auth.PlatformServices.dll": "sha256-AAt30WkMKmyXVD2M8kbKj\/16o\/LBQEsM3p75iqNmcpU=",
@@ -104,7 +104,7 @@
         "ru\/akiss.resources.dll": "sha256-jM6vWCPv3XA4NxWahSQ6paAR7dtQwYWMb34YuIlexvI="
       },
       "uz": {
-        "uz\/akiss.resources.dll": "sha256-HsvpySDHdhB4vECXsYxAYuXgKfU8JqMt8+KAuO7M3CY="
+        "uz\/akiss.resources.dll": "sha256-5DSsJxQdPN3u4p0XdfYDEy+GMcGyJjnuH6kU6Q6DI2U="
       }
     }
   }
