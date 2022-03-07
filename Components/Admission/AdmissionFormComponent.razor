@@ -14,11 +14,13 @@
         <form action="forms/contact.php" method="post" role="form" class="php-email-form muhammad">
 
           <div class="col form-group">
-            <input type="text" name="name" class="form-control is-invalid" id="name" oninput="ValidationIcon('name')" placeholder='@localizer["fullname"]' required>
+            <input type="text" name="name" class="form-control" id="name" oninput="ValidationIcon('name')"
+              placeholder='@localizer["fullname"]' required>
           </div>
 
           <div class="col form-group">
-            <input type="tel" class="form-control is-invalid" value="+998" name="tel" id="phone" oninput="ValidationIcon('phone')" placeholder='@localizer["number1"]' required>
+            <input type="tel" class="form-control" value="+998" name="tel" id="phone" oninput="ValidationIcon('phone')"
+              placeholder='@localizer["number1"]' required>
           </div>
 
           <div class="col form-group">
@@ -30,8 +32,8 @@
           </div>
 
           <div class="col form-group">
-            <input type="number" class="form-control is-invalid" name="grade" id="grade" oninput="ValidationIcon('grade')" placeholder='@localizer["grade"]'
-              required>
+            <input type="number" min="1" max="11" class="form-control" name="grade" id="grade"
+              oninput="ValidationIcon('grade')" placeholder='@localizer["grade"]' required>
           </div>
 
 

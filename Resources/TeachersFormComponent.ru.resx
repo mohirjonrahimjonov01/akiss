@@ -135,4 +135,13 @@
   <data name="send" xml:space="preserve">
     <value>Отправить</value>
   </data>
+  <data name="Success" xml:space="preserve">
+    <value>Успешно отправлено</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>Произошла ошибка при отправке данных</value>
+  </data>
+  <data name="englishlevel" xml:space="preserve">
+    <value>Выберите свой уровень английского</value>
+  </data>
 </root>

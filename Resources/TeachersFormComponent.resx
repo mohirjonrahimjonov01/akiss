@@ -141,5 +141,8 @@
   <data name="Error" xml:space="preserve">
     <value>Error occure while sending data</value>
   </data>
+  <data name="englishlevel" xml:space="preserve">
+    <value>Choose your Level of English</value>
+  </data>
 
 </root>

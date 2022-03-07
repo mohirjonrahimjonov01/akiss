@@ -123,16 +123,25 @@
   <data name="email" xml:space="preserve">
     <value>Elektron manzilingiz</value>
   </data>
+  <data name="message" xml:space="preserve">
+    <value>Xabar</value>
+  </data>
   <data name="experience" xml:space="preserve">
     <value>Tajriba yillarda</value>
   </data>
   <data name="phone" xml:space="preserve">
     <value>Telefon raqamingiz</value>
   </data>
-  <data name="message" xml:space="preserve">
-    <value>Xabar</value>
+  <data name="Success" xml:space="preserve">
+    <value>Muvaffaqiyatli yuborildi</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>Maʼlumotlarni yuborishda xatolik yuz berdi</value>
   </data>
   <data name="send" xml:space="preserve">
-    <value>Yuborish</value>
+    <value>Jo'natish</value>
+  </data>
+  <data name="englishlevel" xml:space="preserve">
+    <value>Ingliz tili darajangizni tanlang</value>
   </data>
 </root>
