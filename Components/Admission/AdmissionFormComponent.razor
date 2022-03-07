@@ -14,11 +14,21 @@
         <form id="admission-form" class="php-email-form muhammad">
 
           <div class="col form-group">
+<<<<<<< HEAD:Components/AdmissionFormComponent.razor
             <input type="text" name="fullname" class="form-control is-invalid" id="name" oninput="ValidationIcon('name')" placeholder='@localizer["fullname"]' required>
           </div>
 
           <div class="col form-group">
             <input type="tel" class="form-control is-invalid" value="+998" name="phonenumber" id="phone" oninput="ValidationIcon('phone')" placeholder='@localizer["number1"]' required>
+=======
+            <input type="text" name="name" class="form-control" id="name" oninput="ValidationIcon('name')"
+              placeholder='@localizer["fullname"]' required>
+          </div>
+
+          <div class="col form-group">
+            <input type="tel" class="form-control" value="+998" name="tel" id="phone" oninput="ValidationIcon('phone')"
+              placeholder='@localizer["number1"]' required>
+>>>>>>> main:Components/Admission/AdmissionFormComponent.razor
           </div>
 
           <div class="col form-group">
@@ -30,8 +40,13 @@
           </div>
 
           <div class="col form-group">
+<<<<<<< HEAD:Components/AdmissionFormComponent.razor
             <input type="number" class="form-control is-invalid" name="class-number" id="grade" oninput="ValidationIcon('grade')" placeholder='@localizer["grade"]'
               required>
+=======
+            <input type="number" min="1" max="11" class="form-control" name="grade" id="grade"
+              oninput="ValidationIcon('grade')" placeholder='@localizer["grade"]' required>
+>>>>>>> main:Components/Admission/AdmissionFormComponent.razor
           </div>
 
 
