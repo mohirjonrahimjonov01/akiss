@@ -153,16 +153,16 @@
     <value>This course is designed for school-age young programmers who want to take the first step in programming.</value>
     <comment/>
   </data>
-  <data name="dotnetbootcamp" xml:space="preserve">
-    <value>.NET Bootcamp</value>
+  <data name="arduino" xml:space="preserve">
+    <value>Arduino robotechnic</value>
     <comment/>
   </data>
-  <data name="dotnetbootcamptag" xml:space="preserve">
-    <value>Bootcamp</value>
+  <data name="arduinotag" xml:space="preserve">
+    <value>Arduino</value>
     <comment/>
   </data>
-  <data name="dotnetbootcampdescr" xml:space="preserve">
-    <value>The .NET framework is used in many areas of programming, such as mobile, frontend, backend, and more.</value>
+  <data name="arduinodescr" xml:space="preserve">
+    <value>Robotics module is mainly for school-age young people who are interested in technology and want to create technology.</value>
     <comment/>
   </data>
 </root>

@@ -117,13 +117,31 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="Teamsection" xml:space="preserve">
-    <value>Team</value>
+  <data name="teachers" xml:space="preserve">
+    <value>Ustozlar</value>
   </data>
-  <data name="ourteam" xml:space="preserve">
-    <value>Our Professional &lt;span&gt;Team&lt;/span&gt;</value>
+  <data name="teachersub" xml:space="preserve">
+    <value>Ishga <span>Qabul</span> Qilamiz</value>
   </data>
-  <data name="Teamsubtitle" xml:space="preserve">
-    <value>We have teachers who have their own values ​​and many years of foreign experience.</value>
+  <data name="teachersdescr" xml:space="preserve">
+    <value>Agar sizda quyidagi ko'nikma va tajribalar bo'lsa, bizning jamoaga qo'shilib kariyerangizni zamonvayiv maktabda mo'may daromad asosida quring.</value>
+  </data>
+  <data name="1title" xml:space="preserve">
+    <value>Tanlov</value>
+  </data>
+  <data name="1subtitle" xml:space="preserve">
+    <value>Barcha fanlardan ustozlarni tanlov asosida ishga taklif etamiz</value>
+  </data>
+  <data name="2title" xml:space="preserve">
+    <value>Katta imkoniyat</value>
+  </data>
+  <data name="2subtitle" xml:space="preserve">
+    <value>Ingliz tilida dars bera oladigan ustozlar tanlovlarsiz barcha fanlarga qabul qilinadi</value>
+  </data>
+  <data name="3title" xml:space="preserve">
+    <value>Kelishuv</value>
+  </data>
+  <data name="3subtitle" xml:space="preserve">
+    <value>Tajriba va ko'nikmalaridan kelib chiqib ustozlarni qoniqtiradigan maosh kelishiladi</value>
   </data>
 </root>

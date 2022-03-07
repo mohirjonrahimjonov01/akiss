@@ -117,60 +117,28 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="Visit" xml:space="preserve">
-    <value>Tashrif Buyuring</value>
-    <comment/>
+  <data name="1title" xml:space="preserve">
+    <value>Qualitative</value>
   </data>
-  <data name="address" xml:space="preserve">
-    <value>Namangan viloyati, Namangan tumani, Qumqo'rg'on MFY, Navoi ko'chasi, 17A-uy</value>
-    <comment/>
+  <data name="1subtitle" xml:space="preserve">
+    <value>Improve the quality of your lesson and improve your student outcomes</value>
   </data>
-  <data name="Email" xml:space="preserve">
-    <value>Email Yozing</value>
-    <comment/>
+  <data name="2title" xml:space="preserve">
+    <value>Interesting</value>
   </data>
-  <data name="Emailadress" xml:space="preserve">
-    <value>nano-djems@mail.ru</value>
-    <comment/>
+  <data name="2subtitle" xml:space="preserve">
+    <value>Add fun elements to the lesson process and engage students</value>
   </data>
-  <data name="Phone" xml:space="preserve">
-    <value>Sim Qoqing</value>
-    <comment/>
+  <data name="3title" xml:space="preserve">
+    <value>Remote</value>
   </data>
-  <data name="Phonenum" xml:space="preserve">
-    <value>+998 94 303 07 07</value>
-    <comment/>
+  <data name="3subtitle" xml:space="preserve">
+    <value>Create video contents for distance learning and expand your audience</value>
   </data>
-  <data name="Loading" xml:space="preserve">
-    <value>Yuklanmoqda...</value>
-    <comment/>
+  <data name="4title" xml:space="preserve">
+    <value>Profit</value>
   </data>
-  <data name="Success" xml:space="preserve">
-    <value>Sizning xabaringiz yuborildi. Rahmat!</value>
-    <comment/>
-  </data>
-  <data name="Sent" xml:space="preserve">
-    <value>Jo'natish</value>
-    <comment/>
-  </data>
-  <data name="Name" xml:space="preserve">
-    <value>Ismingiz</value>
-    <comment/>
-  </data>
-  <data name="YourEmail" xml:space="preserve">
-    <value>Emailingiz</value>
-    <comment/>
-  </data>
-  <data name="Theme" xml:space="preserve">
-    <value>Nima mavzuda yozyapsiz?</value>
-    <comment/>
-  </data>
-  <data name="Message" xml:space="preserve">
-    <value>Habar matni</value>
-    <comment/>
-  </data>
-  <data name="Error" xml:space="preserve">
-    <value>Xatolik yuz berdi iltimos qayata urining !!</value>
-    <comment/>
+  <data name="4subtitle" xml:space="preserve">
+    <value>Improve your skills and add 35 ~ 100% to your salary</value>
   </data>
 </root>

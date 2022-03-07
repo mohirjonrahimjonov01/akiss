@@ -117,60 +117,32 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="Visit" xml:space="preserve">
-    <value>Tashrif Buyuring</value>
-    <comment/>
+  <data name="teachers" xml:space="preserve">
+    <value>Учителя</value>
   </data>
-  <data name="address" xml:space="preserve">
-    <value>Namangan viloyati, Namangan tumani, Qumqo'rg'on MFY, Navoi ko'chasi, 17A-uy</value>
-    <comment/>
+  <data name="teachersub" xml:space="preserve">
+    <value>Нанимаем на работу</value>
   </data>
-  <data name="Email" xml:space="preserve">
-    <value>Email Yozing</value>
-    <comment/>
+  <data name="teachersdescr" xml:space="preserve">
+    <value>Если у вас есть следующие навыки и опыт, присоединяйтесь к нашей команде и постройте свою карьеру на растущем доходе в современной школе.ome in a modern school.</value>
   </data>
-  <data name="Emailadress" xml:space="preserve">
-    <value>nano-djems@mail.ru</value>
-    <comment/>
+  <data name="1title" xml:space="preserve">
+    <value>Выбор</value>
   </data>
-  <data name="Phone" xml:space="preserve">
-    <value>Sim Qoqing</value>
-    <comment/>
+  <data name="1subtitle" xml:space="preserve">
+    <value>Мы предлагаем учителей по всем предметам на выборочной основе</value>
   </data>
-  <data name="Phonenum" xml:space="preserve">
-    <value>+998 94 303 07 07</value>
-    <comment/>
+  <data name="2title" xml:space="preserve">
+    <value>Отличная возможность</value>
   </data>
-  <data name="Loading" xml:space="preserve">
-    <value>Yuklanmoqda...</value>
-    <comment/>
+  <data name="2subtitle" xml:space="preserve">
+    <value>Учителя, которые могут преподавать на английском языке, будут допущены ко всем предметам без конкурса</value>
   </data>
-  <data name="Success" xml:space="preserve">
-    <value>Sizning xabaringiz yuborildi. Rahmat!</value>
-    <comment/>
+  <data name="3title" xml:space="preserve">
+    <value>Соглашение</value>
   </data>
-  <data name="Sent" xml:space="preserve">
-    <value>Jo'natish</value>
-    <comment/>
+  <data name="3subtitle" xml:space="preserve">
+    <value>Удовлетворяющая учителей заработная плата оговаривается на основе их опыта и навыков.</value>
   </data>
-  <data name="Name" xml:space="preserve">
-    <value>Ismingiz</value>
-    <comment/>
-  </data>
-  <data name="YourEmail" xml:space="preserve">
-    <value>Emailingiz</value>
-    <comment/>
-  </data>
-  <data name="Theme" xml:space="preserve">
-    <value>Nima mavzuda yozyapsiz?</value>
-    <comment/>
-  </data>
-  <data name="Message" xml:space="preserve">
-    <value>Habar matni</value>
-    <comment/>
-  </data>
-  <data name="Error" xml:space="preserve">
-    <value>Xatolik yuz berdi iltimos qayata urining !!</value>
-    <comment/>
-  </data>
+  
 </root>

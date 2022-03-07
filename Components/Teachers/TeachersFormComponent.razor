@@ -1,0 +1,62 @@
+@inject IStringLocalizer<Resources.TeachersFormComponent> localizer
+@inject IJSRuntime jsRun
+
+<section id="contact" class="contact">
+    <div class="container" data-aos="fade-up">
+        <div class="row">
+            <div class="col-lg-6" data-aos="fade-right" data-aos-delay="100">
+                <img src="school.jpg" class="img-fluid" alt="">
+            </div>
+            <div class="col-lg-6 pt-4 pt-lg-0 content d-flex flex-column justify-content-center" data-aos="fade-up"
+                data-aos-delay="100">
+
+                <form role="form" class="php-email-form" id="teacher-form">
+                    <div class="row">
+                        <div class="col form-group">
+                            <input type="text" name="Fullname" class="form-control" id="name"
+                                placeholder="Your Fullname" required>
+                        </div>
+                        <div class="col form-group">
+                            <input type="email" class="form-control" name="Email" id="email" placeholder="Your Email"
+                                required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <input type="number" class="form-control" min="0" name="ExperienceInYears"
+                            id="ExperienceInYears" placeholder="Your Experience in years" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" name="Phone" id="Phone" placeholder="Your Phone"
+                            required>
+                    </div>
+                    <div class="form-group">
+                        <InputFile class="form-control" name="myResume" type="file" accept="application/pdf,
+                            application/vnd.openxmlformats-officedocument.wordprocessingml.document"></InputFile>
+                    </div>
+                    <select class="form-select" name="EnglishLevel" aria-label="Default select example">
+                        <option value="A0">A0</option>
+                        <option value="A1">A1</option>
+                        <option value="A2">A2</option>
+                        <option value="B1">B1</option>
+                        <option value="B2">B2</option>
+                        <option value="C1">C1</option>
+                        <option value="C2">C2</option>
+                    </select>
+                    <div class="form-group mt-4">
+                        <textarea class="form-control" name="Subject" rows="5" placeholder="Message"
+                            required></textarea>
+                    </div>
+                    @* <div class="my-3">
+                        <div class="loading">Loading</div>
+                        <div class="error-message"></div>
+                        <div class="sent-message">Your message has been sent. Thank you!</div>
+                        </div> *@
+                    <div class="text-center"><button type="submit" onclick="Send_Data()">@localizer["Sent"]</button>
+                    </div>
+                    <div id="res_suc" hidden class="alert alert-success mt-3">@localizer["Success"]</div>
+                    <div id="res_err" hidden class="alert alert-danger">@localizer["Error"]</div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>

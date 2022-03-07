@@ -1,0 +1,15 @@
+@inject IStringLocalizer<Resources.TeachersComponent> localizer
+
+<section id="f" class="team section-bg">
+    <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+            <h2>@localizer["teachersection"]</h2>
+            <h3>@((MarkupString)localizer["ourteachers"].ToString()) </h3>
+            <p>@localizer["teachersubtitle"]</p>
+        </div>
+        <div class="row">
+            <TeachersInUs></TeachersInUs>
+        </div>
+    </div>
+</section>
