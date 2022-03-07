@@ -118,12 +118,12 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="teachersection" xml:space="preserve">
-    <value>команда</value>
+    <value>Учителя</value>
   </data>
   <data name="ourteachers" xml:space="preserve">
-    <value>Наша опытная &lt;span&gt;команда.&lt;/span&gt;</value>
+    <value>Для уважаемых учителей и тренеров</value>
   </data>
   <data name="teachersubtitle" xml:space="preserve">
-    <value>У нас есть преподаватели со своими ценностями и многолетним зарубежным опытом.</value>
+    <value>Присоединяйтесь к нашей команде и постройте успешную карьеру. Совершенствуйте свои навыки вместе с нами и повышайте свою зарплату на 35~100%.</value>
   </data>
 </root>

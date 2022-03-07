@@ -37,21 +37,19 @@
         <form action="forms/contact.php" method="post" role="form" class="php-email-form">
             <div class="row">
                 <div class="col form-group">
-                    <input type="text" name="name" class="form-control is-invalid" oninput="ValidationIcon('name')" id="name" placeholder='@localizer["Name"]'
-                        required>
+                    <input type="text" name="name" class="form-control" oninput="ValidationIcon('name')" id="name"
+                        placeholder='@localizer["Name"]' required>
                 </div>
                 <div class="col form-group">
-                    <input type="email" class="form-control" name="email" id="email" 
+                    <input type="email" oninput="ValidationIcon('email')" class="form-control" name="email" id="email"
                         placeholder='@localizer["YourEmail"]' required>
                 </div>
             </div>
             <div class="form-group">
-                <input type="text" class="form-control" name="subject" id="subject" placeholder='@localizer["Theme"]'
-                    >
+                <input type="text" class="form-control" name="subject" id="subject" placeholder='@localizer["Theme"]'>
             </div>
             <div class="form-group">
-                <textarea class="form-control" name="message" rows="5" placeholder='@localizer["Message"]'
-                    ></textarea>
+                <textarea class="form-control" name="message" rows="5" placeholder='@localizer["Message"]'></textarea>
             </div>
             <div class="my-3">
                 <div class="loading">@localizer["Loading"]</div>
