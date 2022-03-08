@@ -14,9 +14,9 @@ function Send_Data(){
 }
 
 function Send_Admission_Data(){
-  const scriptURL = 'https://script.google.com/macros/s/AKfycbz4ojYoPN3RCIKv-Z0Y4Ph7xV9B1ZTAx6Qp-aRRkl21ZcbquaAhwfyGuiX-PmGlx2Iy/exec'
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbwZc62D4ylk4Wis_i4ggMugGYCcwwpZ0xQE-GSv3tvZknVZkeClotFySKBbBSwBqiY/exec'
   const form = document.forms['admission-form']
-  form.addEventListener('submit', e => {
+  form.addEventListener('submit',e => {
     e.preventDefault()
   });
   fetch(scriptURL, { method: 'POST', body: new FormData(form)})
