@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="contact" xml:space="preserve">
-    <value>Contact</value>
+    <value>Contact Us</value>
     <comment/>
   </data>
   <data name="address-street" xml:space="preserve">
@@ -187,6 +187,10 @@
   </data>
   <data name="weareinSM" xml:space="preserve">
     <value>We're in Social Media</value>
+    <comment/>
+  </data>
+  <data name="teachers" xml:space="preserve">
+    <value>Our Teachers</value>
     <comment/>
   </data>
 </root>
