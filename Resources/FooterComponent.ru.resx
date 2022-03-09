@@ -158,7 +158,7 @@
     <comment/>
   </data>
   <data name="DesignedBy" xml:space="preserve">
-    <value>Разработано с ❤️ командой &lt;strong&gt;&lt;a href="#" onclick="window.open('https://ilmhub.uz', '_blank')"&gt;Ilmhub Team&lt;/a&gt;&lt;/strong&gt;</value>
+    <value>Разработано с ❤️ командой &lt;strong&gt;&lt;a href="/" onclick="window.open('https://ilmhub.uz', '_blank')"&gt;Ilmhub Team&lt;/a&gt;&lt;/strong&gt;</value>
     <comment/>
   </data>
   <data name="pages" xml:space="preserve">
@@ -187,10 +187,6 @@
   </data>
   <data name="weareinSM" xml:space="preserve">
     <value>Мы в социальных сетях</value>
-    <comment/>
-  </data>
-  <data name="teachers" xml:space="preserve">
-    <value>Учителя</value>
     <comment/>
   </data>
 </root>
