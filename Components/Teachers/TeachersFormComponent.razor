@@ -1,6 +1,13 @@
+
+@using Google.Apis.Auth.OAuth2
+@using Google.Apis.Drive.v3
+@using Google.Apis.Json
+@using Google.Apis.Services
+@using Google.Apis.Upload
+@using Newtonsoft.Json
 @inject IStringLocalizer<Resources.TeachersFormComponent> localizer
 @inject IJSRuntime jsRun
-
+@inject HttpClient Http
 <section id="contact" class="contact">
     <div class="container" data-aos="fade-up">
         <div class="row">
@@ -29,9 +36,10 @@
                             name="Phone" id="phone" placeholder="@localizer["phone"]" required>
                     </div>
                     <div class="form-group">
-                        @* <label class="file-input-label" for="myResume">@localizer["choosefile"]</label> *@
-                        <input class="form-control" id="myResume" name="myResume" type="file" accept="application/pdf,
-                            application/vnd.openxmlformats-officedocument.wordprocessingml.document" />
+                        <InputFile class="form-control" OnChange="@Uploader" type="file" accept="application/pdf,
+                            application/vnd.openxmlformats-officedocument.wordprocessingml.document"></InputFile>
+                        <input type="hidden" id="myResume" name="myResume"
+                            value="https://drive.google.com/drive/folders/1aAI3et6H61XOfMm2BcmCU5MXM84XmS-W">
                     </div>
                     <select class="form-select" name="EnglishLevel" aria-label="Default select example">
                         <option value="">@localizer["englishlevel"]</option>
@@ -47,12 +55,8 @@
                         <textarea class="form-control" name="Subject" rows="5" placeholder="@localizer["message"]"
                             required></textarea>
                     </div>
-                    @* <div class="my-3">
-                        <div class="loading">Loading</div>
-                        <div class="error-message"></div>
-                        <div class="sent-message">Your message has been sent. Thank you!</div>
-                        </div> *@
-                    <div class="text-center"><button type="submit" onclick="Send_Data()">@localizer["send"]</button>
+                    <div class="text-center"><button type="submit"
+                            onclick="Send_Team_Data()">@localizer["send"]</button>
                     </div>
                     <div id="res_suc" hidden class="alert alert-success mt-3">@localizer["Success"]</div>
                     <div id="res_err" hidden class="alert alert-danger">@localizer["Error"]</div>
@@ -61,3 +65,64 @@
         </div>
     </div>
 </section>
+@code {
+    private const string ServiceAccountEmail = "file-uploader@uploader-343216.iam.gserviceaccount.com";
+    private const string DirectoryId = "1aAI3et6H61XOfMm2BcmCU5MXM84XmS-W";
+
+    public async Task Uploader(InputFileChangeEventArgs inputFile)
+    {
+        string UploadFileName = inputFile.File.Name;
+
+        var serializer= new JsonSerializer();
+        // Load the Service account credentials and define the scope of its access.;
+        dynamic credentialParameters;
+        using (var fs = new FileStream("Json/uploader-343216-4b372db9b1b9.json", FileMode.Open, FileAccess.Read))
+        {
+                credentialParameters=
+                NewtonsoftJsonSerializer.Instance.Deserialize<JsonCredentialParameters>(fs);
+            if (credentialParameters.Type != "service_account" 
+                || string.IsNullOrEmpty(credentialParameters.ClientEmail) 
+                || string.IsNullOrEmpty(credentialParameters.PrivateKey))
+                    throw new InvalidOperationException("JSON data does not represent a valid service account credential.");
+            ServiceAccountCredential serer= new ServiceAccountCredential(
+                new ServiceAccountCredential.Initializer(credentialParameters.ClientEmail)
+                {
+                    Scopes=credentialParameters.Scopes,
+                    User = "file-uploader@uploader-343216.iam.gserviceaccount.com" //the user to be impersonated
+                }.FromPrivateKey(credentialParameters.PrivateKey));
+
+
+                    // Create the Drive service.
+                var service = new DriveService(new BaseClientService.Initializer()
+                {
+                    HttpClientInitializer =serer
+                });
+
+                // Upload file Metadata
+                var fileMetadata = new Google.Apis.Drive.v3.Data.File()
+                {
+                    Name = UploadFileName,
+                    Parents = new List<string>() { "1aAI3et6H61XOfMm2BcmCU5MXM84XmS-W" }
+
+                };
+                string uploadedFileId;
+
+                // Create a new file, with metadata and stream.
+                var request = service.Files.Create(fileMetadata, inputFile.File.OpenReadStream(512000), "image/" +
+                fileMetadata.Name.Substring(fileMetadata.Name.IndexOf('.') + 1));
+                request.Fields = "*";
+                var results = await request.UploadAsync(CancellationToken.None);
+
+                if (results.Status == UploadStatus.Failed)
+                {
+                    Console.WriteLine($"Error uploading file: {results.Exception.Message}");
+                }
+
+                // the file id of the new file we created
+                uploadedFileId = request.ResponseBody?.Id; 
+        }
+
+        
+    }
+   
+}
