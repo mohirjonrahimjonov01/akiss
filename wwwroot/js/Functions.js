@@ -41,4 +41,22 @@ function Send_Team_Data(){
       document.getElementById("res_suc").setAttribute("hidden","hidden");
       document.getElementById("res_err").setAttribute("hidden","hidden");
     }, 4500))
+    console.log("keldi");
+  form.addEventListener("submit", (e) => {
+      e.preventDefault();
+  });
+  
+  const file = document.getElementById("uploadfile").files[0];
+  const fr = new FileReader();
+  fr.readAsArrayBuffer(file);
+  fr.onload = (f) => {
+    const url = "https://script.google.com/macros/s/AKfycbww_fwTeA1DYXpKfcXuk39UREnBSEVpkKWafaFGFQ_iYbgjwKrH7aR-4LNdVyrXNTbI/exec"; 
+    const qs = new URLSearchParams({
+      filename: file.name,
+      mimeType: file.type,
+    });
+    fetch(`${url}?${qs}`, {method: "POST", body: JSON.stringify([...new Int8Array(f.target.result)])})
+      .then(res => console.log("Succes"))
+      .catch(res => console.log("Error"));
+  };
 }
