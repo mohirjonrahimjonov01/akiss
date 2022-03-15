@@ -1,6 +1,12 @@
+@using Google.Apis.Auth.OAuth2
+@using Google.Apis.Drive.v3
+@using Google.Apis.Json
+@using Google.Apis.Services
+@using Google.Apis.Upload
+@using Newtonsoft.Json
 @inject IStringLocalizer<Resources.TeachersFormComponent> localizer
 @inject IJSRuntime jsRun
-
+@inject HttpClient Http
 <section id="contact" class="contact">
     <div class="container" data-aos="fade-up">
         <div class="row">
@@ -29,9 +35,10 @@
                             name="Phone" id="phone" placeholder="@localizer["phone"]" required>
                     </div>
                     <div class="form-group">
-                        @* <label class="file-input-label" for="myResume">@localizer["choosefile"]</label> *@
-                        <input class="form-control" id="myResume" name="myResume" type="file" accept="application/pdf,
-                            application/vnd.openxmlformats-officedocument.wordprocessingml.document" />
+                        <InputFile class="form-control" id="uploadfile" type="file" accept="application/pdf,
+                            application/vnd.openxmlformats-officedocument.wordprocessingml.document"></InputFile>
+                        <input type="hidden" id="myResume" name="myResume"
+                            value="https://drive.google.com/drive/folders/1QKXWPO23QU1sTSqErkK2zA_Tldin-kk2">
                     </div>
                     <select class="form-select" name="EnglishLevel" aria-label="Default select example">
                         <option value="">@localizer["englishlevel"]</option>
@@ -47,12 +54,8 @@
                         <textarea class="form-control" name="Subject" rows="5" placeholder="@localizer["message"]"
                             required></textarea>
                     </div>
-                    @* <div class="my-3">
-                        <div class="loading">Loading</div>
-                        <div class="error-message"></div>
-                        <div class="sent-message">Your message has been sent. Thank you!</div>
-                        </div> *@
-                    <div class="text-center"><button type="submit" onclick="Send_Data()">@localizer["send"]</button>
+                    <div class="text-center"><button type="submit"
+                            onclick="Send_Team_Data()">@localizer["send"]</button>
                     </div>
                     <div id="res_suc" hidden class="alert alert-success mt-3">@localizer["Success"]</div>
                     <div id="res_err" hidden class="alert alert-danger">@localizer["Error"]</div>
@@ -61,3 +64,8 @@
         </div>
     </div>
 </section>
+@code {
+    private const string ServiceAccountEmail = "file-uploader@uploader-343216.iam.gserviceaccount.com";
+    private const string DirectoryId = "1aAI3et6H61XOfMm2BcmCU5MXM84XmS-W";
+
+}

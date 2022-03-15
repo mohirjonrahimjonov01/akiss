@@ -177,4 +177,12 @@
     <value>Habar matni</value>
     <comment/>
   </data>
+  <data name="Success" xml:space="preserve">
+    <value>Habaringiz yuborildi ! Rahmat.</value>
+    <comment/>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>Xatolik yuz berdi qayta urinib ko'ring !!</value>
+    <comment/>
+  </data>
 </root>
