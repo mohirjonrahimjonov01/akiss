@@ -60,3 +60,17 @@ function Send_Team_Data(){
       .catch(res => console.log("Error"));
   };
 }
+
+function BlazorScrollToId(id) {
+  const element = document.getElementById(id);
+  console.log(element);
+  console.log(id);
+  
+  if (element instanceof HTMLElement) {
+      element.scrollIntoView({
+          behavior: "smooth",
+          block: "start",
+          inline: "nearest"
+      });
+  }
+}
