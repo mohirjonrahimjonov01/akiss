@@ -1,3 +1,8 @@
+$("#files").change(function() {
+  filename = this.files[0].name;
+  console.log(filename);
+});
+
 function Send_Data(){
     const scriptURL = 'https://script.google.com/macros/s/AKfycby_HCrx8RTyylqfgb3L20296hmQWpZ-qNigjkYXgHWO9QKd8TO_IsqUyRa1MqpMNQTH/exec'
     const form = document.forms['contact-form']
