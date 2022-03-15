@@ -5,7 +5,7 @@
         <h1> @((MarkupString)localizer["aheroewelcome"].ToString())</h1>
         <h2>@localizer["aheroeadvice"]</h2>
         <div class="d-flex">
-            <button @onclick="GoToAdmission" class="btn-get-started scrollto">@localizer["aheroebutton"]</button>
+            <a href="javascript:function() { return false; }" @onclick="GoToAdmission" class="btn-get-started scrollto">@localizer["aheroebutton"]</a>
         </div>
     </div>
 </section>
