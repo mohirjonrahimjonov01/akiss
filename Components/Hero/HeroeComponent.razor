@@ -6,9 +6,9 @@
         <h1> @((MarkupString)localizer["heroewelcome"].ToString())</h1>
         <h2>@localizer["heroeadvice"]</h2>
         <div class="d-flex">
-            <a type="button" @onclick="GoToAdmission" class="btn-get-started scrollto">@localizer["heroebutton"]</a>
-            <a type="button" class="glightbox btn-watch-video"><i
-                class="bi bi-play-circle"></i><span>@localizer["heroevideo"]</span></a>
+            <button @onclick="GoToAdmission" class="btn-get-started scrollto">@localizer["heroebutton"]</button>
+            <button class="glightbox btn-watch-video"><i
+                class="bi bi-play-circle"></i><span>@localizer["heroevideo"]</span></button>
         </div>
     </div>
 </section>
