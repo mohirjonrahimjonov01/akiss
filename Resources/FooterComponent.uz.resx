@@ -189,4 +189,8 @@
     <value>Biz Ijtimoiy tarmoqdamiz</value>
     <comment/>
   </data>
+  <data name="teachers" xml:space="preserve">
+    <value>Ustozlar</value>
+    <comment/>
+  </data>
 </root>
