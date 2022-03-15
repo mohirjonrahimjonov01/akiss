@@ -1,13 +1,22 @@
 @inject IStringLocalizer<Resources.HeroeComponent> localizer
-
+@inject IJSRuntime JSRuntime
+@inject NavigationManager NavigationManager
 <section id="hero" class="d-flex align-items-center">
     <div class="container" data-aos="zoom-out" data-aos-delay="100">
         <h1> @((MarkupString)localizer["heroewelcome"].ToString())</h1>
         <h2>@localizer["heroeadvice"]</h2>
         <div class="d-flex">
-            <a href="" class="btn-get-started scrollto">@localizer["heroebutton"]</a>
-            <a href="" class="glightbox btn-watch-video"><i
+            <a type="button" @onclick="GoToAdmission" class="btn-get-started scrollto">@localizer["heroebutton"]</a>
+            <a type="button" class="glightbox btn-watch-video"><i
                 class="bi bi-play-circle"></i><span>@localizer["heroevideo"]</span></a>
         </div>
     </div>
 </section>
+@code{
+    private async Task GoToAdmission()
+    {
+        NavigationManager.NavigateTo("/admission");
+        await Task.Delay(100);
+        await JSRuntime.InvokeVoidAsync("BlazorScrollToId", "admission-form");
+    }
+}
