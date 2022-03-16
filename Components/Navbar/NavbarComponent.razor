@@ -12,22 +12,22 @@
     <SocialMediaLinksIlmHub></SocialMediaLinksIlmHub>
   </div>
 </section>
-<header id="header" class="d-flex align-items-center">
-  <div class="container d-flex align-items-center justify-content-between">
-    @* <h1 class="logo"><a href="index.html">Al-Khorazmiy ISS<span>.</span></a></h1> *@
-    <!-- Uncomment below if you prefer to use an image logo -->
-    <a href="index.html" class="logo"><img src="logo.png" alt=""></a>
-    <nav id="navbar" class="navbar" onclick="ActiveStatus()">
-      <ul>
-        <li><a class="nav-link scrollto active" href="/">@localizer["home"]</a></li>
-        <li><a class="nav-link scrollto" href="admission">@localizer["admission"]</a></li>
-        <li><a class="nav-link scrollto" href="teachers">@localizer["teachers"]</a></li>
-        <li><a class="nav-link scrollto" href="contactus">@localizer["contact"]</a></li>
-        <li>
-          <LanguageComponent></LanguageComponent>
-        </li>
-      </ul>
-      <a onclick="changeVisibilityOfCategories()"><i id="navbar-burger" class="bi bi-list mobile-nav-toggle"></i></a>
-    </nav><!-- .navbar -->
-  </div>
-</header><!-- End Header -->
+
+<header class="navbar-light navbar-sticky">
+	<nav class="navbar navbar-expand-lg">
+		<div class="container">
+			<a class="navbar-brand me-0" href="index.html">
+				<img class="light-mode-item navbar-brand-item" src="assets/images/logo.svg" alt="logo">
+			</a>
+			<button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="bi mobile-nav-toggle bi-list"></i>
+			</button>
+			<div class="navbar-collapse collapse" id="navbarCollapse">
+				<ul class="navbar-nav navbar-nav-scroll ms-auto">
+					<li class="nav-item dropdown"><a class="nav-link" href="index-4.html">Course</a></li>
+					<li class="nav-item"><a class="nav-link" href="docs/alerts.html">Components</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+</header>
