@@ -127,4 +127,7 @@
     <value>Join our team and build a successful career.
 Improve your skills with us and increase your salary by 35 ~ 100%</value>
   </data>
+  <data name="registration" xml:space="preserve">
+    <value>Sign up for a job</value>
+  </data>
 </root>

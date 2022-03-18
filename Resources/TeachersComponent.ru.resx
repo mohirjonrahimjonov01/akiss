@@ -126,4 +126,7 @@
   <data name="teachersubtitle" xml:space="preserve">
     <value>Присоединяйтесь к нашей команде и постройте успешную карьеру. Совершенствуйте свои навыки вместе с нами и повышайте свою зарплату на 35~100%.</value>
   </data>
+  <data name="registration" xml:space="preserve">
+    <value>Записаться на работу </value>
+  </data>
 </root>
