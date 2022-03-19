@@ -4,7 +4,7 @@ $("#files").change(function() {
 });
 
 function Send_Data(){
-    const scriptURL = 'https://script.google.com/macros/s/AKfycby_HCrx8RTyylqfgb3L20296hmQWpZ-qNigjkYXgHWO9QKd8TO_IsqUyRa1MqpMNQTH/exec'
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbz4a8j71O6-2j-EAb8vEBbv28vmgip75OWD-t0K8xmd4f5LYU1TA2_JL1ib_e18L3qMSA/exec'
     const form = document.forms['contact-form']
     form.addEventListener('submit',e => {
       e.preventDefault()
@@ -19,7 +19,7 @@ function Send_Data(){
 }
 
 function Send_Admission_Data(){
-  const scriptURL = 'https://script.google.com/macros/s/AKfycbwZc62D4ylk4Wis_i4ggMugGYCcwwpZ0xQE-GSv3tvZknVZkeClotFySKBbBSwBqiY/exec'
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbxtTDXoElHZOUTvAmXziqJRv-GoczZ43bMN5uTXiRKOFK7Zv_r51Q2Mzs8WdoEPYDfs/exec'
   const form = document.forms['admission-form']
   form.addEventListener('submit',e => {
     e.preventDefault()
@@ -34,7 +34,7 @@ function Send_Admission_Data(){
 }
 
 function Send_Team_Data(){
-  const scriptURL = 'https://script.google.com/macros/s/AKfycbziWrCrohkUSA5a_2r3pp9xFeELLFQq4fk_ROlCt2vd2MlpwdinlOuwRxrvK6Df3dv-ig/exec'
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbzLlZR6wsfboexUtu3fofPt5DLfEwpjzSO462MuFQ9IDA7pNqS1mL2alQPfORVpjWpt/exec'
   const form = document.forms['teacher-form']
   form.addEventListener('submit', e => {
     e.preventDefault()
@@ -55,7 +55,7 @@ function Send_Team_Data(){
   const fr = new FileReader();
   fr.readAsArrayBuffer(file);
   fr.onload = (f) => {
-    const url = "https://script.google.com/macros/s/AKfycbww_fwTeA1DYXpKfcXuk39UREnBSEVpkKWafaFGFQ_iYbgjwKrH7aR-4LNdVyrXNTbI/exec"; 
+    const url = "https://script.google.com/macros/s/AKfycbwJI8r7-eF-0Sje3uDSquIZo_z7PNXZqEPNGkK5tEe2Xy2BJb9sg4gtJ05y-WSEyD4I/exec"; 
     const qs = new URLSearchParams({
       filename: file.name,
       mimeType: file.type,
