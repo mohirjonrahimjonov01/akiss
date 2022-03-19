@@ -1,4 +1,6 @@
 @inject IStringLocalizer<Resources.TeachersComponent> localizer
+@inject IJSRuntime JSRuntime
+@inject NavigationManager NavigationManager
 
 <section id="f" class="team section-bg">
     <div class="container" data-aos="fade-up">
@@ -11,5 +13,18 @@
         <div class="row">
             <TeachersInUs></TeachersInUs>
         </div>
+        <div class="text-center">
+            <button class="btn btn-primary" href="javascript:function() { return false; }"
+                @onclick="GoToTeachers">@localizer["registration"]</button>
+        </div>
     </div>
 </section>
+
+@code {
+    private async Task GoToTeachers()
+    {
+        NavigationManager.NavigateTo("/teachers");
+        await Task.Delay(100);
+        await JSRuntime.InvokeVoidAsync("BlazorScrollToId", "teacher-form");
+    }
+}
