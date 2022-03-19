@@ -9,6 +9,10 @@ function Send_Data(){
     form.addEventListener('submit',e => {
       e.preventDefault()
     });
+    document.getElementById("compobtn").setAttribute('disabled', 'disabled');
+    setTimeout(function () {
+      document.getElementById("compobtn").removeAttribute('disabled');
+    }, 3000);
     fetch(scriptURL, { method: 'POST', body: new FormData(form)})
       .then(response => document.getElementById("res_suc").removeAttribute("hidden"))
       .catch(error => document.getElementById("res_err").removeAttribute("hidden"))
@@ -24,6 +28,10 @@ function Send_Admission_Data(){
   form.addEventListener('submit',e => {
     e.preventDefault()
   });
+  document.getElementById("adbtn").setAttribute('disabled', 'disabled');
+  setTimeout(function () {
+    document.getElementById("adbtn").removeAttribute('disabled');
+  }, 3000);
   fetch(scriptURL, { method: 'POST', body: new FormData(form)})
     .then(response => document.getElementById("res_success").removeAttribute("hidden"))
     .catch(error => document.getElementById("res_error").removeAttribute("hidden"))
@@ -39,6 +47,10 @@ function Send_Team_Data(){
   form.addEventListener('submit', e => {
     e.preventDefault()
   });
+  document.getElementById("teachbtn").setAttribute('disabled', 'disabled');
+  setTimeout(function () {
+    document.getElementById("teachbtn").removeAttribute('disabled');
+  }, 3000);
   fetch(scriptURL, { method: 'POST', body: new FormData(form)})
     .then(response => document.getElementById("res_suc").removeAttribute("hidden"))
     .catch(error => document.getElementById("res_err").removeAttribute("hidden"))
@@ -46,7 +58,7 @@ function Send_Team_Data(){
       document.getElementById("res_suc").setAttribute("hidden","hidden");
       document.getElementById("res_err").setAttribute("hidden","hidden");
     }, 4500))
-    console.log("keldi");
+    
   form.addEventListener("submit", (e) => {
       e.preventDefault();
   });
