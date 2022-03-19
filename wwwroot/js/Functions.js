@@ -19,7 +19,7 @@ function Send_Data(){
 }
 
 function Send_Admission_Data(){
-  const scriptURL = 'https://script.google.com/macros/s/AKfycbxtTDXoElHZOUTvAmXziqJRv-GoczZ43bMN5uTXiRKOFK7Zv_r51Q2Mzs8WdoEPYDfs/exec'
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbyY2nR9zmVus0_SWC_V1_dGFXjxlh3nSspBl5-1RQNLYr-_ZjTsJpRBbQCfb3JtPTRg/exec'
   const form = document.forms['admission-form']
   form.addEventListener('submit',e => {
     e.preventDefault()
@@ -55,7 +55,7 @@ function Send_Team_Data(){
   const fr = new FileReader();
   fr.readAsArrayBuffer(file);
   fr.onload = (f) => {
-    const url = "https://script.google.com/macros/s/AKfycbwJI8r7-eF-0Sje3uDSquIZo_z7PNXZqEPNGkK5tEe2Xy2BJb9sg4gtJ05y-WSEyD4I/exec"; 
+    const url = "https://script.google.com/macros/s/AKfycbytdR4ODfVxMH-IJImEPDP1ED8WfTZYQ4CD98JM6VBvSibgN7gms_9cpO5jMEzjem7JQQ/exec"; 
     const qs = new URLSearchParams({
       filename: file.name,
       mimeType: file.type,
