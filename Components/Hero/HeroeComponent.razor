@@ -6,16 +6,17 @@
         <h1> @((MarkupString)localizer["heroewelcome"].ToString())</h1>
         <h2>@localizer["heroeadvice"]</h2>
         <div class="d-flex">
-            <a href="javascript:function() { return false; }" @onclick="GoToAdmission" class="btn-get-started scrollto">@localizer["heroebutton"]</a>
+            <a href="javascript:function() { return false; }" @onclick="GoToAdmission"
+                class="btn-get-started scrollto">@localizer["heroebutton"]</a>
             <a href="javascript:function() { return false; }" class="glightbox btn-watch-video"><i
-                class="bi bi-play-circle"></i><span>@localizer["heroevideo"]</span></a>
+                    class="bi bi-play-circle"></i><span>@localizer["heroevideo"]</span></a>
         </div>
     </div>
 </section>
-@code{
+@code {
     private async Task GoToAdmission()
     {
-        NavigationManager.NavigateTo("/admission");
+        NavigationManager.NavigateTo("/akiss/admission");
         await Task.Delay(100);
         await JSRuntime.InvokeVoidAsync("BlazorScrollToId", "admission-form");
     }
