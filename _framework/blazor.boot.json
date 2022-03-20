@@ -7,7 +7,7 @@
   "linkerEnabled": true,
   "resources": {
     "assembly": {
-      "akiss.dll": "sha256-vHqcpA\/\/ZibeADmaql\/Gg4qHmFeeZ\/NSMod4rqcMLho=",
+      "akiss.dll": "sha256-zjTuf\/wKXr87pzDq2nrZ8CD2PRy\/LcYCR8lS1oI5TTc=",
       "Blazored.LocalStorage.dll": "sha256-6RRoYeDP3d0xabXmcCMF66wXeJlXVPem28Trs8sQiis=",
       "Google.Apis.Auth.dll": "sha256-BAQgSZYTPBVdLEWlJELaComR7zSdf+tjirZt6GKYCz0=",
       "Google.Apis.Auth.PlatformServices.dll": "sha256-AAt30WkMKmyXVD2M8kbKj\/16o\/LBQEsM3p75iqNmcpU=",
