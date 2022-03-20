@@ -90,14 +90,8 @@
           <div class="form-group">
             <textarea class="form-control" name="message" rows="5" placeholder='@localizer["habar"]'></textarea>
           </div>
-
-          @* <div class="my-3">
-            <div class="loading">@localizer["Loading"]</div>
-            <div class="error-message"></div>
-            <div class="sent-message">@localizer["Success"]</div>
-            </div> *@
           <div class="text-center"><button onclick="Send_Admission_Data()"
-              type="submit">@localizer["application"]</button></div>
+              type="submit" id="adbtn">@localizer["application"]</button></div>
           <div id="res_success" hidden class="alert alert-success mt-3">@localizer["Success"]</div>
           <div id="res_error" hidden class="alert alert-danger">@localizer["Error"]</div>
         </form>
