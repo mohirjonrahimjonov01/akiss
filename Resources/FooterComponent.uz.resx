@@ -193,4 +193,8 @@
     <value>Ustozlar</value>
     <comment/>
   </data>
+  <data name="phoneletters" xml:space="preserve">
+    <value>99px</value>
+    <comment/>
+  </data>
 </root>
