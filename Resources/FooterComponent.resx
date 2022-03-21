@@ -193,4 +193,8 @@
     <value>Our Teachers</value>
     <comment/>
   </data>
+  <data name="phoneletters" xml:space="preserve">
+    <value>48px</value>
+    <comment/>
+  </data>
 </root>
