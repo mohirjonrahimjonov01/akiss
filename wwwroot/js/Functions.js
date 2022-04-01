@@ -13,15 +13,17 @@ function Send_Data(){
     setTimeout(function () {
       document.getElementById("compobtn").removeAttribute('disabled');
     }, 3000);
-   
+ 
     fetch(scriptURL, { method: 'POST', body: new FormData(form)})
       .then(response => document.getElementById("res_suc").removeAttribute("hidden"))
       .catch(error => document.getElementById("res_err").removeAttribute("hidden"))
+      .then(document.getElementById("contact-form").reset())
+      .then( document.getElementById("name").classList.remove('is-valid'))
+      .then( document.getElementById("email").classList.remove('is-valid'))
       .finally(setTimeout(function(){
         document.getElementById("res_suc").setAttribute("hidden","hidden");
         document.getElementById("res_err").setAttribute("hidden","hidden");
       }, 4500))
-      document.getElementById("contact-form").reset();
 }
 
 function Send_Admission_Data(){
@@ -34,15 +36,18 @@ function Send_Admission_Data(){
   setTimeout(function () {
     document.getElementById("adbtn").removeAttribute('disabled');
   }, 3000);
-  
+
   fetch(scriptURL, { method: 'POST', body: new FormData(form)})
     .then(response => document.getElementById("res_success").removeAttribute("hidden"))
     .catch(error => document.getElementById("res_error").removeAttribute("hidden"))
+    .then(document.getElementById("admission-form").reset())
+    .then( document.getElementById("name").classList.remove('is-valid'))
+    .then( document.getElementById("phone").classList.remove('is-valid'))
+    .then( document.getElementById("grade").classList.remove('is-valid'))
     .finally(setTimeout(function(){
       document.getElementById("res_success").setAttribute("hidden","hidden");
       document.getElementById("res_error").setAttribute("hidden","hidden");
     }, 4500))
-    document.getElementById("admission-form").reset();
 }
 
 function Send_Team_Data(){
@@ -51,7 +56,11 @@ function Send_Team_Data(){
   form.addEventListener('submit', e => {
     e.preventDefault()
   });
-  
+  document.getElementById("teachbtn").setAttribute('disabled', 'disabled');
+  setTimeout(function () {
+    document.getElementById("teachbtn").removeAttribute('disabled');
+  }, 3000);
+ 
   fetch(scriptURL, { method: 'POST', body: new FormData(form)})
     .then(response => document.getElementById("res_suc").removeAttribute("hidden"))
     .catch(error => document.getElementById("res_err").removeAttribute("hidden"))
@@ -59,12 +68,7 @@ function Send_Team_Data(){
       document.getElementById("res_suc").setAttribute("hidden","hidden");
       document.getElementById("res_err").setAttribute("hidden","hidden");
     }, 4500))
-    document.getElementById("teachbtn").setAttribute('disabled', 'disabled');
-    setTimeout(function () {
-      document.getElementById("teachbtn").removeAttribute('disabled');
-    }, 3000);  
-    document.getElementById("teacher-form").reset();
-  
+
   form.addEventListener("submit", (e) => {
       e.preventDefault();
   });
@@ -79,8 +83,12 @@ function Send_Team_Data(){
       mimeType: file.type,
     });
     fetch(`${url}?${qs}`, {method: "POST", body: JSON.stringify([...new Int8Array(f.target.result)])})
-      .then(res => console.log("Succes"))
-      .catch(res => console.log("Error"));
+      .then(res =>document.getElementById("teacher-form").reset())
+      .then( document.getElementById("phone").classList.remove('is-valid'))
+      .then( document.getElementById("email").classList.remove('is-valid'))
+      .then( document.getElementById("ExperienceInYears").classList.remove('is-valid'))
+      .catch(res => console.log("Error"))
+      .finally(document)
   };
 }
 
