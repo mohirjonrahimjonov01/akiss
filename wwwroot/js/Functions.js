@@ -84,6 +84,7 @@ function Send_Team_Data(){
     });
     fetch(`${url}?${qs}`, {method: "POST", body: JSON.stringify([...new Int8Array(f.target.result)])})
       .then(res =>document.getElementById("teacher-form").reset())
+      .then( document.getElementById("name").classList.remove('is-valid'))
       .then( document.getElementById("phone").classList.remove('is-valid'))
       .then( document.getElementById("email").classList.remove('is-valid'))
       .then( document.getElementById("ExperienceInYears").classList.remove('is-valid'))
