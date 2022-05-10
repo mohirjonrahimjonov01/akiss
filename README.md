@@ -1,7 +1,7 @@
 # akiss
 ![CI/CD](https://github.com/ilmhub-uz/akiss/actions/workflows/dotnet.yml/badge.svg?event=push)
 
-##### Visit: [issfg.uz](http://issfg.uz/)
+##### Visit: [akiss.uz](https://ilmhub-uz.github.io/akiss/)
 
 ### Contributors
 [![Contributors Display](https://badges.pufler.dev/contributors/ilmhub-uz/akiss?size=50&padding=-5&bots=true)](https://github.com/wahid-d)
