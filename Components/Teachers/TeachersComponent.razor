@@ -23,8 +23,6 @@
 @code {
     private async Task GoToTeachers()
     {
-        NavigationManager.NavigateTo("/teachers");
-        await Task.Delay(100);
         await JSRuntime.InvokeVoidAsync("BlazorScrollToId", "teacher-form");
     }
 }

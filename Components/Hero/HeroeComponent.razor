@@ -16,8 +16,8 @@
 @code {
     private async Task GoToAdmission()
     {
-        NavigationManager.NavigateTo("/admission");
+        NavigationManager.NavigateTo("/Contactus");
         await Task.Delay(100);
-        await JSRuntime.InvokeVoidAsync("BlazorScrollToId", "admission-form");
+        await JSRuntime.InvokeVoidAsync("BlazorScrollToId", "contact-form");
     }
 }
