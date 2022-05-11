@@ -1,5 +1,4 @@
 @page "/"
-@page "/akiss/"
 @inject IStringLocalizer<Resources.HeroeComponent> localizer
 @inject IJSRuntime JSRuntime
 @inject NavigationManager NavigationManager
@@ -9,12 +8,11 @@
 <section id="services" class="services">
     <div class="container" data-aos="fade-up">
         <AdmissionTitleComponent></AdmissionTitleComponent>
-
         <AdmissionInfoComponent></AdmissionInfoComponent>
         <br />
         <div class="text-center">
             <button class="btn btn-primary" href="javascript:function() { return false; }"
-                @onclick="GoToAdmission">@localizer["heroebutton"]</button>
+                @onclick="GoToAdmission">@localizer["admission"]</button>
         </div>
     </div>
 </section>
@@ -22,7 +20,7 @@
 @code {
     private async Task GoToAdmission()
     {
-        NavigationManager.NavigateTo("/akiss/admission");
+        NavigationManager.NavigateTo("/admission");
         await Task.Delay(100);
         await JSRuntime.InvokeVoidAsync("BlazorScrollToId", "admission-form");
     }
