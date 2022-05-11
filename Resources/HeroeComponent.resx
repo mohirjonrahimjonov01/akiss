@@ -133,4 +133,8 @@
     <value>Watch video</value>
     <comment/>
   </data>
+  <data name="admission" xml:space="preserve">
+    <value>Register your children</value>
+    <comment/>
+  </data>
 </root>

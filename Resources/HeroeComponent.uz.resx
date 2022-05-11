@@ -133,4 +133,8 @@
     <value>Videoni ko'rish</value>
     <comment/>
   </data>
+  <data name="admission" xml:space="preserve">
+    <value>Farzandingizga ro'yxatdan o'tkazing</value>
+    <comment/>
+  </data>
 </root>

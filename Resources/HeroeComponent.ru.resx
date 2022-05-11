@@ -133,4 +133,8 @@
     <value>Смотреть видео</value>
     <comment/>
   </data>
+  <data name="admission" xml:space="preserve">
+    <value>Зарегистрируйте своих детей</value>
+    <comment/>
+  </data>
 </root>
