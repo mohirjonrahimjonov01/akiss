@@ -23,7 +23,7 @@
 @code {
     private async Task GoToTeachers()
     {
-        NavigationManager.NavigateTo("/akiss/teachers");
+        NavigationManager.NavigateTo("/teachers");
         await Task.Delay(100);
         await JSRuntime.InvokeVoidAsync("BlazorScrollToId", "teacher-form");
     }
