@@ -126,11 +126,15 @@
     <comment/>
   </data>
   <data name="heroebutton" xml:space="preserve">
-    <value>Запишитесь на прием</value>
+    <value>Связаться с нами</value>
     <comment/>
   </data>
   <data name="heroevideo" xml:space="preserve">
     <value>Смотреть видео</value>
+    <comment/>
+  </data>
+  <data name="admission" xml:space="preserve">
+    <value>Зарегистрируйте своих детей</value>
     <comment/>
   </data>
 </root>
